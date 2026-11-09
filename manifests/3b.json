@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "3b",
+  "assets": [
+    {
+      "id": "sha256:3bd085ab505a904bbdc4f5898d71b9fe3a10c1619450921ef7372ebea8c5dacf",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "3bd085ab505a904bbdc4f5898d71b9fe3a10c1619450921ef7372ebea8c5dacf",
+        "path": "objects/sha256/3b/3bd085ab505a904bbdc4f5898d71b9fe3a10c1619450921ef7372ebea8c5dacf.png",
+        "mime": "image/png",
+        "bytes": 158603,
+        "width": 664,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "点赞",
+      "categories": [
+        "agree"
+      ],
+      "tags": [
+        "点赞",
+        "赞",
+        "好",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "点赞",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:19:56Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/点赞.png",
+        "itemId": "kitten-crs:点赞.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:19:56Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/点赞.png"
+      },
+      "updatedAt": "2026-11-09T09:19:56Z",
+      "lastOperationId": "op_f58399a8f7549cabef57d336d6c47b6d",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "operationId": "op_f58399a8f7549cabef57d336d6c47b6d",
+  "type": "asset.create",
+  "occurredAt": "2026-11-09T09:19:56Z",
+  "actorKind": "machine",
+  "idempotency": {
+    "keyId": "k1",
+    "keyHmac": "38e16e48c6f8cd84fe039f9f01abe33b8c5e2bf68fa3b01a66bb6567bae05049"
+  },
+  "requestFingerprint": {
+    "keyId": "k1",
+    "hmac": "71756d8371c45e02a4c938a9bf1ad3dad48ad29d1cead575fd7eb54769774390"
+  },
+  "assets": [
+    {
+      "id": "sha256:3bd085ab505a904bbdc4f5898d71b9fe3a10c1619450921ef7372ebea8c5dacf",
+      "revision": 1
+    }
+  ],
+  "summary": {
+    "added": 1,
+    "addedBytes": 158603
+  }
+}
