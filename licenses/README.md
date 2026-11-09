@@ -9,3 +9,11 @@
 **私密授权截图、聊天记录、联系方式等证据不进本仓库**，只在维护者本地私密保存；资产的 `rights.basis=pending` 不得进入本仓库。
 “审核过权利依据”不等于机器证明绝对合法；发现问题走下架（tombstone）流程。
 本仓库的代码（lib/ scripts/ test/）与图片素材分别适用各自许可；图片以各资产 `rights.licenseId` 指向的记录为准。
+
+## 本仓库当前公开许可记录
+
+- `self-created-project` — 项目自制
+- `meme-generator-mit` — meme-generator 模板移植说明
+- `ofl-1-1` — 字体引用
+- `cc0-1-0-kitten-crs` — KittenCRS Stickers（CC0）
+- `wxmeme-stickers-mit` — WXMemeStickers（MIT）

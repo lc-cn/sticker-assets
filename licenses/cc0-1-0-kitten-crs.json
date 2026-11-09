@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "cc0-1-0-kitten-crs",
+  "kind": "license",
+  "name": "KittenCRS Stickers（CC0 1.0）",
+  "spdx": "CC0-1.0",
+  "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "CrSjimo/stickers.sjimo.dev — public/stickers/ released under CC0 1.0",
+  "notice": "Images from https://github.com/CrSjimo/stickers.sjimo.dev public/stickers/ are CC0 1.0 (public domain dedication). Upstream README: code MIT, stickers CC0. Collected for lc-cn/sticker-assets; takedown via GitHub issue if needed.",
+  "scope": "assets imported from KittenCRS Stickers CC0 pack",
+  "reviewedAt": "2026-11-09T09:16:09Z"
+}

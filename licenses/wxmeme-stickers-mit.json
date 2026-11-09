@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "wxmeme-stickers-mit",
+  "kind": "license",
+  "name": "WXMemeStickers（MIT）",
+  "spdx": "MIT",
+  "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/LICENSE",
+  "attribution": "anzhi0708/WXMemeStickers — Copyright (c) 2025 Anji，MIT License",
+  "notice": "Programmer WeChat meme stickers from https://github.com/anzhi0708/WXMemeStickers (MIT). Logos/marks depicted in memes remain with their owners; MIT covers the pack author's arrangement. Takedown via GitHub issue if a rights holder objects.",
+  "scope": "assets imported from WXMemeStickers",
+  "reviewedAt": "2026-11-09T09:16:09Z"
+}
