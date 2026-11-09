@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "8a",
+  "assets": [
+    {
+      "id": "sha256:8a1c239c934267acf907c2e2ab2ed409547a01f5359c6f20d06c8b01690b9283",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "8a1c239c934267acf907c2e2ab2ed409547a01f5359c6f20d06c8b01690b9283",
+        "path": "objects/sha256/8a/8a1c239c934267acf907c2e2ab2ed409547a01f5359c6f20d06c8b01690b9283.png",
+        "mime": "image/png",
+        "bytes": 126081,
+        "width": 572,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "哈哈哈",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys",
+        "哈哈哈"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "哈哈哈",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:36:42Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00004-%E5%93%88%E5%93%88%E5%93%88.png",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00004-哈哈哈.png",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:36:42Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00004-%E5%93%88%E5%93%88%E5%93%88.png"
+      },
+      "updatedAt": "2026-11-09T09:36:42Z",
+      "lastOperationId": "op_1d1e1b4712b9ef6c0bc3f693c99bb824",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
