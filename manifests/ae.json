@@ -3,6 +3,65 @@
   "shard": "ae",
   "assets": [
     {
+      "id": "sha256:ae5e12715af4d595c92c940fdf19c18ee4715b509a1d28204851617d1cdaa5fb",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "ae5e12715af4d595c92c940fdf19c18ee4715b509a1d28204851617d1cdaa5fb",
+        "path": "objects/sha256/ae/ae5e12715af4d595c92c940fdf19c18ee4715b509a1d28204851617d1cdaa5fb.png",
+        "mime": "image/png",
+        "bytes": 2423,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "brushoff",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "brushoff"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/brushoff.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:aebce1b22600e41e684a79a7791e69ae603eaa0a4f48018e756d4fdb059e1375",
       "revision": 1,
       "status": "active",
@@ -58,6 +117,65 @@
       },
       "updatedAt": "2026-11-09T09:37:52Z",
       "lastOperationId": "op_0e5d7bb756325968f99cc2f6a8408b39",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
+      "id": "sha256:aedcca6eeb9f3ef2af35216c71829a9a8eb5bf8e7882efce2fc1d33ec1a570a5",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "aedcca6eeb9f3ef2af35216c71829a9a8eb5bf8e7882efce2fc1d33ec1a570a5",
+        "path": "objects/sha256/ae/aedcca6eeb9f3ef2af35216c71829a9a8eb5bf8e7882efce2fc1d33ec1a570a5.png",
+        "mime": "image/png",
+        "bytes": 2429,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "bummed",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "bummed"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/bummed.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null

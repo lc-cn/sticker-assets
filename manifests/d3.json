@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "d3",
+  "assets": [
+    {
+      "id": "sha256:d30b8246fe947c6c5782e8de7f6705434474f24fd5336cfffd974c05d982280e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "d30b8246fe947c6c5782e8de7f6705434474f24fd5336cfffd974c05d982280e",
+        "path": "objects/sha256/d3/d30b8246fe947c6c5782e8de7f6705434474f24fd5336cfffd974c05d982280e.png",
+        "mime": "image/png",
+        "bytes": 1236,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "chartlowering",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "chartlowering"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/chartlowering.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

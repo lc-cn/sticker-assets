@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:ff2f0ffc58260ba01bdeb65b66e3645587ed7a67348b14a8762a2b4ea9867a5b",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "ff2f0ffc58260ba01bdeb65b66e3645587ed7a67348b14a8762a2b4ea9867a5b",
+        "path": "objects/sha256/ff/ff2f0ffc58260ba01bdeb65b66e3645587ed7a67348b14a8762a2b4ea9867a5b.png",
+        "mime": "image/png",
+        "bytes": 9074,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "car",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "car"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/car.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

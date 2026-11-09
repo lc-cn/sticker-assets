@@ -3,6 +3,65 @@
   "shard": "ea",
   "assets": [
     {
+      "id": "sha256:ea1f713eaa60ea00b1d39ddf4811e879c00a3a585da88872fe5138e1aa05b73a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "ea1f713eaa60ea00b1d39ddf4811e879c00a3a585da88872fe5138e1aa05b73a",
+        "path": "objects/sha256/ea/ea1f713eaa60ea00b1d39ddf4811e879c00a3a585da88872fe5138e1aa05b73a.png",
+        "mime": "image/png",
+        "bytes": 2751,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "cactus",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "cactus"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/cactus.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:eabbe2a47a3a7aee33afb3bd88c5ca475e073a81b4815b7118b5f8dccb0b22f0",
       "revision": 1,
       "status": "active",

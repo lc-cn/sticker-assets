@@ -3,6 +3,65 @@
   "shard": "67",
   "assets": [
     {
+      "id": "sha256:6778aa4b725f55e05325e9772d064c60f63eaf481176433aa5c6f29a36343d80",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "6778aa4b725f55e05325e9772d064c60f63eaf481176433aa5c6f29a36343d80",
+        "path": "objects/sha256/67/6778aa4b725f55e05325e9772d064c60f63eaf481176433aa5c6f29a36343d80.png",
+        "mime": "image/png",
+        "bytes": 2684,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "chickblue",
+      "categories": [
+        "greeting"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "chickblue"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/chickblue.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:67b97fde4224a5664287d53dc27ea18d827b024a46f67490f415ea7b5b2a1b00",
       "revision": 1,
       "status": "active",

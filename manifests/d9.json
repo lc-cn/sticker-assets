@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "d9",
+  "assets": [
+    {
+      "id": "sha256:d95eabcdc66ed5806ed0d1bdbbfd14279da22ba35cd592cf0c6a1ebba2e51051",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "d95eabcdc66ed5806ed0d1bdbbfd14279da22ba35cd592cf0c6a1ebba2e51051",
+        "path": "objects/sha256/d9/d95eabcdc66ed5806ed0d1bdbbfd14279da22ba35cd592cf0c6a1ebba2e51051.png",
+        "mime": "image/png",
+        "bytes": 2444,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "burger",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "burger"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/burger.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

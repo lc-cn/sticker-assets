@@ -63,6 +63,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:58b2ed5fc57c3e6331921bcb49c449a1cb9baf3d92feacc9ec3b880229f0b150",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "58b2ed5fc57c3e6331921bcb49c449a1cb9baf3d92feacc9ec3b880229f0b150",
+        "path": "objects/sha256/58/58b2ed5fc57c3e6331921bcb49c449a1cb9baf3d92feacc9ec3b880229f0b150.png",
+        "mime": "image/png",
+        "bytes": 1204,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "chart",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "chart"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/chart.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:58ed769a32e793bedbb0c803f2db6a7dfa4d63cc6b5529c651127ce88d3284b1",
       "revision": 1,
       "status": "active",

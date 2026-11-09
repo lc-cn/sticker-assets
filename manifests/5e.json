@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "5e",
+  "assets": [
+    {
+      "id": "sha256:5ea20ca29bbc6bf22f9c64319eb53b28fee1093cb352541b30c877ab7b949db4",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "5ea20ca29bbc6bf22f9c64319eb53b28fee1093cb352541b30c877ab7b949db4",
+        "path": "objects/sha256/5e/5ea20ca29bbc6bf22f9c64319eb53b28fee1093cb352541b30c877ab7b949db4.png",
+        "mime": "image/png",
+        "bytes": 6484,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "casualjoy",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "casualjoy"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/casualjoy.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -121,6 +121,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:f64328b6312e2253bb2cfff3972d4710e4cde595644daefbc493b2058fb73ad9",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f64328b6312e2253bb2cfff3972d4710e4cde595644daefbc493b2058fb73ad9",
+        "path": "objects/sha256/f6/f64328b6312e2253bb2cfff3972d4710e4cde595644daefbc493b2058fb73ad9.png",
+        "mime": "image/png",
+        "bytes": 3238,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "cloud",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "cloud"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/cloud.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:f66b548ac86fe1b782f60e1dd101c0f9b5b1d872d8a7e858b627eb1293c75d74",
       "revision": 1,
       "status": "active",

@@ -3,6 +3,65 @@
   "shard": "46",
   "assets": [
     {
+      "id": "sha256:4678575c750c84a8e4abafa13c8c0b94761c8210eb44423b1334677da1d109e9",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "4678575c750c84a8e4abafa13c8c0b94761c8210eb44423b1334677da1d109e9",
+        "path": "objects/sha256/46/4678575c750c84a8e4abafa13c8c0b94761c8210eb44423b1334677da1d109e9.png",
+        "mime": "image/png",
+        "bytes": 3599,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "cleaneyes",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "cleaneyes"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/cleaneyes.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:469cb0db36808d2b8a987e1c8ff0853f56e3b7cc4e316a5ec7cb42ad98b77317",
       "revision": 1,
       "status": "active",

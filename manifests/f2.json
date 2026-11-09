@@ -62,6 +62,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:f2241fd825f8f4ce03b2488554b86c570be008ce0c09c2dcc75f98a616bacca1",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f2241fd825f8f4ce03b2488554b86c570be008ce0c09c2dcc75f98a616bacca1",
+        "path": "objects/sha256/f2/f2241fd825f8f4ce03b2488554b86c570be008ce0c09c2dcc75f98a616bacca1.png",
+        "mime": "image/png",
+        "bytes": 3888,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "chill",
+      "categories": [
+        "greeting"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "chill"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/chill.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:f2924a153abc1e52dd38650817b0d3baa3980d233fde75801afabeed7a5d0e55",
       "revision": 1,
       "status": "active",

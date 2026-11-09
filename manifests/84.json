@@ -62,6 +62,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:847acc11faac05566b36d57ff4bac2356d94c27953e99d9050726847f959e94c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "847acc11faac05566b36d57ff4bac2356d94c27953e99d9050726847f959e94c",
+        "path": "objects/sha256/84/847acc11faac05566b36d57ff4bac2356d94c27953e99d9050726847f959e94c.png",
+        "mime": "image/png",
+        "bytes": 2618,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "bigsad",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "bigsad"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:47:12Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/bigsad.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:47:12Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:47:12Z",
+      "lastOperationId": "op_1ad60f4a80a282c4d75b5adba877cc97",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:8489fd7d3bd48b58b049ad1191ca5a7b801f7db94b412a0abe2fdf88ca8986fc",
       "revision": 1,
       "status": "active",
