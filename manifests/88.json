@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "88",
+  "assets": [
+    {
+      "id": "sha256:88eed8b8a3697aa86b4c29ee946fb775b6b7aeed1a0fb7e413cfdade3bb82f1a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "88eed8b8a3697aa86b4c29ee946fb775b6b7aeed1a0fb7e413cfdade3bb82f1a",
+        "path": "objects/sha256/88/88eed8b8a3697aa86b4c29ee946fb775b6b7aeed1a0fb7e413cfdade3bb82f1a.png",
+        "mime": "image/png",
+        "bytes": 149903,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "可怜",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "可怜",
+        "委屈",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "可怜",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:17:34Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/可怜.png",
+        "itemId": "kitten-crs:可怜.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:17:34Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/可怜.png"
+      },
+      "updatedAt": "2026-11-09T09:17:34Z",
+      "lastOperationId": "op_39d4345aefc363a180df8626ef3014c7",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
