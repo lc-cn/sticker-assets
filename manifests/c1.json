@@ -3,6 +3,66 @@
   "shard": "c1",
   "assets": [
     {
+      "id": "sha256:c12f4127c83ec3ff7bb8642795d0424983676a20d2439bc15e48ddeea1636236",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "c12f4127c83ec3ff7bb8642795d0424983676a20d2439bc15e48ddeea1636236",
+        "path": "objects/sha256/c1/c12f4127c83ec3ff7bb8642795d0424983676a20d2439bc15e48ddeea1636236.png",
+        "mime": "image/png",
+        "bytes": 344106,
+        "width": 1512,
+        "height": 1186,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "Europe",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "AI",
+        "人工智能",
+        "Europe"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "Europe",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:38:23Z",
+      "firstSeenAt": "2026-09-10T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00009-Europe.png",
+        "itemId": "chinesebqb:110_AI_人工智能_BQB/人工智能00009-Europe.png",
+        "publishedAt": "2026-09-10T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:38:23Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00009-Europe.png"
+      },
+      "updatedAt": "2026-11-09T09:38:23Z",
+      "lastOperationId": "op_5001257821871c26a1e8f5059f1ba0a3",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:c17594f7f855fafcdcf677f86756678a58c43b8818055f68cc82f9ba126d8262",
       "revision": 1,
       "status": "active",
