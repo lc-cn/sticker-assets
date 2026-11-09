@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "25",
+  "assets": [
+    {
+      "id": "sha256:2588ae52db29d24e8a011f983cce695025ea3c486d94ade9a425d0f275c75f56",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "2588ae52db29d24e8a011f983cce695025ea3c486d94ade9a425d0f275c75f56",
+        "path": "objects/sha256/25/2588ae52db29d24e8a011f983cce695025ea3c486d94ade9a425d0f275c75f56.png",
+        "mime": "image/png",
+        "bytes": 6561,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你刷新下页面试试",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "你刷新下页面试试"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你刷新下页面试试",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:06Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:064-你刷新下页面试试.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:42:06Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:42:06Z",
+      "lastOperationId": "op_06fd3bcd94dda7962ccfa9f63d8060f0",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

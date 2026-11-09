@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "4c",
+  "assets": [
+    {
+      "id": "sha256:4cc60150f14bfdc2c2f96e51a109ec2fdfbe62de55eaee6c6dd450a0f9bdaee9",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "4cc60150f14bfdc2c2f96e51a109ec2fdfbe62de55eaee6c6dd450a0f9bdaee9",
+        "path": "objects/sha256/4c/4cc60150f14bfdc2c2f96e51a109ec2fdfbe62de55eaee6c6dd450a0f9bdaee9.png",
+        "mime": "image/png",
+        "bytes": 8025,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "这是什么？狗屁不通",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "这是什么？狗屁不通"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "这是什么？狗屁不通",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:06Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:063-这是什么？狗屁不通.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:42:06Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:42:06Z",
+      "lastOperationId": "op_06fd3bcd94dda7962ccfa9f63d8060f0",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

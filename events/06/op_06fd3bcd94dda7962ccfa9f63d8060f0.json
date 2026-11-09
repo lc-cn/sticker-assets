@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "operationId": "op_06fd3bcd94dda7962ccfa9f63d8060f0",
+  "type": "import.batch",
+  "occurredAt": "2026-11-09T10:42:06Z",
+  "actorKind": "machine",
+  "idempotency": {
+    "keyId": "k1",
+    "keyHmac": "d1dff2a3e934e163bcc61930a9e793183dacaea0d834eb185b5a1d54c50da462"
+  },
+  "requestFingerprint": {
+    "keyId": "k1",
+    "hmac": "30a8e6802dfca62c730554548046c095bb810f5e79cfc8f27f23b3277fa77b4c"
+  },
+  "assets": [
+    {
+      "id": "sha256:fdff09413e28a24f7ed0ad92a1775212e75f6acd8f22a9e39ecc2b3a5a9ebe0c",
+      "revision": 1
+    },
+    {
+      "id": "sha256:d7f6d078287969e75025cfea8b38671316b98448ebb3f6f07eafb2c3835e20bb",
+      "revision": 1
+    },
+    {
+      "id": "sha256:4cc60150f14bfdc2c2f96e51a109ec2fdfbe62de55eaee6c6dd450a0f9bdaee9",
+      "revision": 1
+    },
+    {
+      "id": "sha256:2588ae52db29d24e8a011f983cce695025ea3c486d94ade9a425d0f275c75f56",
+      "revision": 1
+    }
+  ],
+  "summary": {
+    "added": 4,
+    "addedBytes": 27675
+  }
+}
