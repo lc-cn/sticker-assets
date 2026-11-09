@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "zhaoolee-chinesebqb",
+  "kind": "creator-permission",
+  "name": "ChineseBQB（zhaoolee 开源合集声明）",
+  "spdx": null,
+  "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/README.md",
+  "attribution": "zhaoolee/ChineseBQB — 合集维护者声明「表情包图片和标注数据完全开源」",
+  "notice": "Imported from https://github.com/zhaoolee/ChineseBQB. The maintainer states sticker images and annotation data are fully open-source for reuse (mini programs, crawlers, ML, etc.). There is no SPDX license on the repo; this record is NOT CC0/MIT and does not invent one. Individual meme frames may depict third-party characters or marks that remain with their rights holders. Takedown via GitHub issue if a rights holder objects.",
+  "scope": "assets imported from ChineseBQB packs added/updated in the selected window",
+  "reviewedAt": "2026-11-09T09:25:22Z"
+}

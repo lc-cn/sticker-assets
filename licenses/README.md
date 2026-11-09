@@ -17,3 +17,4 @@
 - `ofl-1-1` — 字体引用
 - `cc0-1-0-kitten-crs` — KittenCRS Stickers（CC0）
 - `wxmeme-stickers-mit` — WXMemeStickers（MIT）
+- `zhaoolee-chinesebqb` — ChineseBQB（zhaoolee 开源合集声明；无 SPDX，非 CC0）
