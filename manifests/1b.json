@@ -3,6 +3,66 @@
   "shard": "1b",
   "assets": [
     {
+      "id": "sha256:1b36e93a84d32f0871bf8f8c3869929a0ba0edf3feb157ff6b9ba41fb350dfb6",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "1b36e93a84d32f0871bf8f8c3869929a0ba0edf3feb157ff6b9ba41fb350dfb6",
+        "path": "objects/sha256/1b/1b36e93a84d32f0871bf8f8c3869929a0ba0edf3feb157ff6b9ba41fb350dfb6.png",
+        "mime": "image/png",
+        "bytes": 182004,
+        "width": 828,
+        "height": 962,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "人参和醋不相逢",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "人参和醋不相逢"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "人参和醋不相逢",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:45:02Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000016-%E4%BA%BA%E5%8F%82%E5%92%8C%E9%86%8B%E4%B8%8D%E7%9B%B8%E9%80%A2.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00016-人参和醋不相逢.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:45:02Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000016-%E4%BA%BA%E5%8F%82%E5%92%8C%E9%86%8B%E4%B8%8D%E7%9B%B8%E9%80%A2.png"
+      },
+      "updatedAt": "2026-11-09T09:45:02Z",
+      "lastOperationId": "op_00d38fc68c6388b32758d79fb71a6ee6",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:1b6b236caa189b37a4f1c85026b99052904f406e4db59f9aee123560d1a3c952",
       "revision": 1,
       "status": "active",
