@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "f8",
+  "assets": [
+    {
+      "id": "sha256:f8862c9c369381d459c9ba9c36bafe63eea4bbc4e17b153deb371cadd3f32f7c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f8862c9c369381d459c9ba9c36bafe63eea4bbc4e17b153deb371cadd3f32f7c",
+        "path": "objects/sha256/f8/f8862c9c369381d459c9ba9c36bafe63eea4bbc4e17b153deb371cadd3f32f7c.png",
+        "mime": "image/png",
+        "bytes": 34691,
+        "width": 800,
+        "height": 800,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "无语·典型FastAPI思维",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "FastAPI",
+        "无语",
+        "程序员",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "无语·典型FastAPI思维",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:28:51Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Im_speechless_I_cant_continue_talking_with_you/fastapimind.png",
+        "itemId": "wxmeme:Im_speechless_I_cant_continue_talking_with_you/fastapimind.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:28:51Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Im_speechless_I_cant_continue_talking_with_you/fastapimind.png"
+      },
+      "updatedAt": "2026-11-09T09:28:51Z",
+      "lastOperationId": "op_61b9fbeefe365a17ee68402ac9ed3444",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
