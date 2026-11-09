@@ -1,0 +1,26 @@
+.github/workflows/collect.yml
+  h_b64ebe5d3c7815 1,3-4,8,42,46
+config/collect-sources.json
+  h_b64ebe5d3c7815 4,21-22
+package.json
+  h_b64ebe5d3c7815 19-21
+scripts/adapters/chinesebqb.mjs
+  h_b64ebe5d3c7815 1-155
+scripts/adapters/index.mjs
+  h_b64ebe5d3c7815 1-14
+scripts/collect-placeholder.mjs
+  h_b64ebe5d3c7815 2-5,7-8,10-12
+scripts/collect.mjs
+  h_b64ebe5d3c7815 1-203
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "996c1e615d401d56860c5de82a9c7680179a7854",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
