@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "db",
+  "assets": [
+    {
+      "id": "sha256:db29f206b74abc1f611b65bb98da250956a2c8e9ddde2a4d685874cc377520eb",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "db29f206b74abc1f611b65bb98da250956a2c8e9ddde2a4d685874cc377520eb",
+        "path": "objects/sha256/db/db29f206b74abc1f611b65bb98da250956a2c8e9ddde2a4d685874cc377520eb.jpg",
+        "mime": "image/jpeg",
+        "bytes": 11662,
+        "width": 360,
+        "height": 328,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "以理服人",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "AI",
+        "人工智能",
+        "以理服人"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "以理服人",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:39:21Z",
+      "firstSeenAt": "2026-09-10T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00004-%E4%BB%A5%E7%90%86%E6%9C%8D%E4%BA%BA.jpg",
+        "itemId": "chinesebqb:110_AI_人工智能_BQB/人工智能00004-以理服人.jpg",
+        "publishedAt": "2026-09-10T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:39:21Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00004-%E4%BB%A5%E7%90%86%E6%9C%8D%E4%BA%BA.jpg"
+      },
+      "updatedAt": "2026-11-09T09:39:21Z",
+      "lastOperationId": "op_ce580f87f93c3622a99a808d634f061f",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
