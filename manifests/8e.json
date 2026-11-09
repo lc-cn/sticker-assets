@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "8e",
+  "assets": [
+    {
+      "id": "sha256:8ebd3b28c250d8db2c8e64864067f2b8a6ab99d371ae93afd448b0f0e8b56f58",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "8ebd3b28c250d8db2c8e64864067f2b8a6ab99d371ae93afd448b0f0e8b56f58",
+        "path": "objects/sha256/8e/8ebd3b28c250d8db2c8e64864067f2b8a6ab99d371ae93afd448b0f0e8b56f58.jpg",
+        "mime": "image/jpeg",
+        "bytes": 16032,
+        "width": 540,
+        "height": 540,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "慌张",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys",
+        "慌张"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "慌张",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:37:35Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00001-%E6%85%8C%E5%BC%A0.jpg",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00001-慌张.jpg",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:37:35Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00001-%E6%85%8C%E5%BC%A0.jpg"
+      },
+      "updatedAt": "2026-11-09T09:37:35Z",
+      "lastOperationId": "op_d2bac3ad3d34a2afbdba3762370abf0f",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
