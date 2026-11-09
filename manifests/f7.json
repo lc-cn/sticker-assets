@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "f7",
+  "assets": [
+    {
+      "id": "sha256:f76becac5b205d1b1256cd473c362f803c1d36c0c7efa65cdb0419ee574070ce",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f76becac5b205d1b1256cd473c362f803c1d36c0c7efa65cdb0419ee574070ce",
+        "path": "objects/sha256/f7/f76becac5b205d1b1256cd473c362f803c1d36c0c7efa65cdb0419ee574070ce.jpg",
+        "mime": "image/jpeg",
+        "bytes": 43648,
+        "width": 850,
+        "height": 478,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "战败",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "战败"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "战败",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:33:51Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600001-%E6%88%98%E8%B4%A5.jpg",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00001-战败.jpg",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:33:51Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600001-%E6%88%98%E8%B4%A5.jpg"
+      },
+      "updatedAt": "2026-11-09T09:33:51Z",
+      "lastOperationId": "op_22fda415a623d33316206b5e35f37540",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
