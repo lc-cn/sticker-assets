@@ -1,0 +1,54 @@
+schemas/v1/template.schema.json
+  h_b64ebe5d3c7815 7-24,29-34,36-55,58-65,68-100,104-107,112-116,118-132,138-141,143-152,163-167,169-207,214-218,220-234,240-244,246-265,277-292,297-302,304-321,327-339,341-368,371-373,377-390,394-412,424-430,432-452,462-466,468-480,484-536
+templates/bad-news/1/template.json
+  h_b64ebe5d3c7815 6,86-92,96
+templates/bronya-holdsign/1/template.json
+  h_b64ebe5d3c7815 6,84-90,94
+templates/daynight/1/template.json
+  h_b64ebe5d3c7815 6,88-94,98
+templates/decent-kiss/1/template.json
+  h_b64ebe5d3c7815 6,75-81,85
+templates/divorce/1/template.json
+  h_b64ebe5d3c7815 6,76-82,86
+templates/find-chips/1/template.json
+  h_b64ebe5d3c7815 6,138-144,148
+templates/good-news/1/template.json
+  h_b64ebe5d3c7815 6,87-93,97
+templates/high-eq/1/template.json
+  h_b64ebe5d3c7815 6,108-114,118
+templates/imprison/1/template.json
+  h_b64ebe5d3c7815 6,83-89,93
+templates/let-me-in/1/template.json
+  h_b64ebe5d3c7815 6,75-81,85
+templates/luxun-say/1/template.json
+  h_b64ebe5d3c7815 6,84-90,94
+templates/need/1/template.json
+  h_b64ebe5d3c7815 6,76-82,86
+templates/nijika-holdsign/1/template.json
+  h_b64ebe5d3c7815 6,84-90,94
+templates/perfect/1/template.json
+  h_b64ebe5d3c7815 6,75-81,85
+templates/scratchcard/1/template.json
+  h_b64ebe5d3c7815 6,100-106,110
+templates/shutup/1/template.json
+  h_b64ebe5d3c7815 6,83-89,93
+templates/slap/1/template.json
+  h_b64ebe5d3c7815 6,83-89,93
+templates/taunt/1/template.json
+  h_b64ebe5d3c7815 6,75-81,85
+templates/think-what/1/template.json
+  h_b64ebe5d3c7815 6,75-81,85
+templates/wish-fail/1/template.json
+  h_b64ebe5d3c7815 6,83-89,93
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c117265160c9142fd83275bf45c5f63ccaab9af2",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
