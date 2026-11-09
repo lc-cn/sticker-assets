@@ -1,10 +1,11 @@
-# 授权来源资源更新（P4，占位，默认关闭）。
+# 授权来源资源更新（P4）。
 # 两道独立关口：①Actions 用途（低频、小批、项目资源维护、可人工补跑）②来源访问/再分发许可。
-# 当前没有任何已批准适配器：本 workflow 不联网、不写仓库。
-# 启用前提：Fin 批准具体来源清单 → B 提供固定 commit 的适配器 → 仓库变量 COLLECT_ENABLED=true →
+# 适配器在 scripts/adapters/；登记表 config/collect-sources.json（approved=true 才真正跑）。
+# 启用前提：Fin 批准具体来源 → 适配器合入 → 仓库变量 COLLECT_ENABLED=true →
 # 先 workflow_dispatch 小批 dry-run 验收，再考虑 schedule。
 # 用户触发的在线作业（上传/搜索/制图/删除）一律走 B，不得 dispatch 本 workflow 等结果。
 # 例外：管理员在 B 后台手动点「开始采集」会 workflow_dispatch(source=<id>)，B 不等待结果，只展示 runs 列表。
+# 本地试跑（推荐）：node scripts/collect.mjs --source chinesebqb --mirror /path/to/ChineseBQB --dry-run false --upload --limit 20
 name: collect-approved-sources
 
 on:
@@ -18,8 +19,6 @@ on:
         description: 只列候选不提交
         type: boolean
         default: true
-  # schedule:              # 小批手动验收通过前保持注释；schedule 可能延迟/丢弃，游标必须幂等
-  #   - cron: '17 3 * * *'
 
 permissions:
   contents: read
@@ -40,9 +39,8 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: '24'
-      - name: 占位（无已批准适配器，直接退出）
-        # 输入经 env 传入，不直接拼进 shell，避免脚本注入；脚本再按登记表与正则校验。
+      - name: 采集（无镜像时 discover 为空并安全退出；上传仅本地 --upload）
         env:
           COLLECT_SOURCE: ${{ inputs.source }}
           COLLECT_DRY_RUN: ${{ inputs.dry_run }}
-        run: node scripts/collect-placeholder.mjs --source "$COLLECT_SOURCE" --dry-run "$COLLECT_DRY_RUN"
+        run: node scripts/collect.mjs --source "$COLLECT_SOURCE" --dry-run "$COLLECT_DRY_RUN" --limit 40
