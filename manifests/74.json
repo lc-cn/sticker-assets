@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "74",
+  "assets": [
+    {
+      "id": "sha256:742eddba2fec13c48acf341fa516ecc5dcc3f3db9b4ab98b40fff115b4cb97db",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "742eddba2fec13c48acf341fa516ecc5dcc3f3db9b4ab98b40fff115b4cb97db",
+        "path": "objects/sha256/74/742eddba2fec13c48acf341fa516ecc5dcc3f3db9b4ab98b40fff115b4cb97db.png",
+        "mime": "image/png",
+        "bytes": 492923,
+        "width": 1360,
+        "height": 736,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "是兄弟就来砍我",
+      "categories": [
+        "angry"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "是兄弟就来砍我"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "是兄弟就来砍我",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:31:47Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600008-%E6%98%AF%E5%85%84%E5%BC%9F%E5%B0%B1%E6%9D%A5%E7%A0%8D%E6%88%91.png",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00008-是兄弟就来砍我.png",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:31:47Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600008-%E6%98%AF%E5%85%84%E5%BC%9F%E5%B0%B1%E6%9D%A5%E7%A0%8D%E6%88%91.png"
+      },
+      "updatedAt": "2026-11-09T09:31:47Z",
+      "lastOperationId": "op_78cd3a404d1749d7cc9155cebe3730b7",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
