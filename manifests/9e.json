@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "9e",
+  "assets": [
+    {
+      "id": "sha256:9ebf76f2076be1d94f8142aff4784baf1b5fe60f3bf61a855b1442212d2da972",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "9ebf76f2076be1d94f8142aff4784baf1b5fe60f3bf61a855b1442212d2da972",
+        "path": "objects/sha256/9e/9ebf76f2076be1d94f8142aff4784baf1b5fe60f3bf61a855b1442212d2da972.png",
+        "mime": "image/png",
+        "bytes": 208184,
+        "width": 802,
+        "height": 768,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "等心肝",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "等心肝"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "等心肝",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:41:59Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000026-%E7%AD%89%E5%BF%83%E8%82%9D.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00026-等心肝.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:41:59Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000026-%E7%AD%89%E5%BF%83%E8%82%9D.png"
+      },
+      "updatedAt": "2026-11-09T09:41:59Z",
+      "lastOperationId": "op_2aac0f9bff6cccb9cf41241c54e5212e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
