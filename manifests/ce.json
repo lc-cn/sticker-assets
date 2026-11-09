@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "shard": "ce",
+  "assets": [
+    {
+      "id": "sha256:cee5de9dc2baf958657c1a00276d79f5b431572adb44c4747f3110b12f1c85a6",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "cee5de9dc2baf958657c1a00276d79f5b431572adb44c4747f3110b12f1c85a6",
+        "path": "objects/sha256/ce/cee5de9dc2baf958657c1a00276d79f5b431572adb44c4747f3110b12f1c85a6.jpg",
+        "mime": "image/jpeg",
+        "bytes": 6194,
+        "width": 236,
+        "height": 213,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "i-am-fine",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "am",
+        "fine"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "i-am-fine",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:46:35Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000011-i-am-fine.jpg",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00011-i-am-fine.jpg",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:46:35Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000011-i-am-fine.jpg"
+      },
+      "updatedAt": "2026-11-09T09:46:35Z",
+      "lastOperationId": "op_43efafe227819fea7acd0feb9cd3a84a",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
