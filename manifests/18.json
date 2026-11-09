@@ -3,6 +3,65 @@
   "shard": "18",
   "assets": [
     {
+      "id": "sha256:18c9f5193b8abd464907cb2e38dc49c45b263bb5b69705a8ddab63c78d7a3d82",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "18c9f5193b8abd464907cb2e38dc49c45b263bb5b69705a8ddab63c78d7a3d82",
+        "path": "objects/sha256/18/18c9f5193b8abd464907cb2e38dc49c45b263bb5b69705a8ddab63c78d7a3d82.png",
+        "mime": "image/png",
+        "bytes": 197712,
+        "width": 858,
+        "height": 826,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "不行就干个中不溜的中不溜的就行",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "不行就干个中不溜的中不溜的就行",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:45:38Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000014-%E4%B8%8D%E8%A1%8C%E5%B0%B1%E5%B9%B2%E4%B8%AA%E4%B8%AD%E4%B8%8D%E6%BA%9C%E7%9A%84%E4%B8%AD%E4%B8%8D%E6%BA%9C%E7%9A%84%E5%B0%B1%E8%A1%8C.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00014-不行就干个中不溜的中不溜的就行.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:45:38Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000014-%E4%B8%8D%E8%A1%8C%E5%B0%B1%E5%B9%B2%E4%B8%AA%E4%B8%AD%E4%B8%8D%E6%BA%9C%E7%9A%84%E4%B8%AD%E4%B8%8D%E6%BA%9C%E7%9A%84%E5%B0%B1%E8%A1%8C.png"
+      },
+      "updatedAt": "2026-11-09T09:45:38Z",
+      "lastOperationId": "op_469979ead3417877122f9249e4b7c271",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:18dbeddade24da244d7e2071f5a243d57a348df0328e7ce22f991e1b0bf1e4ae",
       "revision": 1,
       "status": "active",
