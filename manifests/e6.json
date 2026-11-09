@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "e6",
+  "assets": [
+    {
+      "id": "sha256:e656f1f6398b8cafa4226029045836f1573936e765b93c3b27da7828a04d995e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "e656f1f6398b8cafa4226029045836f1573936e765b93c3b27da7828a04d995e",
+        "path": "objects/sha256/e6/e656f1f6398b8cafa4226029045836f1573936e765b93c3b27da7828a04d995e.jpg",
+        "mime": "image/jpeg",
+        "bytes": 11798,
+        "width": 360,
+        "height": 326,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "嘘",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "AI",
+        "人工智能"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "嘘",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:40:10Z",
+      "firstSeenAt": "2026-09-10T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00001-%E5%98%98.jpg",
+        "itemId": "chinesebqb:110_AI_人工智能_BQB/人工智能00001-嘘.jpg",
+        "publishedAt": "2026-09-10T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:40:10Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00001-%E5%98%98.jpg"
+      },
+      "updatedAt": "2026-11-09T09:40:10Z",
+      "lastOperationId": "op_b4cd93e00ecb50029674ab952eb1e199",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
