@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "1a",
+  "assets": [
+    {
+      "id": "sha256:1a18a1e430516f50f1f7bc21cff1dc6328d47848155c721eb330b00f28dbb09e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "1a18a1e430516f50f1f7bc21cff1dc6328d47848155c721eb330b00f28dbb09e",
+        "path": "objects/sha256/1a/1a18a1e430516f50f1f7bc21cff1dc6328d47848155c721eb330b00f28dbb09e.png",
+        "mime": "image/png",
+        "bytes": 138792,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "思考",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "思考",
+        "想想",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "思考",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:19:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/思考.png",
+        "itemId": "kitten-crs:思考.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:19:01Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/思考.png"
+      },
+      "updatedAt": "2026-11-09T09:19:01Z",
+      "lastOperationId": "op_876db34c98f88ab99f7ceac788fa45c9",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
