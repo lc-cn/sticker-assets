@@ -1,0 +1,16 @@
+licenses/bfunemoji-cc0.json
+  h_b64ebe5d3c7815 1-12
+licenses/programmers-stickers-mit.json
+  h_b64ebe5d3c7815 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "c556f68ee8010a353d37a968de4d302c995c6261",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
