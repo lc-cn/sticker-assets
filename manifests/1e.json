@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "1e",
+  "assets": [
+    {
+      "id": "sha256:1e53995cecf61a3de15bae774b31451de557bb523c1490638010a55586893b08",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "1e53995cecf61a3de15bae774b31451de557bb523c1490638010a55586893b08",
+        "path": "objects/sha256/1e/1e53995cecf61a3de15bae774b31451de557bb523c1490638010a55586893b08.png",
+        "mime": "image/png",
+        "bytes": 25891,
+        "width": 300,
+        "height": 223,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "发售后的玩家",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "发售后的玩家"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "发售后的玩家",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:29:48Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600014-%E5%8F%91%E5%94%AE%E5%90%8E%E7%9A%84%E7%8E%A9%E5%AE%B6.png",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00014-发售后的玩家.png",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:29:48Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600014-%E5%8F%91%E5%94%AE%E5%90%8E%E7%9A%84%E7%8E%A9%E5%AE%B6.png"
+      },
+      "updatedAt": "2026-11-09T09:29:48Z",
+      "lastOperationId": "op_e7927d55400df87fe11889978d5cda76",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
