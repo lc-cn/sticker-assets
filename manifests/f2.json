@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "f2",
+  "assets": [
+    {
+      "id": "sha256:f2924a153abc1e52dd38650817b0d3baa3980d233fde75801afabeed7a5d0e55",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f2924a153abc1e52dd38650817b0d3baa3980d233fde75801afabeed7a5d0e55",
+        "path": "objects/sha256/f2/f2924a153abc1e52dd38650817b0d3baa3980d233fde75801afabeed7a5d0e55.png",
+        "mime": "image/png",
+        "bytes": 150154,
+        "width": 712,
+        "height": 706,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "那还说啥跳了bro",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "那还说啥跳了bro"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "那还说啥跳了bro",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:44:27Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000018-%E9%82%A3%E8%BF%98%E8%AF%B4%E5%95%A5%E8%B7%B3%E4%BA%86bro.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00018-那还说啥跳了bro.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:44:27Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000018-%E9%82%A3%E8%BF%98%E8%AF%B4%E5%95%A5%E8%B7%B3%E4%BA%86bro.png"
+      },
+      "updatedAt": "2026-11-09T09:44:27Z",
+      "lastOperationId": "op_007ee86be7a853e61cd8240f4c4d68e7",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
