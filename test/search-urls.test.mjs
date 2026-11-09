@@ -43,5 +43,10 @@ test('镜像 URL：锁 commit+path，镜像默认关闭只剩 raw', () => {
   assert.throws(() => candidateUrls({ commit: 'main', path }, cfg), /40 位/);
   assert.throws(() => candidateUrls({ commit, path: '../secret' }, cfg), /非受管路径/);
   const main = JSON.parse(readFileSync(new URL('../config/mirrors.json', import.meta.url), 'utf8'));
-  assert.throws(() => candidateUrls({ commit, path }, main), /owner\/repo 未配置/);
+  const prod = candidateUrls({ commit, path }, main);
+  assert.equal(prod[0].id, 'jsdelivr-fastly');
+  assert.equal(prod[0].url, `https://fastly.jsdelivr.net/gh/lc-cn/sticker-assets@${commit}/${path}`);
+  assert.equal(prod.at(-1).id, 'github-raw');
+  const unset = structuredClone(main); unset.owner = null;
+  assert.throws(() => candidateUrls({ commit, path }, unset), /owner\/repo 未配置/);
 });
