@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "b5",
+  "assets": [
+    {
+      "id": "sha256:b54f1b6e38b35e62776b186c731d9dfed9344581a7bae13b246c81492bf4cc82",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b54f1b6e38b35e62776b186c731d9dfed9344581a7bae13b246c81492bf4cc82",
+        "path": "objects/sha256/b5/b54f1b6e38b35e62776b186c731d9dfed9344581a7bae13b246c81492bf4cc82.png",
+        "mime": "image/png",
+        "bytes": 143597,
+        "width": 640,
+        "height": 600,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "摸摸头",
+      "categories": [
+        "cute"
+      ],
+      "tags": [
+        "摸摸",
+        "安慰",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "摸摸头",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:19:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/摸摸头.png",
+        "itemId": "kitten-crs:摸摸头.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:19:42Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/摸摸头.png"
+      },
+      "updatedAt": "2026-11-09T09:19:42Z",
+      "lastOperationId": "op_7835676a724d89f2a0923daa75af60a6",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
