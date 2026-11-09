@@ -3,6 +3,66 @@
   "shard": "c9",
   "assets": [
     {
+      "id": "sha256:c915fe233536e9ad31897dc59a5961868ca1f4b74007ef15ee64665ba30f32a0",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "c915fe233536e9ad31897dc59a5961868ca1f4b74007ef15ee64665ba30f32a0",
+        "path": "objects/sha256/c9/c915fe233536e9ad31897dc59a5961868ca1f4b74007ef15ee64665ba30f32a0.png",
+        "mime": "image/png",
+        "bytes": 202959,
+        "width": 806,
+        "height": 776,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "这才是真正的音乐",
+      "categories": [
+        "celebrate"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "这才是真正的音乐"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "这才是真正的音乐",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:43:50Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000020-%E8%BF%99%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9F%B3%E4%B9%90.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00020-这才是真正的音乐.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:43:50Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000020-%E8%BF%99%E6%89%8D%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E9%9F%B3%E4%B9%90.png"
+      },
+      "updatedAt": "2026-11-09T09:43:50Z",
+      "lastOperationId": "op_637fb8c2ed2de25bcf8667261f7c9c28",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:c9751c9e49ac7a850fcf1ee7c9adaeb62869f8087ef6ed5d5e852e8633d9c945",
       "revision": 1,
       "status": "active",
