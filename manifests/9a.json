@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "9a",
+  "assets": [
+    {
+      "id": "sha256:9a51f42fac369743db24f404d45c5fcb41417a5b133aae6e49a5d391d6007589",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "9a51f42fac369743db24f404d45c5fcb41417a5b133aae6e49a5d391d6007589",
+        "path": "objects/sha256/9a/9a51f42fac369743db24f404d45c5fcb41417a5b133aae6e49a5d391d6007589.png",
+        "mime": "image/png",
+        "bytes": 97747,
+        "width": 598,
+        "height": 550,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "不行就干票大的",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "不行就干票大的"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "不行就干票大的",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:41:04Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000029-%E4%B8%8D%E8%A1%8C%E5%B0%B1%E5%B9%B2%E7%A5%A8%E5%A4%A7%E7%9A%84.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00029-不行就干票大的.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:41:04Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000029-%E4%B8%8D%E8%A1%8C%E5%B0%B1%E5%B9%B2%E7%A5%A8%E5%A4%A7%E7%9A%84.png"
+      },
+      "updatedAt": "2026-11-09T09:41:04Z",
+      "lastOperationId": "op_ad59ff6640363758baad8328c46a5c8e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
