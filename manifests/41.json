@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "41",
+  "assets": [
+    {
+      "id": "sha256:41e670820bd4813ca09162b715f2e898210f26a16e93dfe489fc92457625f276",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "41e670820bd4813ca09162b715f2e898210f26a16e93dfe489fc92457625f276",
+        "path": "objects/sha256/41/41e670820bd4813ca09162b715f2e898210f26a16e93dfe489fc92457625f276.png",
+        "mime": "image/png",
+        "bytes": 114347,
+        "width": 588,
+        "height": 556,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你还能有强类型聪明？",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "类型",
+        "程序员",
+        "吐槽",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你还能有强类型聪明？",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:27:44Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/dynamic_but_strong_type.png",
+        "itemId": "wxmeme:Could_you_possibly_be_any_smarter_than_XXX/dynamic_but_strong_type.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:27:44Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/dynamic_but_strong_type.png"
+      },
+      "updatedAt": "2026-11-09T09:27:44Z",
+      "lastOperationId": "op_c95a40770531e720132c5a5e62d150c0",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
