@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "50",
+  "assets": [
+    {
+      "id": "sha256:50d3b1bb7c05427701467a133f397de9883538048d52bbb0866c09213f1c8cf8",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "50d3b1bb7c05427701467a133f397de9883538048d52bbb0866c09213f1c8cf8",
+        "path": "objects/sha256/50/50d3b1bb7c05427701467a133f397de9883538048d52bbb0866c09213f1c8cf8.png",
+        "mime": "image/png",
+        "bytes": 175153,
+        "width": 780,
+        "height": 838,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "人生嘛看开点",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "人生嘛看开点"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "人生嘛看开点",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:45:20Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000015-%E4%BA%BA%E7%94%9F%E5%98%9B%E7%9C%8B%E5%BC%80%E7%82%B9.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00015-人生嘛看开点.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:45:20Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000015-%E4%BA%BA%E7%94%9F%E5%98%9B%E7%9C%8B%E5%BC%80%E7%82%B9.png"
+      },
+      "updatedAt": "2026-11-09T09:45:20Z",
+      "lastOperationId": "op_14aada2ce2cf0f7f837b465499609135",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
