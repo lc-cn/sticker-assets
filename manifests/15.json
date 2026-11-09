@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "15",
+  "assets": [
+    {
+      "id": "sha256:150b3aace040b36a8a0e786df81231e68bc1d7520f9121e670f32d21fb4a4779",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "150b3aace040b36a8a0e786df81231e68bc1d7520f9121e670f32d21fb4a4779",
+        "path": "objects/sha256/15/150b3aace040b36a8a0e786df81231e68bc1d7520f9121e670f32d21fb4a4779.png",
+        "mime": "image/png",
+        "bytes": 141098,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "OK",
+      "categories": [
+        "agree"
+      ],
+      "tags": [
+        "ok",
+        "好的",
+        "可以",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "OK",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:17:05Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/ok.png",
+        "itemId": "kitten-crs:ok.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:17:05Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/ok.png"
+      },
+      "updatedAt": "2026-11-09T09:17:05Z",
+      "lastOperationId": "op_cf9e2f5d43e84485ac6b7aaa659f3427",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
