@@ -3,6 +3,7 @@
   "id": "slap",
   "version": 1,
   "title": "一巴掌",
+  "description": "挨一巴掌",
   "status": "active",
   "renderer": "light-v1",
   "tags": [
@@ -79,8 +80,15 @@
       "providedBy": "renderer"
     }
   ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "slap",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/slap",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
   "licenseIds": [
     "meme-generator-mit"
   ],
-  "notice": "移植自 MemeCrafters/meme-generator 的表情「slap」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/slap 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。"
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
 }
