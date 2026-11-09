@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "1b",
+  "assets": [
+    {
+      "id": "sha256:1b6b236caa189b37a4f1c85026b99052904f406e4db59f9aee123560d1a3c952",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "1b6b236caa189b37a4f1c85026b99052904f406e4db59f9aee123560d1a3c952",
+        "path": "objects/sha256/1b/1b6b236caa189b37a4f1c85026b99052904f406e4db59f9aee123560d1a3c952.png",
+        "mime": "image/png",
+        "bytes": 137722,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "哼",
+      "categories": [
+        "angry"
+      ],
+      "tags": [
+        "哼",
+        "生气",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "哼",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:18:20Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/哼.png",
+        "itemId": "kitten-crs:哼.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:18:20Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/哼.png"
+      },
+      "updatedAt": "2026-11-09T09:18:20Z",
+      "lastOperationId": "op_5642b25918b1865ed4e80442691b59f0",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
