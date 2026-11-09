@@ -1,0 +1,50 @@
+indexes/catalog.json
+  h_b64ebe5d3c7815 1
+templates/acg-entrance/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/always-like/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/anti-kidnap/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/anya-suki/1/template.json
+  h_b64ebe5d3c7815 1-108
+templates/dont-go-near/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/father-work/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/fill-head/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/hold-tight/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/look-this-icon/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/luotianyi-need/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/mourning/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/prpr/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/safe-sense/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/stew/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/teach/1/template.json
+  h_b64ebe5d3c7815 1-108
+templates/time-to-go/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/together/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/you-should-call/1/template.json
+  h_b64ebe5d3c7815 1-105
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "decb8ab12db74fbecdd303db5248844e020b27f4",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
