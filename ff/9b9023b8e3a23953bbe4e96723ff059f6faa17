@@ -1,0 +1,16 @@
+config/mirrors.json
+  h_b64ebe5d3c7815 3-4,10-23,27-29,34-36,41-42
+test/search-urls.test.mjs
+  h_b64ebe5d3c7815 46-51
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "ff9b9023b8e3a23953bbe4e96723ff059f6faa17",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
