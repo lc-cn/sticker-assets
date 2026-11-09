@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "operationId": "op_9d78b6215d1a551937155455cf39cbe1",
+  "type": "import.batch",
+  "occurredAt": "2026-11-09T10:37:25Z",
+  "actorKind": "machine",
+  "idempotency": {
+    "keyId": "k1",
+    "keyHmac": "82edbd0fee0d6100fb4cb31358154f99ce42a2932f6dbf38c19bee0848c5a4b3"
+  },
+  "requestFingerprint": {
+    "keyId": "k1",
+    "hmac": "ea3ce4d5a876259266849d3599bcf1bf1c06ee7717904851b5d550d4732efcf1"
+  },
+  "assets": [
+    {
+      "id": "sha256:eabbe2a47a3a7aee33afb3bd88c5ca475e073a81b4815b7118b5f8dccb0b22f0",
+      "revision": 1
+    },
+    {
+      "id": "sha256:306e4852c2cb3c381fdec3fbfac9b94853f5da05fbcbc78a9ed9c3f31c8cd400",
+      "revision": 1
+    },
+    {
+      "id": "sha256:5bd20707beacfed31c8bdc2c8f419a76170c61b36436d8fc5a69ffd33c6f5c9f",
+      "revision": 1
+    },
+    {
+      "id": "sha256:72ed755adccbb26b4440cc478319831987016a3666be2f94aa9340384e3fd674",
+      "revision": 1
+    },
+    {
+      "id": "sha256:fc0e6c60617d2968a061208a4c1c3d1f0d21bb8c917f8977ece1717cc060587e",
+      "revision": 1
+    },
+    {
+      "id": "sha256:7098b81af5117bd2059f484d98c79c5c510163c441a53cf27526af3b1e7bba40",
+      "revision": 1
+    }
+  ],
+  "summary": {
+    "added": 6,
+    "addedBytes": 1436851
+  }
+}

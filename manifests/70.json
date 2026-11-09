@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "70",
+  "assets": [
+    {
+      "id": "sha256:7098b81af5117bd2059f484d98c79c5c510163c441a53cf27526af3b1e7bba40",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "7098b81af5117bd2059f484d98c79c5c510163c441a53cf27526af3b1e7bba40",
+        "path": "objects/sha256/70/7098b81af5117bd2059f484d98c79c5c510163c441a53cf27526af3b1e7bba40.png",
+        "mime": "image/png",
+        "bytes": 181477,
+        "width": 828,
+        "height": 806,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "吐舌头",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "吐舌头"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "吐舌头",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:37:25Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:pingu/企鹅家族00001-吐舌头.png",
+        "publishedAt": "2026-05-01T03:43:59Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:37:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T10:37:25Z",
+      "lastOperationId": "op_9d78b6215d1a551937155455cf39cbe1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "ea",
+  "assets": [
+    {
+      "id": "sha256:eabbe2a47a3a7aee33afb3bd88c5ca475e073a81b4815b7118b5f8dccb0b22f0",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "eabbe2a47a3a7aee33afb3bd88c5ca475e073a81b4815b7118b5f8dccb0b22f0",
+        "path": "objects/sha256/ea/eabbe2a47a3a7aee33afb3bd88c5ca475e073a81b4815b7118b5f8dccb0b22f0.gif",
+        "mime": "image/gif",
+        "bytes": 451020,
+        "width": 240,
+        "height": 224,
+        "frames": 36,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "潇洒小滑板",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "潇洒小滑板"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "潇洒小滑板",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:37:25Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:pingu/企鹅家族00006-潇洒小滑板.gif",
+        "publishedAt": "2026-05-01T03:43:59Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:37:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T10:37:25Z",
+      "lastOperationId": "op_9d78b6215d1a551937155455cf39cbe1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "fc",
+  "assets": [
+    {
+      "id": "sha256:fc0e6c60617d2968a061208a4c1c3d1f0d21bb8c917f8977ece1717cc060587e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "fc0e6c60617d2968a061208a4c1c3d1f0d21bb8c917f8977ece1717cc060587e",
+        "path": "objects/sha256/fc/fc0e6c60617d2968a061208a4c1c3d1f0d21bb8c917f8977ece1717cc060587e.jpg",
+        "mime": "image/jpeg",
+        "bytes": 97779,
+        "width": 1170,
+        "height": 1170,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "兄弟你好香",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "兄弟你好香"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "兄弟你好香",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:37:25Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:pingu/企鹅家族00002-兄弟你好香.jpg",
+        "publishedAt": "2026-05-01T03:43:59Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:37:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T10:37:25Z",
+      "lastOperationId": "op_9d78b6215d1a551937155455cf39cbe1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -60,6 +60,66 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:306e4852c2cb3c381fdec3fbfac9b94853f5da05fbcbc78a9ed9c3f31c8cd400",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "306e4852c2cb3c381fdec3fbfac9b94853f5da05fbcbc78a9ed9c3f31c8cd400",
+        "path": "objects/sha256/30/306e4852c2cb3c381fdec3fbfac9b94853f5da05fbcbc78a9ed9c3f31c8cd400.gif",
+        "mime": "image/gif",
+        "bytes": 657815,
+        "width": 324,
+        "height": 236,
+        "frames": 57,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "开心",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "开心"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "开心",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:37:25Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:pingu/企鹅家族00005-开心.gif",
+        "publishedAt": "2026-05-01T03:43:59Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:37:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T10:37:25Z",
+      "lastOperationId": "op_9d78b6215d1a551937155455cf39cbe1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

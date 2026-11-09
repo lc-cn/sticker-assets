@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "5b",
+  "assets": [
+    {
+      "id": "sha256:5bd20707beacfed31c8bdc2c8f419a76170c61b36436d8fc5a69ffd33c6f5c9f",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "5bd20707beacfed31c8bdc2c8f419a76170c61b36436d8fc5a69ffd33c6f5c9f",
+        "path": "objects/sha256/5b/5bd20707beacfed31c8bdc2c8f419a76170c61b36436d8fc5a69ffd33c6f5c9f.jpg",
+        "mime": "image/jpeg",
+        "bytes": 19977,
+        "width": 586,
+        "height": 586,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "做个人吧",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "做个人吧"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "做个人吧",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:37:25Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:pingu/企鹅家族00004-做个人吧.jpeg",
+        "publishedAt": "2026-05-01T03:43:59Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:37:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T10:37:25Z",
+      "lastOperationId": "op_9d78b6215d1a551937155455cf39cbe1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
