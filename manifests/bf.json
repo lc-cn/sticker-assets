@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:bffaa36e5623f6dc0b7fc0b3e719bb53c1c49b78d8139f3f7d5bb022ebdf4996",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bffaa36e5623f6dc0b7fc0b3e719bb53c1c49b78d8139f3f7d5bb022ebdf4996",
+        "path": "objects/sha256/bf/bffaa36e5623f6dc0b7fc0b3e719bb53c1c49b78d8139f3f7d5bb022ebdf4996.jpg",
+        "mime": "image/jpeg",
+        "bytes": 1654,
+        "width": 94,
+        "height": 120,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "好的",
+      "categories": [
+        "agree"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "好的"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "好的",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00009-好的-ok-OK-Ok.jpg",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

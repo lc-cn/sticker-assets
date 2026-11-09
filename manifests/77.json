@@ -178,6 +178,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:77f870219e662cb81e500d3f5e7798108c2a6198a6b4de2fda3fa2000a5ade21",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "77f870219e662cb81e500d3f5e7798108c2a6198a6b4de2fda3fa2000a5ade21",
+        "path": "objects/sha256/77/77f870219e662cb81e500d3f5e7798108c2a6198a6b4de2fda3fa2000a5ade21.jpg",
+        "mime": "image/jpeg",
+        "bytes": 10755,
+        "width": 286,
+        "height": 296,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "今天可能去不了了",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "今天可能去不了了"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "今天可能去不了了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/00018鸽子-今天可能去不了了.jpg",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

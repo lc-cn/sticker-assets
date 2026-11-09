@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "operationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+  "type": "import.batch",
+  "occurredAt": "2026-11-09T11:18:29Z",
+  "actorKind": "machine",
+  "idempotency": {
+    "keyId": "k1",
+    "keyHmac": "dca12b2544428c48bc6da73dbe508fd947a22575e977b0783f62b35c7567868b"
+  },
+  "requestFingerprint": {
+    "keyId": "k1",
+    "hmac": "0194beed72fa14359dafac792cf08172eaf969f0b04d7c130d5a2b29538122f7"
+  },
+  "assets": [
+    {
+      "id": "sha256:5a4be972612194132ec909944ab9c50ba4f0bec1e0e3786850237e88a18c2474",
+      "revision": 1
+    },
+    {
+      "id": "sha256:85431cd3e75e9a7eb136b8e26c36c88d9a4253ecdf42c5ac64dea5a4a101536e",
+      "revision": 1
+    },
+    {
+      "id": "sha256:77f870219e662cb81e500d3f5e7798108c2a6198a6b4de2fda3fa2000a5ade21",
+      "revision": 1
+    },
+    {
+      "id": "sha256:a8389d8862ed6143ef1c938cd0df142574cd260631a93a30b5248ee2461da3f4",
+      "revision": 1
+    },
+    {
+      "id": "sha256:d1e60290138f12c99b24570c659ca3fdc30399fa6092700e4df373509136f166",
+      "revision": 1
+    },
+    {
+      "id": "sha256:3da1eca25543bc4db3bd30757e1156af80bef9bb73c33fd9e9d27531dc9d9f33",
+      "revision": 1
+    },
+    {
+      "id": "sha256:9e07b256b651221299a5150a82f0fe80cfbc8bd31cf240c1a4f4548bddbd0bd3",
+      "revision": 1
+    },
+    {
+      "id": "sha256:b88bfbdb777140fa35fd550ac7d911ea6b461c7cc0ef4b6fc3a9fb590813ead9",
+      "revision": 1
+    },
+    {
+      "id": "sha256:39fa855d5f6eaa56fda3c9a639b79be1e05e70f939cd36758bc8104824adfe4a",
+      "revision": 1
+    },
+    {
+      "id": "sha256:13565924ae0ec93af5b0dd859982802ed4ff8f27e5b26aa53f6fb4814026c396",
+      "revision": 1
+    },
+    {
+      "id": "sha256:fa16dc23145881b222186fcf7aeaf03e5ac251001865c1d5f3f8688d818636c2",
+      "revision": 1
+    },
+    {
+      "id": "sha256:bffaa36e5623f6dc0b7fc0b3e719bb53c1c49b78d8139f3f7d5bb022ebdf4996",
+      "revision": 1
+    },
+    {
+      "id": "sha256:b5eb5583c4ce3af0f0d193d373a94c814c0d58e01c0bcc641398800cebc3aa3d",
+      "revision": 1
+    },
+    {
+      "id": "sha256:a0d90d3967335f9e70f585f9f6bbb0f560af90dd2eb0cecec1ae73ccf3dba8bb",
+      "revision": 1
+    },
+    {
+      "id": "sha256:a91f85a73e3ccf12cf9e88440c6ab236fcf3c0a380c70fe7f7d1b272b2ae9037",
+      "revision": 1
+    },
+    {
+      "id": "sha256:51bd936d72f0d852b33d99b93f566763ca9dc530529d608f684eaa160cb28cb3",
+      "revision": 1
+    },
+    {
+      "id": "sha256:1e8e3a754556abe5cf44a3c66ce025fd36cc19dc57791638bded08276a5f389a",
+      "revision": 1
+    }
+  ],
+  "summary": {
+    "added": 17,
+    "addedBytes": 2637229
+  }
+}

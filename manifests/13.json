@@ -62,6 +62,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:13565924ae0ec93af5b0dd859982802ed4ff8f27e5b26aa53f6fb4814026c396",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "13565924ae0ec93af5b0dd859982802ed4ff8f27e5b26aa53f6fb4814026c396",
+        "path": "objects/sha256/13/13565924ae0ec93af5b0dd859982802ed4ff8f27e5b26aa53f6fb4814026c396.jpg",
+        "mime": "image/jpeg",
+        "bytes": 1420,
+        "width": 81,
+        "height": 102,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "不愧是你",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "不愧是你"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "不愧是你",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00005-不愧是你.jpg",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:13f6ecf73563f3e37dc96f4df68f0d4444c441249a9ca4576b61b533f55195a1",
       "revision": 1,
       "status": "active",

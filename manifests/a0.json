@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "a0",
+  "assets": [
+    {
+      "id": "sha256:a0d90d3967335f9e70f585f9f6bbb0f560af90dd2eb0cecec1ae73ccf3dba8bb",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "a0d90d3967335f9e70f585f9f6bbb0f560af90dd2eb0cecec1ae73ccf3dba8bb",
+        "path": "objects/sha256/a0/a0d90d3967335f9e70f585f9f6bbb0f560af90dd2eb0cecec1ae73ccf3dba8bb.jpg",
+        "mime": "image/jpeg",
+        "bytes": 6340,
+        "width": 263,
+        "height": 174,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "好的一定来",
+      "categories": [
+        "agree"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "好的一定来"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "好的一定来",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00012-好的一定来-ok好哒.jpg",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -120,6 +120,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:39fa855d5f6eaa56fda3c9a639b79be1e05e70f939cd36758bc8104824adfe4a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "39fa855d5f6eaa56fda3c9a639b79be1e05e70f939cd36758bc8104824adfe4a",
+        "path": "objects/sha256/39/39fa855d5f6eaa56fda3c9a639b79be1e05e70f939cd36758bc8104824adfe4a.gif",
+        "mime": "image/gif",
+        "bytes": 702152,
+        "width": 400,
+        "height": 270,
+        "frames": 30,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "能不能给我一首歌的时间",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "能不能给我一首歌的时间"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "能不能给我一首歌的时间",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00004-能不能给我一首歌的时间.gif",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

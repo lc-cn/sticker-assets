@@ -3,6 +3,65 @@
   "shard": "a9",
   "assets": [
     {
+      "id": "sha256:a91f85a73e3ccf12cf9e88440c6ab236fcf3c0a380c70fe7f7d1b272b2ae9037",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "a91f85a73e3ccf12cf9e88440c6ab236fcf3c0a380c70fe7f7d1b272b2ae9037",
+        "path": "objects/sha256/a9/a91f85a73e3ccf12cf9e88440c6ab236fcf3c0a380c70fe7f7d1b272b2ae9037.jpg",
+        "mime": "image/jpeg",
+        "bytes": 2398,
+        "width": 198,
+        "height": 152,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我一定参加",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "我一定参加"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我一定参加",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00013-我一定参加.jpg",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:a958997751eec1cfca375a27f2c64bc031a3308b8cf757cd57dfc80ac061ad3b",
       "revision": 1,
       "status": "active",

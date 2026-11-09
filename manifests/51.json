@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "51",
+  "assets": [
+    {
+      "id": "sha256:51bd936d72f0d852b33d99b93f566763ca9dc530529d608f684eaa160cb28cb3",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "51bd936d72f0d852b33d99b93f566763ca9dc530529d608f684eaa160cb28cb3",
+        "path": "objects/sha256/51/51bd936d72f0d852b33d99b93f566763ca9dc530529d608f684eaa160cb28cb3.png",
+        "mime": "image/png",
+        "bytes": 139685,
+        "width": 475,
+        "height": 640,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "准时参加好的我一定来",
+      "categories": [
+        "agree"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "准时参加好的我一定来"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "准时参加好的我一定来",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00014-准时参加好的我一定来-说好了哟不来不是人.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

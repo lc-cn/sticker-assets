@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:85431cd3e75e9a7eb136b8e26c36c88d9a4253ecdf42c5ac64dea5a4a101536e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "85431cd3e75e9a7eb136b8e26c36c88d9a4253ecdf42c5ac64dea5a4a101536e",
+        "path": "objects/sha256/85/85431cd3e75e9a7eb136b8e26c36c88d9a4253ecdf42c5ac64dea5a4a101536e.gif",
+        "mime": "image/gif",
+        "bytes": 1488552,
+        "width": 360,
+        "height": 374,
+        "frames": 51,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "在路上了",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "在路上了"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "在路上了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T11:18:29Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "adapter",
+        "adapter": "chinesebqb",
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/00017鸽子-在路上了.gif",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T11:18:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T11:18:29Z",
+      "lastOperationId": "op_f0da71b0c10f0ce26db4907c8f8d2993",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }
