@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "shard": "6a",
+  "assets": [
+    {
+      "id": "sha256:6abf0239da6b841632fe1fc247edbc619a95bc84d3b704c44c29adbb23dd26b3",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "6abf0239da6b841632fe1fc247edbc619a95bc84d3b704c44c29adbb23dd26b3",
+        "path": "objects/sha256/6a/6abf0239da6b841632fe1fc247edbc619a95bc84d3b704c44c29adbb23dd26b3.png",
+        "mime": "image/png",
+        "bytes": 33779,
+        "width": 128,
+        "height": 128,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "上线测试图",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "测试"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T07:08:16Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "manual-collection",
+        "adapter": null,
+        "url": null,
+        "itemId": null,
+        "publishedAt": null,
+        "confidence": "none"
+      },
+      "rights": {
+        "basis": "self-created",
+        "licenseId": "self-created-project",
+        "reviewedAt": "2026-11-09T07:08:16Z",
+        "publicUrl": null
+      },
+      "updatedAt": "2026-11-09T07:08:16Z",
+      "lastOperationId": "op_74774701c7e7e53b9da9daedacc052ed",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
