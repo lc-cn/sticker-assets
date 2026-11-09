@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "e9",
+  "assets": [
+    {
+      "id": "sha256:e9d2e35bc65258fc6e6094d2eb9f21f70038b3095152da39d2fa25d7aa12c9e1",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "e9d2e35bc65258fc6e6094d2eb9f21f70038b3095152da39d2fa25d7aa12c9e1",
+        "path": "objects/sha256/e9/e9d2e35bc65258fc6e6094d2eb9f21f70038b3095152da39d2fa25d7aa12c9e1.jpg",
+        "mime": "image/jpeg",
+        "bytes": 78104,
+        "width": 850,
+        "height": 1275,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "准备好了吗相公",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "准备好了吗相公"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "准备好了吗相公",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:32:05Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600007-%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E7%9B%B8%E5%85%AC.jpg",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00007-准备好了吗相公.jpg",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:32:05Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600007-%E5%87%86%E5%A4%87%E5%A5%BD%E4%BA%86%E5%90%97%E7%9B%B8%E5%85%AC.jpg"
+      },
+      "updatedAt": "2026-11-09T09:32:05Z",
+      "lastOperationId": "op_0f76e8df3cd8c99c9ac3a2aba7c6227b",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
