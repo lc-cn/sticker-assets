@@ -3,6 +3,66 @@
   "shard": "07",
   "assets": [
     {
+      "id": "sha256:07ff259c8cc25d08ffd144d96eef406e4e06a2728bf2c90cbdee09335891b225",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "07ff259c8cc25d08ffd144d96eef406e4e06a2728bf2c90cbdee09335891b225",
+        "path": "objects/sha256/07/07ff259c8cc25d08ffd144d96eef406e4e06a2728bf2c90cbdee09335891b225.jpg",
+        "mime": "image/jpeg",
+        "bytes": 4979,
+        "width": 300,
+        "height": 300,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "痴呆",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "痴呆"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:36:25Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB",
+        "itemId": "chinesebqb:pingu-痴呆",
+        "publishedAt": "2026-05-01T03:43:59Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:36:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB"
+      },
+      "updatedAt": "2026-11-09T10:36:25Z",
+      "lastOperationId": "op_0630693476f0b57b7d6bb7c17d66a5c7",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:07fffe7adc9f498142b9f652b43c49592f8baa82a61e93b90df456d9ade22274",
       "revision": 1,
       "status": "active",
