@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "08",
+  "assets": [
+    {
+      "id": "sha256:08cf25fa6e6bf14da2085176ec6343b32277752eb2f4540d333692992b80b8ef",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "08cf25fa6e6bf14da2085176ec6343b32277752eb2f4540d333692992b80b8ef",
+        "path": "objects/sha256/08/08cf25fa6e6bf14da2085176ec6343b32277752eb2f4540d333692992b80b8ef.png",
+        "mime": "image/png",
+        "bytes": 121087,
+        "width": 589,
+        "height": 556,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你还能有IDE聪明？",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "IDE",
+        "程序员",
+        "吐槽",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你还能有IDE聪明？",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:21:27Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/jetbrains_ide.png",
+        "itemId": "wxmeme:Could_you_possibly_be_any_smarter_than_XXX/jetbrains_ide.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:21:27Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/jetbrains_ide.png"
+      },
+      "updatedAt": "2026-11-09T09:21:27Z",
+      "lastOperationId": "op_78173add1005b3180839c1956acc6714",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
