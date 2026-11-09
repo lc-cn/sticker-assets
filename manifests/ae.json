@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "ae",
+  "assets": [
+    {
+      "id": "sha256:aebce1b22600e41e684a79a7791e69ae603eaa0a4f48018e756d4fdb059e1375",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "aebce1b22600e41e684a79a7791e69ae603eaa0a4f48018e756d4fdb059e1375",
+        "path": "objects/sha256/ae/aebce1b22600e41e684a79a7791e69ae603eaa0a4f48018e756d4fdb059e1375.png",
+        "mime": "image/png",
+        "bytes": 471958,
+        "width": 1114,
+        "height": 1716,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "人工智能00011",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "AI",
+        "人工智能",
+        "人工智能00011"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "人工智能00011",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:37:52Z",
+      "firstSeenAt": "2026-09-10T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00011.png",
+        "itemId": "chinesebqb:110_AI_人工智能_BQB/人工智能00011.png",
+        "publishedAt": "2026-09-10T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:37:52Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00011.png"
+      },
+      "updatedAt": "2026-11-09T09:37:52Z",
+      "lastOperationId": "op_0e5d7bb756325968f99cc2f6a8408b39",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
