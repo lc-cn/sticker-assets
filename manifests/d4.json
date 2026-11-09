@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "d4",
+  "assets": [
+    {
+      "id": "sha256:d4d2548e04d0e89512bd9b60b14a6d55d77f9725ab5b8db7a71e97f8b269647d",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "d4d2548e04d0e89512bd9b60b14a6d55d77f9725ab5b8db7a71e97f8b269647d",
+        "path": "objects/sha256/d4/d4d2548e04d0e89512bd9b60b14a6d55d77f9725ab5b8db7a71e97f8b269647d.png",
+        "mime": "image/png",
+        "bytes": 218316,
+        "width": 593,
+        "height": 605,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "献花",
+      "categories": [
+        "thanks"
+      ],
+      "tags": [
+        "献花",
+        "感谢",
+        "夸夸",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "献花",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:20:11Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/献花.png",
+        "itemId": "kitten-crs:献花.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:20:11Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/献花.png"
+      },
+      "updatedAt": "2026-11-09T09:20:11Z",
+      "lastOperationId": "op_5dda460c3b0b66563d444e89c3705e76",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
