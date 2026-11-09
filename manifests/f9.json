@@ -60,6 +60,66 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:f9fb5a2cfcda720eac58143fb3a4a53d5fbc07bbe6960fe68b92d8818210facb",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f9fb5a2cfcda720eac58143fb3a4a53d5fbc07bbe6960fe68b92d8818210facb",
+        "path": "objects/sha256/f9/f9fb5a2cfcda720eac58143fb3a4a53d5fbc07bbe6960fe68b92d8818210facb.png",
+        "mime": "image/png",
+        "bytes": 703140,
+        "width": 1952,
+        "height": 1770,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "这个网站不费token",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "这个网站不费token"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "这个网站不费token",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:42:17Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000025-%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E4%B8%8D%E8%B4%B9token.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00025-这个网站不费token.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:42:17Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000025-%E8%BF%99%E4%B8%AA%E7%BD%91%E7%AB%99%E4%B8%8D%E8%B4%B9token.png"
+      },
+      "updatedAt": "2026-11-09T09:42:17Z",
+      "lastOperationId": "op_b30052f4e107cedba9744ebe699b9e0a",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }
