@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "83",
+  "assets": [
+    {
+      "id": "sha256:8307f383c873ad068c1bb04a56bdfd84e41914760922033921ec790171ef1cfe",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "8307f383c873ad068c1bb04a56bdfd84e41914760922033921ec790171ef1cfe",
+        "path": "objects/sha256/83/8307f383c873ad068c1bb04a56bdfd84e41914760922033921ec790171ef1cfe.gif",
+        "mime": "image/gif",
+        "bytes": 243251,
+        "width": 240,
+        "height": 240,
+        "frames": 10,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "讨教了",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "讨教了"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "讨教了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:30:53Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600011-%E8%AE%A8%E6%95%99%E4%BA%86.gif",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00011-讨教了.gif",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:30:53Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600011-%E8%AE%A8%E6%95%99%E4%BA%86.gif"
+      },
+      "updatedAt": "2026-11-09T09:30:53Z",
+      "lastOperationId": "op_6df3a4c7ecead52f486dde3a3f70fa63",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
