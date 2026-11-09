@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "programmers-stickers-mit",
+  "kind": "license",
+  "name": "Programmers-Stickers（MIT）",
+  "spdx": "MIT",
+  "url": "https://github.com/celeron533/Programmers-Stickers/blob/master/LICENSE",
+  "attribution": "celeron533/Programmers-Stickers — Copyright (c) 2018 Allen Zhu，MIT License",
+  "notice": "Chinese programmer meme stickers from https://github.com/celeron533/Programmers-Stickers (MIT). Imported PNG outputs from the repo output/ folder. Takedown via GitHub issue if a rights holder objects.",
+  "scope": "assets imported from Programmers-Stickers output/",
+  "reviewedAt": "2026-11-09T10:33:47Z"
+}

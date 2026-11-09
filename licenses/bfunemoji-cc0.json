@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "bfunemoji-cc0",
+  "kind": "license",
+  "name": "BFunEmoji（CC0 1.0）",
+  "spdx": "CC0-1.0",
+  "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attribution": "PenguinMod/BFunEmoji — emojis/emojiset released under CC0 1.0",
+  "notice": "Bitmap emoji set from https://github.com/PenguinMod/BFunEmoji emojis/emojiset/png (CC0 1.0 / public domain dedication). Do NOT import assets/closed (may be non-CC0). Upstream LICENSE is CC0; third-party script deps have their own terms and are not imported.",
+  "scope": "assets imported from BFunEmoji emojis/emojiset/png",
+  "reviewedAt": "2026-11-09T10:33:47Z"
+}
