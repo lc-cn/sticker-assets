@@ -1,0 +1,266 @@
+.gitattributes
+  h_b64ebe5d3c7815 1-5
+.github/workflows/collect.yml
+  h_b64ebe5d3c7815 1-44
+.github/workflows/rebuild-index.yml
+  h_b64ebe5d3c7815 1-41
+.github/workflows/validate.yml
+  h_b64ebe5d3c7815 1-40
+.gitignore
+  h_b64ebe5d3c7815 1-8
+CONTRACT.md
+  h_b64ebe5d3c7815 3,23,39,140-141,143,146,150-170,189-190
+README.md
+  h_b64ebe5d3c7815 1-74
+config/limits.json
+  h_b64ebe5d3c7815 1-21
+config/mirrors.json
+  h_b64ebe5d3c7815 1-30
+config/synonyms.json
+  h_b64ebe5d3c7815 1-33
+config/taxonomy.json
+  h_b64ebe5d3c7815 1-69
+fixtures/sample-repo/budgets/daily/2026-11-07.json
+  h_b64ebe5d3c7815 1-7
+fixtures/sample-repo/budgets/daily/2026-11-08.json
+  h_b64ebe5d3c7815 1-7
+fixtures/sample-repo/budgets/daily/2026-11-09.json
+  h_b64ebe5d3c7815 1-7
+fixtures/sample-repo/config/limits.json
+  h_b64ebe5d3c7815 1-21
+fixtures/sample-repo/config/mirrors.json
+  h_b64ebe5d3c7815 1-30
+fixtures/sample-repo/config/synonyms.json
+  h_b64ebe5d3c7815 1-33
+fixtures/sample-repo/config/taxonomy.json
+  h_b64ebe5d3c7815 1-69
+fixtures/sample-repo/events/07/op_0765ba248f7928e0a37d2f026ba83e71.json
+  h_b64ebe5d3c7815 1-19
+fixtures/sample-repo/events/48/op_48e754a54e045ef01286a936cacb5271.json
+  h_b64ebe5d3c7815 1-19
+fixtures/sample-repo/events/51/op_51972b59cdaec76a1a76deb31a2f7c8a.json
+  h_b64ebe5d3c7815 1-19
+fixtures/sample-repo/events/73/op_736ebe0e89a19beacf6ab8a9b38eee55.json
+  h_b64ebe5d3c7815 1-19
+fixtures/sample-repo/events/b1/op_b1dce4dda83a76380306172c88da8c36.json
+  h_b64ebe5d3c7815 1-19
+fixtures/sample-repo/events/c1/op_c1f681515469f18ec58982a12ac6118f.json
+  h_b64ebe5d3c7815 1-19
+fixtures/sample-repo/events/dd/op_ddce4c03af6b395f943df7e625b83c51.json
+  h_b64ebe5d3c7815 1-18
+fixtures/sample-repo/events/f2/op_f2e8f198a646fe6f4c6ab65f1f6961b5.json
+  h_b64ebe5d3c7815 1-18
+fixtures/sample-repo/events/f8/op_f8d08f4faa17e4b80ede860c80d5e689.json
+  h_b64ebe5d3c7815 1-18
+fixtures/sample-repo/indexes/catalog.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/docs/2e0.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/docs/2fe.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/docs/560.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/docs/82f.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/recent.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/00.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/0a.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/0b.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/0d.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/0f.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/15.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/19.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/1f.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/20.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/22.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/27.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/29.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/2c.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/34.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/35.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/38.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/41.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/43.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/45.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/47.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/48.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/49.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/4b.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/4d.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/4e.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/4f.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/50.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/51.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/5c.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/60.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/62.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/63.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/65.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/6a.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/6c.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/6f.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/76.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/7d.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/7e.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/indexes/terms/7f.json
+  h_b64ebe5d3c7815 1
+fixtures/sample-repo/licenses/ofl-1-1.json
+  h_b64ebe5d3c7815 1-12
+fixtures/sample-repo/licenses/self-created-project.json
+  h_b64ebe5d3c7815 1-12
+fixtures/sample-repo/manifests/2e.json
+  h_b64ebe5d3c7815 1-67
+fixtures/sample-repo/manifests/2f.json
+  h_b64ebe5d3c7815 1-64
+fixtures/sample-repo/manifests/44.json
+  h_b64ebe5d3c7815 1-64
+fixtures/sample-repo/manifests/56.json
+  h_b64ebe5d3c7815 1-63
+fixtures/sample-repo/manifests/82.json
+  h_b64ebe5d3c7815 1-64
+fixtures/sample-repo/manifests/bd.json
+  h_b64ebe5d3c7815 1-62
+fixtures/sample-repo/sticker-assets.json
+  h_b64ebe5d3c7815 1-6
+fixtures/sample-repo/templates/caption-bar/1/template.json
+  h_b64ebe5d3c7815 1-108
+indexes/catalog.json
+  h_b64ebe5d3c7815 1
+indexes/recent.json
+  h_b64ebe5d3c7815 1
+lib/canonical.mjs
+  h_b64ebe5d3c7815 1-12
+lib/commit-plan.mjs
+  h_b64ebe5d3c7815 1-168
+lib/hash.mjs
+  h_b64ebe5d3c7815 1-15
+lib/image.mjs
+  h_b64ebe5d3c7815 1-132
+lib/indexer.mjs
+  h_b64ebe5d3c7815 1-221
+lib/jsonschema.mjs
+  h_b64ebe5d3c7815 1-152
+lib/repo.mjs
+  h_b64ebe5d3c7815 1-43
+lib/search.mjs
+  h_b64ebe5d3c7815 1-55
+lib/strip.mjs
+  h_b64ebe5d3c7815 1-78
+lib/time.mjs
+  h_b64ebe5d3c7815 1-11
+lib/tokenize.mjs
+  h_b64ebe5d3c7815 1-53
+lib/urls.mjs
+  h_b64ebe5d3c7815 1-27
+lib/validator.mjs
+  h_b64ebe5d3c7815 1-310
+licenses/README.md
+  h_b64ebe5d3c7815 1-11
+licenses/self-created-project.json
+  h_b64ebe5d3c7815 1-12
+package.json
+  h_b64ebe5d3c7815 1-21
+schemas/v1/asset.schema.json
+  h_b64ebe5d3c7815 1-106
+schemas/v1/budget.schema.json
+  h_b64ebe5d3c7815 1-15
+schemas/v1/common.schema.json
+  h_b64ebe5d3c7815 1-31
+schemas/v1/event.schema.json
+  h_b64ebe5d3c7815 1-55
+schemas/v1/index-catalog.schema.json
+  h_b64ebe5d3c7815 1-49
+schemas/v1/index-docs.schema.json
+  h_b64ebe5d3c7815 1-41
+schemas/v1/index-recent.schema.json
+  h_b64ebe5d3c7815 1-21
+schemas/v1/index-terms.schema.json
+  h_b64ebe5d3c7815 1-27
+schemas/v1/license.schema.json
+  h_b64ebe5d3c7815 1-24
+schemas/v1/manifest-shard.schema.json
+  h_b64ebe5d3c7815 1-13
+schemas/v1/mirrors.schema.json
+  h_b64ebe5d3c7815 1-41
+schemas/v1/template.schema.json
+  h_b64ebe5d3c7815 1-182
+scripts/build-index.mjs
+  h_b64ebe5d3c7815 1-31
+scripts/capacity-sim.mjs
+  h_b64ebe5d3c7815 1-47
+scripts/collect-placeholder.mjs
+  h_b64ebe5d3c7815 1-13
+scripts/fixture-encoders.mjs
+  h_b64ebe5d3c7815 1-76
+scripts/gen-fixtures.mjs
+  h_b64ebe5d3c7815 1-131
+scripts/validate.mjs
+  h_b64ebe5d3c7815 1-18
+sticker-assets.json
+  h_b64ebe5d3c7815 1-6
+test/commit-plan.test.mjs
+  h_b64ebe5d3c7815 1-108
+test/helpers.mjs
+  h_b64ebe5d3c7815 1-20
+test/image.test.mjs
+  h_b64ebe5d3c7815 1-110
+test/jsonschema.test.mjs
+  h_b64ebe5d3c7815 1-27
+test/search-urls.test.mjs
+  h_b64ebe5d3c7815 1-47
+test/tokenize.test.mjs
+  h_b64ebe5d3c7815 1-18
+test/validator.test.mjs
+  h_b64ebe5d3c7815 1-129
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "3add1aec62dcf64dbfd0444cd1d538eaa8140b94",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
