@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "b2",
+  "assets": [
+    {
+      "id": "sha256:b2c7cb441a9b068c3243c3faeb46ed1bf077018d80a597e33c7e0676f98341c9",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b2c7cb441a9b068c3243c3faeb46ed1bf077018d80a597e33c7e0676f98341c9",
+        "path": "objects/sha256/b2/b2c7cb441a9b068c3243c3faeb46ed1bf077018d80a597e33c7e0676f98341c9.png",
+        "mime": "image/png",
+        "bytes": 2596,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "catnotalk",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "catnotalk"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:43:35Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/catnotalk.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:43:35Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:43:35Z",
+      "lastOperationId": "op_9b867fd958239f8f2723cb6a90a384ab",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

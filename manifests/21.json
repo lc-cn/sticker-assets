@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:21da7f4eb8e8f3262d490f55ad5fac4a6e584d37774b957a2045155939a632b4",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "21da7f4eb8e8f3262d490f55ad5fac4a6e584d37774b957a2045155939a632b4",
+        "path": "objects/sha256/21/21da7f4eb8e8f3262d490f55ad5fac4a6e584d37774b957a2045155939a632b4.png",
+        "mime": "image/png",
+        "bytes": 2538,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "dogangry",
+      "categories": [
+        "angry"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "dogangry"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:43:35Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/dogangry.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:43:35Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:43:35Z",
+      "lastOperationId": "op_9b867fd958239f8f2723cb6a90a384ab",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

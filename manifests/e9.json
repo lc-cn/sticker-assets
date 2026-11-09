@@ -122,6 +122,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:e9a8115e5f921f59e11bb4dbf274ed0abc70684c458a1ecec498a1f5d80c2ad8",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "e9a8115e5f921f59e11bb4dbf274ed0abc70684c458a1ecec498a1f5d80c2ad8",
+        "path": "objects/sha256/e9/e9a8115e5f921f59e11bb4dbf274ed0abc70684c458a1ecec498a1f5d80c2ad8.png",
+        "mime": "image/png",
+        "bytes": 8628,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "catstars",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "catstars"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:43:35Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/catstars.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:43:35Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:43:35Z",
+      "lastOperationId": "op_9b867fd958239f8f2723cb6a90a384ab",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:e9d2e35bc65258fc6e6094d2eb9f21f70038b3095152da39d2fa25d7aa12c9e1",
       "revision": 1,
       "status": "active",

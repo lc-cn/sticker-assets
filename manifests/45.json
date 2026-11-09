@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "45",
+  "assets": [
+    {
+      "id": "sha256:457c611c1a404a5b5f42658189fed81df58314bb7e65c2f6de06a445385489d8",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "457c611c1a404a5b5f42658189fed81df58314bb7e65c2f6de06a445385489d8",
+        "path": "objects/sha256/45/457c611c1a404a5b5f42658189fed81df58314bb7e65c2f6de06a445385489d8.png",
+        "mime": "image/png",
+        "bytes": 14929,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "clap",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "clap"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:43:35Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/clap.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:43:35Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:43:35Z",
+      "lastOperationId": "op_9b867fd958239f8f2723cb6a90a384ab",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

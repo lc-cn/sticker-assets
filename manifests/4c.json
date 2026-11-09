@@ -3,6 +3,65 @@
   "shard": "4c",
   "assets": [
     {
+      "id": "sha256:4ca2424a68bca18f7cec8107f7dc51585137995bb4bf2d1d861536be4ce516d2",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "4ca2424a68bca18f7cec8107f7dc51585137995bb4bf2d1d861536be4ce516d2",
+        "path": "objects/sha256/4c/4ca2424a68bca18f7cec8107f7dc51585137995bb4bf2d1d861536be4ce516d2.png",
+        "mime": "image/png",
+        "bytes": 2790,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "catsad",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "catsad"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:43:35Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/catsad.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:43:35Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:43:35Z",
+      "lastOperationId": "op_9b867fd958239f8f2723cb6a90a384ab",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:4cc60150f14bfdc2c2f96e51a109ec2fdfbe62de55eaee6c6dd450a0f9bdaee9",
       "revision": 1,
       "status": "active",
