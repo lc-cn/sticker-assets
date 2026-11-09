@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "ab",
+  "assets": [
+    {
+      "id": "sha256:abbdab7cfe4279823f17cacbd29150a56e11d33e6bb1805212b6958bf3c874ab",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "abbdab7cfe4279823f17cacbd29150a56e11d33e6bb1805212b6958bf3c874ab",
+        "path": "objects/sha256/ab/abbdab7cfe4279823f17cacbd29150a56e11d33e6bb1805212b6958bf3c874ab.png",
+        "mime": "image/png",
+        "bytes": 138136,
+        "width": 620,
+        "height": 640,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "绷",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "绷",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:34:42Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00011-%E7%BB%B7.png",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00011-绷.png",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:34:42Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00011-%E7%BB%B7.png"
+      },
+      "updatedAt": "2026-11-09T09:34:42Z",
+      "lastOperationId": "op_5907616c47a52ebb6f557da4485008c7",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
