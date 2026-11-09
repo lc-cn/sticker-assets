@@ -60,6 +60,66 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:b5b778dfc0e4ab6a37dc57a61d8a1a440a7afa03f8539f8226d0ad71388743ca",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b5b778dfc0e4ab6a37dc57a61d8a1a440a7afa03f8539f8226d0ad71388743ca",
+        "path": "objects/sha256/b5/b5b778dfc0e4ab6a37dc57a61d8a1a440a7afa03f8539f8226d0ad71388743ca.jpg",
+        "mime": "image/jpeg",
+        "bytes": 84313,
+        "width": 1280,
+        "height": 692,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我要公开挑战叶问",
+      "categories": [
+        "angry"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "我要公开挑战叶问"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我要公开挑战叶问",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:30:34Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600012-%E6%88%91%E8%A6%81%E5%85%AC%E5%BC%80%E6%8C%91%E6%88%98%E5%8F%B6%E9%97%AE.jpg",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00012-我要公开挑战叶问.jpg",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:30:34Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600012-%E6%88%91%E8%A6%81%E5%85%AC%E5%BC%80%E6%8C%91%E6%88%98%E5%8F%B6%E9%97%AE.jpg"
+      },
+      "updatedAt": "2026-11-09T09:30:34Z",
+      "lastOperationId": "op_6dc3949073004ddf0427f888be55a84a",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }
