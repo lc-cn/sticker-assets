@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:48e64a800992fa91672b29d5f13d29b2a56beb9bdd44a5406f0bb05af93e73a2",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "48e64a800992fa91672b29d5f13d29b2a56beb9bdd44a5406f0bb05af93e73a2",
+        "path": "objects/sha256/48/48e64a800992fa91672b29d5f13d29b2a56beb9bdd44a5406f0bb05af93e73a2.png",
+        "mime": "image/png",
+        "bytes": 1816,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "heart",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "heart"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/heart.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "87",
+  "assets": [
+    {
+      "id": "sha256:87fd54734a0cfa21412048c927b8d9d29fdb810dce0fe4065707bb72e424a374",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "87fd54734a0cfa21412048c927b8d9d29fdb810dce0fe4065707bb72e424a374",
+        "path": "objects/sha256/87/87fd54734a0cfa21412048c927b8d9d29fdb810dce0fe4065707bb72e424a374.png",
+        "mime": "image/png",
+        "bytes": 2670,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "dogsilly",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "dogsilly"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/dogsilly.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

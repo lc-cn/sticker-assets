@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "11",
+  "assets": [
+    {
+      "id": "sha256:118da4ad2e7484abc7ee8cd73a3ca3dbfbb5a9aa639cad74abaf1a6b75f5aa00",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "118da4ad2e7484abc7ee8cd73a3ca3dbfbb5a9aa639cad74abaf1a6b75f5aa00",
+        "path": "objects/sha256/11/118da4ad2e7484abc7ee8cd73a3ca3dbfbb5a9aa639cad74abaf1a6b75f5aa00.png",
+        "mime": "image/png",
+        "bytes": 2393,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "notalk",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "notalk"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/notalk.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

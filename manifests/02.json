@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "02",
+  "assets": [
+    {
+      "id": "sha256:02d09b36c4218caed01dfcceb07be9ba5a9fc44b1e78c5e7f76b89cb52ea2aa4",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "02d09b36c4218caed01dfcceb07be9ba5a9fc44b1e78c5e7f76b89cb52ea2aa4",
+        "path": "objects/sha256/02/02d09b36c4218caed01dfcceb07be9ba5a9fc44b1e78c5e7f76b89cb52ea2aa4.png",
+        "mime": "image/png",
+        "bytes": 11555,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "nodvertical",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "nodvertical"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/nodvertical.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

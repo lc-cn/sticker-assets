@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:f5b5462146e7ec061767cf4aa7c6da71aea864552898a28957c457cdbfc02627",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f5b5462146e7ec061767cf4aa7c6da71aea864552898a28957c457cdbfc02627",
+        "path": "objects/sha256/f5/f5b5462146e7ec061767cf4aa7c6da71aea864552898a28957c457cdbfc02627.png",
+        "mime": "image/png",
+        "bytes": 3430,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "ghost",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "ghost"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/ghost.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

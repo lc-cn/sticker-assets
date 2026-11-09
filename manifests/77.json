@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "77",
+  "assets": [
+    {
+      "id": "sha256:7710a56445cb1b5686733d3b37c965fa6ffc3ff65a8d036f35f00e28c21fc393",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "7710a56445cb1b5686733d3b37c965fa6ffc3ff65a8d036f35f00e28c21fc393",
+        "path": "objects/sha256/77/7710a56445cb1b5686733d3b37c965fa6ffc3ff65a8d036f35f00e28c21fc393.png",
+        "mime": "image/png",
+        "bytes": 4336,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "hearteyes",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "hearteyes"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/hearteyes.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -3,6 +3,65 @@
   "shard": "71",
   "assets": [
     {
+      "id": "sha256:710efff4ec6b3f2541828606e8678036e4ef4be2b7e1fba6538255dc30c5dca3",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "710efff4ec6b3f2541828606e8678036e4ef4be2b7e1fba6538255dc30c5dca3",
+        "path": "objects/sha256/71/710efff4ec6b3f2541828606e8678036e4ef4be2b7e1fba6538255dc30c5dca3.png",
+        "mime": "image/png",
+        "bytes": 4950,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "dogstars",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "dogstars"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/dogstars.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:7186f423c21d1c1241fecddb698886b018ff70a01c4a40f71a3ffabe826e15f4",
       "revision": 1,
       "status": "active",

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "96",
+  "assets": [
+    {
+      "id": "sha256:961e2847b3122c95f6dd335f9fa1416070a39574549fd207fccc72ced33774dc",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "961e2847b3122c95f6dd335f9fa1416070a39574549fd207fccc72ced33774dc",
+        "path": "objects/sha256/96/961e2847b3122c95f6dd335f9fa1416070a39574549fd207fccc72ced33774dc.png",
+        "mime": "image/png",
+        "bytes": 2839,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "dogscream",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "dogscream"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/dogscream.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "0f",
+  "assets": [
+    {
+      "id": "sha256:0f7a563984e9492297b75b1cc8985c7249f70fa0e42d0a316f1924eb2bb60c16",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "0f7a563984e9492297b75b1cc8985c7249f70fa0e42d0a316f1924eb2bb60c16",
+        "path": "objects/sha256/0f/0f7a563984e9492297b75b1cc8985c7249f70fa0e42d0a316f1924eb2bb60c16.png",
+        "mime": "image/png",
+        "bytes": 2837,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "fire",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "fire"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:44:30Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/fire.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:44:30Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:44:30Z",
+      "lastOperationId": "op_223c2652c7b3230569d80b7ff0027f21",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
