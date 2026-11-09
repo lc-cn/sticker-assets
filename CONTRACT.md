@@ -1,6 +1,6 @@
 # A ↔ B 共享契约（sticker-assets ⇄ sticker-api）
 
-> 状态：**v1 草案，A 侧实现中**（2026-11-09，Asia/Manila）。A 是唯一图库权威；B 只能按本契约读写 A。
+> 状态：**v1，A 侧已实现并本地测试通过**（2026-11-09，Asia/Manila）。A 是唯一图库权威；B 只能按本契约读写 A。
 > 字段/格式如需改动：在本文件末尾“变更记录”追加一条，并同步改 `schemas/v1/*` 与 `lib/*`，A 的校验会拦截不一致。
 > 本仓库无第三方依赖；`lib/*.mjs` 是纯 ESM、无 I/O 副作用，B 可按固定 A commit **原样拷贝（vendoring）**，不要自行重写分词/分片算法，否则 A 的 `check-index` 会判定索引陈旧。
 
@@ -20,7 +20,7 @@
 | `schemas/v1/budget.schema.json` | `urn:sticker-assets:v1:budget` | `budgets/daily/<YYYY-MM-DD>.json` |
 | `schemas/v1/index-catalog.schema.json` | `urn:sticker-assets:v1:index-catalog` | `indexes/catalog.json` |
 | `schemas/v1/index-terms.schema.json` | `urn:sticker-assets:v1:index-terms` | `indexes/terms/<tt>.json` |
-| `schemas/v1/index-docs.schema.json` | `urn:sticker-assets:v1:index-docs` | `indexes/docs/<hh>.json` |
+| `schemas/v1/index-docs.schema.json` | `urn:sticker-assets:v1:index-docs` | `indexes/docs/<hhh>.json` |
 | `schemas/v1/index-recent.schema.json` | `urn:sticker-assets:v1:index-recent` | `indexes/recent.json` |
 | `schemas/v1/mirrors.schema.json` | `urn:sticker-assets:v1:mirrors` | `config/mirrors.json` |
 
@@ -36,7 +36,7 @@ events/<oo>/<operationId>.json           # oo = operationId 去掉 "op_" 后前2
 templates/<templateId>/<version>/template.json (+ 该目录内素材)
 licenses/<licenseId>.json                # 公开许可/授权说明；私密证据不入A
 budgets/daily/<YYYY-MM-DD>.json          # Asia/Manila 自然日的成功发布量
-indexes/catalog.json | recent.json | terms/<tt>.json | docs/<hh>.json   # 派生物，可重建
+indexes/catalog.json | recent.json | terms/<tt>.json | docs/<hhh>.json   # 派生物，可重建
 config/taxonomy.json | synonyms.json | limits.json | mirrors.json
 fixtures/sample-repo/                    # 自制小图组成的完整迷你A树，供 B 测试直接使用
 ```
@@ -137,17 +137,37 @@ Git 流程：GET ref → 固定 H 读受影响 manifest/索引/预算/tombstone 
 
 只索引 `status=active`。读取一次查询时**固定一个 commit**，所有文件都从该 commit 取。
 
-- `indexes/catalog.json`：`counts{active,archived,tombstoned}`、`bytes{objects,templates,managed}`、`categories{slug:activeCount}`、`termShardCount`(=64)、`termShards[]`/`docShards[]`（非空分片ID列表；不在列表里=空，不要请求）、`templates[]`（`{id,version,path,title}`）、`synonymsSha256`、`limits`。无时间戳，保证可重建一致。
-- `indexes/recent.json`：`{"keys":[docKey…]}`，按 `uploadedAt` 降序、同时刻按 key 升序（无关键词浏览/最新）。
+- `indexes/catalog.json`：`counts{active,archived,tombstoned}`、`bytes{objects,templates}`（planCreate 用 objects+templates 近似检查 500MiB；完整受管字节由 CI 校验）、`categories{slug:activeCount}`、`termShardCount`(=128，来自 limits)、`docShardPrefixLength`(=3)、`termShards[]`/`docShards[]`（非空分片ID列表；不在列表里=空，不要请求）、`templates[]`（`{id,version,path,title,status}`，供 `GET /templates`）、`synonymsSha256`、`limits`。无时间戳，保证可重建一致。
+- `indexes/recent.json`：`{"items":[[docKey, uploadedAtUnix秒]…]}`，按时间降序、同时刻 key 升序；用于无关键词浏览，以及检索排序的 uploadedAt 二级键（不必读全部 docs 分片）。
 - `indexes/terms/<tt>.json`：`{"terms":{"<term>":[["<docKey>",<weight>],…]}}`；postings 按 weight 降序、key 升序。
-  - `tt = fnv1a32(utf8(term)) % 64`，两位小写hex（`00`..`3f`）。
+  - `tt = fnv1a32(utf8(term)) % termShardCount`，两位小写hex（当前 `00`..`7f`）。
   - `docKey` = sha256 前 12 位 hex（校验保证唯一）。
   - 特殊词：`cat:<slug>`（分类过滤）、`tag:<规范化tag>`（精确标签）。
-- `indexes/docs/<hh>.json`：`{"docs":{"<docKey>":{id,path,mime,bytes,width,height,frames,animated,title,categories,tags,tone,safety,uploadedAt,publishedAt,revision}}}`，`hh`=sha256前2位。
+- `indexes/docs/<hhh>.json`：`{"docs":{"<docKey>":{id,path,mime,bytes,width,height,frames,animated,title,categories,tags,tone,safety,uploadedAt,publishedAt,revision}}}`，`hhh`=sha256前**3**位（比 manifests 细，便于每页只读少量小文件）。
 
 **分词 `zh-bigram-v1`（索引与查询共用 `lib/tokenize.mjs`）**：NFKC → 小写 → 标点/符号转空格 → 按空白切段；每段：整段作为词（≤24字符）；段内连续汉字/假名 run 产生相邻二字 gram（run 长 1 时取单字）；拉丁/数字 run 作为整词。
 **索引权重**（同 term 同 doc 取和，上限 100）：tag 整词 10、alias 整词 8、title 整词 6、同义词扩展 5、确认OCR 整词 3、tag/alias 二字 3、title 二字 2、OCR 二字 1；`cat:`=1，`tag:`=10。同义词在**索引时**按 `config/synonyms.json` 扩展，查询时不扩展。
-**查询算法（建议）**：`queryTerms(q)` → 按 term 求 shard → 读取存在的 shard → 按 docKey 累加 weight → 排序（score 降序、uploadedAt 降序、key 升序）→ 截前 200 候选 → 分页最多 50 → 读对应 docs 分片 → 出图前再确认当前状态。
+**查询算法**：参考实现 `lib/search.mjs#search(read, {q, category, tag, limit, offset})`：`queryTerms(q)` → 按 term 求 shard → 只读 catalog 列出的 shard → 按 docKey 累加 weight（category/tag 作为 `cat:`/`tag:` 过滤集合）→ 排序（score 降序、uploadedAt 降序、key 升序）→ 截前 200 候选 → 分页最多 50 → 只读页内 docs 分片。出图前 B 仍须再确认当前状态（tombstone）。fixture 上一次查询读入约 2–4 KB；`scripts/capacity-sim.mjs 3000` 用 3000 条合成元数据实测：最大 terms 分片约 66KB、docs 分片约 3KB、recent 约 84KB、catalog 约 14KB，每页 50 的最坏查询读入约 274KB（< 512KiB 门槛）。该模拟已加入 CI。
+
+## 6.1 `lib/` 模块（零依赖，B 按固定 A commit 原样拷贝 `lib/` + `schemas/` + `config/` 即可）
+
+| 模块 | 用途 |
+|---|---|
+| `tokenize.mjs` | `normalize`、`analyze`、`queryTerms`（zh-bigram-v1） |
+| `indexer.mjs` | `buildIndex(ctx)` 全量；`applyAssetChange(read, before, after, ctx)` 增量；`docKey`/`termShard`/`paths` |
+| `commit-plan.mjs` | `planCreate / planUpdate / planArchive / planTombstone(read, …, ctx)` → `{changes: Map(path→Buffer|string|null)}`，即**一个原子 commit 的完整文件变更**；`PlanError.code`：`unsupported_media_type, invalid_image, metadata_not_stripped, payload_too_large, decode_budget_exceeded, tombstoned, invalid_metadata, unknown_license, repo_not_initialized, capacity_exceeded, daily_budget_exceeded, not_found, precondition_failed, conflict, gone`；重复图返回 `{kind:'duplicate', asset}`（不改 uploadedAt） |
+| `search.mjs` | 参考检索 |
+| `urls.mjs` | `candidateUrls({commit, path}, mirrorsConfig)` |
+| `image.mjs` / `strip.mjs` | 结构检查（mime/尺寸/帧/元数据/APNG）与无损元数据剥离（GIF 帧数不变，失败即拒绝） |
+| `validator.mjs` | `validateRepo(root)`（I/O，CI 与本地用） |
+| `jsonschema.mjs` | 零依赖 2020-12 子集校验器；`loadSchemas()` 在 validator 中 |
+
+`ctx = { synonyms, limits, registry? }`；`read(path)` 必须只读同一个 commit H 的内容（文本返回 string，图片可返回 Buffer）。`planCreate` 的 `op = { bytes, meta, uploadedAt, operationId, actorKind, idempotency?, requestFingerprint?, originalSha256? }`；更新类 `op = { at, operationId, actorKind, expectedRevision, patch? | reason? }`。
+可修改字段（PATCH）：`title, categories, tags, aliases, language, tone, safety, text, firstSeenAt, source, rights`；`uploadedAt/object/id` 不可改。恢复 tombstone（asset.restore）首版未实现，需独立管理员流程。
+
+## 6.2 fixture
+
+`fixtures/sample-repo/` 是完整迷你 A 树（自绘图，无网络图片）：4 active（PNG×2、GIF 3帧动画、JPEG）、1 archived、1 tombstoned、1 模板 `caption-bar@1`、9 个事件、3 天预算。`config/mirrors.json` 的 owner/repo 是占位 `example-owner/sticker-assets`。B 的测试可用 `read = p => fs.readFileSync('fixtures/sample-repo/'+p)` 直接驱动 `search`/`planCreate`。
 
 ## 7. 镜像 URL（`config/mirrors.json` + `lib/urls.mjs`）
 
@@ -166,3 +186,5 @@ A 内 workflow：`validate.yml`（push/PR，只读）、`rebuild-index.yml`（�
 ## 变更记录
 
 - 2026-11-09 v1 草案（A 侧 executor）。
+- 2026-11-09 v1.1：容量模拟发现 64 terms 分片 + 2位 docs 分片在 3000 条、每页 50 时最坏查询读入 586KB > 512KiB；改为 termShardCount=128、docs 按 sha256 前3位分片，catalog 新增 `docShardPrefixLength`。
+- 2026-11-09 v1：recent.json 改为 `items:[[key, unixSec]]`；新增 §6.1 lib 模块说明（commit-plan/search/strip）与 §6.2 fixture；本地测试 35 项通过。

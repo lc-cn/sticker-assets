@@ -1,0 +1,44 @@
+# 授权来源资源更新（P4，占位，默认关闭）。
+# 两道独立关口：①Actions 用途（低频、小批、项目资源维护、可人工补跑）②来源访问/再分发许可。
+# 当前没有任何已批准适配器：本 workflow 不联网、不写仓库。
+# 启用前提：Fin 批准具体来源清单 → B 提供固定 commit 的适配器 → 仓库变量 COLLECT_ENABLED=true →
+# 先 workflow_dispatch 小批 dry-run 验收，再考虑 schedule。
+# 用户触发的在线作业（上传/搜索/制图/删除）一律走 B，不得 dispatch 本 workflow 等结果。
+name: collect-approved-sources
+
+on:
+  workflow_dispatch:
+    inputs:
+      adapter:
+        description: 已批准的适配器 ID（当前没有）
+        type: choice
+        options: [none]
+        default: none
+      dry_run:
+        description: 只列候选不提交
+        type: boolean
+        default: true
+  # schedule:              # 小批手动验收通过前保持注释；schedule 可能延迟/丢弃，游标必须幂等
+  #   - cron: '17 3 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: a-publish
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: vars.COLLECT_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - name: 占位（无已批准适配器，直接退出）
+        run: node scripts/collect-placeholder.mjs --adapter "${{ inputs.adapter }}" --dry-run "${{ inputs.dry_run }}"

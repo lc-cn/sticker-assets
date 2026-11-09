@@ -1,0 +1,21 @@
+{
+  "name": "sticker-assets",
+  "version": "0.1.0",
+  "private": true,
+  "description": "小智表情服务 A 仓库：公开资源、manifest、派生索引（无运行时依赖）",
+  "type": "module",
+  "license": "SEE LICENSE IN licenses/README.md",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build-index": "node scripts/build-index.mjs",
+    "check-index": "node scripts/build-index.mjs --check",
+    "validate:fixture": "node scripts/validate.mjs --root fixtures/sample-repo",
+    "gen-fixtures": "node scripts/gen-fixtures.mjs",
+    "test": "node --test test/*.test.mjs",
+    "ci": "node scripts/validate.mjs && node scripts/validate.mjs --root fixtures/sample-repo && node --test test/*.test.mjs && node scripts/capacity-sim.mjs 3000",
+    "capacity-sim": "node scripts/capacity-sim.mjs 3000"
+  }
+}

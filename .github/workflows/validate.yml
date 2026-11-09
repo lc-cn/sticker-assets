@@ -1,0 +1,40 @@
+# 资源维护类（典型项目 CI）：校验 schema/hash/路径/许可/容量/索引一致性。只读权限，不联网采集。
+name: validate
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: 检测 force-push（祖先丢失时暂停写入/出图核验）
+        if: github.event_name == 'push' && github.event.forced
+        run: |
+          echo "::error::检测到 force-push 到 ${GITHUB_REF}。按协议应暂停 B 的写入与出图，人工核验后再恢复。"
+          exit 1
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - name: 校验仓库
+        run: node scripts/validate.mjs
+      - name: 索引与全量重建一致
+        run: node scripts/build-index.mjs --check
+      - name: 校验 fixture 迷你树
+        run: node scripts/validate.mjs --root fixtures/sample-repo
+      - name: 单元测试
+        run: node --test test/*.test.mjs
+      - name: 容量模拟（3000 条合成元数据，分片/查询读入门槛）
+        run: node scripts/capacity-sim.mjs 3000

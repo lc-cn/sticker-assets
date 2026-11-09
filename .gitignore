@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+tmp/
+.tmp/
+# 私密候选区绝不进A
+private/
+candidates/
+*.local.json

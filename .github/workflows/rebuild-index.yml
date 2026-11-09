@@ -1,0 +1,41 @@
+# 资源维护类：仅手动触发的索引全量重建（例如修改 synonyms/limits/模板后）。
+# GITHUB_TOKEN 推送不会再触发 validate，所以在同一个 run 内先校验再推送；非 force。
+name: rebuild-index
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: a-publish
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24'
+      - name: 先校验（跳过索引对比）
+        run: node scripts/validate.mjs --skip-index
+      - name: 全量重建索引
+        run: node scripts/build-index.mjs
+      - name: 重建后完整校验
+        run: node scripts/validate.mjs
+      - name: 有变化则提交并非 force 推送
+        run: |
+          if git diff --quiet -- indexes && [ -z "$(git ls-files --others --exclude-standard -- indexes)" ]; then
+            echo "索引无变化"; exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A indexes
+          git commit -m "sticker: index.rebuild" -m "Sticker-Operation: none (derived index rebuild)"
+          # 非 force；若 main 已被 B 推进则失败，由维护者重跑，绝不覆盖
+          git push origin HEAD:main

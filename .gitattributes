@@ -1,0 +1,5 @@
+* text=auto eol=lf
+objects/** -text binary
+*.png -text binary
+*.jpg -text binary
+*.gif -text binary
