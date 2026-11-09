@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "40",
+  "assets": [
+    {
+      "id": "sha256:4009890d8e5b21ee2f65c9e251b16c9e25ad7c271ddbc4a554bc243580828858",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "4009890d8e5b21ee2f65c9e251b16c9e25ad7c271ddbc4a554bc243580828858",
+        "path": "objects/sha256/40/4009890d8e5b21ee2f65c9e251b16c9e25ad7c271ddbc4a554bc243580828858.png",
+        "mime": "image/png",
+        "bytes": 194867,
+        "width": 746,
+        "height": 742,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "复杂的事情简单做简单的事情我不想做",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "复杂的事情简单做简单的事情我不想做",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:41:22Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000028-%E5%A4%8D%E6%9D%82%E7%9A%84%E4%BA%8B%E6%83%85%E7%AE%80%E5%8D%95%E5%81%9A%E7%AE%80%E5%8D%95%E7%9A%84%E4%BA%8B%E6%83%85%E6%88%91%E4%B8%8D%E6%83%B3%E5%81%9A.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00028-复杂的事情简单做简单的事情我不想做.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:41:22Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000028-%E5%A4%8D%E6%9D%82%E7%9A%84%E4%BA%8B%E6%83%85%E7%AE%80%E5%8D%95%E5%81%9A%E7%AE%80%E5%8D%95%E7%9A%84%E4%BA%8B%E6%83%85%E6%88%91%E4%B8%8D%E6%83%B3%E5%81%9A.png"
+      },
+      "updatedAt": "2026-11-09T09:41:22Z",
+      "lastOperationId": "op_caa5958f3c10e8bf774923faccce23b2",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
