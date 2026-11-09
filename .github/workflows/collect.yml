@@ -4,15 +4,15 @@
 # 启用前提：Fin 批准具体来源清单 → B 提供固定 commit 的适配器 → 仓库变量 COLLECT_ENABLED=true →
 # 先 workflow_dispatch 小批 dry-run 验收，再考虑 schedule。
 # 用户触发的在线作业（上传/搜索/制图/删除）一律走 B，不得 dispatch 本 workflow 等结果。
+# 例外：管理员在 B 后台手动点「开始采集」会 workflow_dispatch(source=<id>)，B 不等待结果，只展示 runs 列表。
 name: collect-approved-sources
 
 on:
   workflow_dispatch:
     inputs:
-      adapter:
-        description: 已批准的适配器 ID（当前没有）
-        type: choice
-        options: [none]
+      source:
+        description: 采集来源 ID（见 config/collect-sources.json；B 管理后台 workflow_dispatch 传入）
+        type: string
         default: none
       dry_run:
         description: 只列候选不提交
@@ -41,4 +41,8 @@ jobs:
         with:
           node-version: '24'
       - name: 占位（无已批准适配器，直接退出）
-        run: node scripts/collect-placeholder.mjs --adapter "${{ inputs.adapter }}" --dry-run "${{ inputs.dry_run }}"
+        # 输入经 env 传入，不直接拼进 shell，避免脚本注入；脚本再按登记表与正则校验。
+        env:
+          COLLECT_SOURCE: ${{ inputs.source }}
+          COLLECT_DRY_RUN: ${{ inputs.dry_run }}
+        run: node scripts/collect-placeholder.mjs --source "$COLLECT_SOURCE" --dry-run "$COLLECT_DRY_RUN"
