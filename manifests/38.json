@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "38",
+  "assets": [
+    {
+      "id": "sha256:38c0c46718c1aa3a113350824afbdcccc67a2a8814d149f020f09685c715c5c5",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "38c0c46718c1aa3a113350824afbdcccc67a2a8814d149f020f09685c715c5c5",
+        "path": "objects/sha256/38/38c0c46718c1aa3a113350824afbdcccc67a2a8814d149f020f09685c715c5c5.png",
+        "mime": "image/png",
+        "bytes": 141018,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "尴尬",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "尴尬",
+        "社死",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "尴尬",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:18:33Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/尴尬.png",
+        "itemId": "kitten-crs:尴尬.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:18:33Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/尴尬.png"
+      },
+      "updatedAt": "2026-11-09T09:18:33Z",
+      "lastOperationId": "op_8ec5a9a31e9b6f41f3fb80b558ed093c",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
