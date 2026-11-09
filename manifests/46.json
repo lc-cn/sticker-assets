@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "46",
+  "assets": [
+    {
+      "id": "sha256:469cb0db36808d2b8a987e1c8ff0853f56e3b7cc4e316a5ec7cb42ad98b77317",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "469cb0db36808d2b8a987e1c8ff0853f56e3b7cc4e316a5ec7cb42ad98b77317",
+        "path": "objects/sha256/46/469cb0db36808d2b8a987e1c8ff0853f56e3b7cc4e316a5ec7cb42ad98b77317.png",
+        "mime": "image/png",
+        "bytes": 1917,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "屯屯屯屯屯屯屯屯",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "屯屯屯屯屯屯屯屯"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "屯屯屯屯屯屯屯屯",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:036-屯屯屯屯屯屯屯屯.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

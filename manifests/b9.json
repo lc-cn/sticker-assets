@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "b9",
+  "assets": [
+    {
+      "id": "sha256:b9c37800aee0e997501f2e6ee4950a5cca9cbb65d17d2132d13e1106353e3239",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b9c37800aee0e997501f2e6ee4950a5cca9cbb65d17d2132d13e1106353e3239",
+        "path": "objects/sha256/b9/b9c37800aee0e997501f2e6ee4950a5cca9cbb65d17d2132d13e1106353e3239.png",
+        "mime": "image/png",
+        "bytes": 6490,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "这个需求不需要了",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "这个需求不需要了"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "这个需求不需要了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:029-这个需求不需要了.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

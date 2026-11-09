@@ -3,6 +3,65 @@
   "shard": "59",
   "assets": [
     {
+      "id": "sha256:59050914bc21d0864e5af409f7e76766c642629bd6dd910f3f4867b925eba4dc",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "59050914bc21d0864e5af409f7e76766c642629bd6dd910f3f4867b925eba4dc",
+        "path": "objects/sha256/59/59050914bc21d0864e5af409f7e76766c642629bd6dd910f3f4867b925eba4dc.png",
+        "mime": "image/png",
+        "bytes": 4303,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "锟斤拷锟斤拷锟斤",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "锟斤拷锟斤拷锟斤"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "锟斤拷锟斤拷锟斤",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:037-锟斤拷锟斤拷锟斤.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:5996f362e806c2ff95db3a847cb9d458a8485da519173227db89241fc0bd7f63",
       "revision": 1,
       "status": "active",

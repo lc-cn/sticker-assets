@@ -3,6 +3,65 @@
   "shard": "1b",
   "assets": [
     {
+      "id": "sha256:1b0946e6e54ab594938973cb648ca4443a97b2a8924e3a63a2182a714767e1ed",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "1b0946e6e54ab594938973cb648ca4443a97b2a8924e3a63a2182a714767e1ed",
+        "path": "objects/sha256/1b/1b0946e6e54ab594938973cb648ca4443a97b2a8924e3a63a2182a714767e1ed.png",
+        "mime": "image/png",
+        "bytes": 7805,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "代码什么时候上线",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "代码什么时候上线"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "代码什么时候上线",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:034-代码什么时候上线.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:1b36e93a84d32f0871bf8f8c3869929a0ba0edf3feb157ff6b9ba41fb350dfb6",
       "revision": 1,
       "status": "active",

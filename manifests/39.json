@@ -3,6 +3,65 @@
   "shard": "39",
   "assets": [
     {
+      "id": "sha256:39192d5c72f55d3e72981dd6d38e7daeebebf79d9c730f0b5502bedc0bf6d685",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "39192d5c72f55d3e72981dd6d38e7daeebebf79d9c730f0b5502bedc0bf6d685",
+        "path": "objects/sha256/39/39192d5c72f55d3e72981dd6d38e7daeebebf79d9c730f0b5502bedc0bf6d685.png",
+        "mime": "image/png",
+        "bytes": 6977,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "往右再移一个像素",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "往右再移一个像素"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "往右再移一个像素",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:027-往右再移一个像素.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:3996d44882a7279893eb3d31324fdc873fd0013b139899daad217889025de363",
       "revision": 1,
       "status": "active",

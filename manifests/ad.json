@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "ad",
+  "assets": [
+    {
+      "id": "sha256:adc8fe0754143ca6de743617fc8f0613af0b10fa6863e5b18ae2224914c80b80",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "adc8fe0754143ca6de743617fc8f0613af0b10fa6863e5b18ae2224914c80b80",
+        "path": "objects/sha256/ad/adc8fe0754143ca6de743617fc8f0613af0b10fa6863e5b18ae2224914c80b80.png",
+        "mime": "image/png",
+        "bytes": 7706,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "内存不能为读或写",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "内存不能为读或写"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "内存不能为读或写",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:032-内存不能为读或写.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

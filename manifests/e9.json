@@ -63,6 +63,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:e97309c60518bb661a704a8969340a7003b0ffcc196828c92de9812e0db61f19",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "e97309c60518bb661a704a8969340a7003b0ffcc196828c92de9812e0db61f19",
+        "path": "objects/sha256/e9/e97309c60518bb661a704a8969340a7003b0ffcc196828c92de9812e0db61f19.png",
+        "mime": "image/png",
+        "bytes": 7974,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "失去与服务器连接",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "失去与服务器连接"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "失去与服务器连接",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:030-失去与服务器连接.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:e9d2e35bc65258fc6e6094d2eb9f21f70038b3095152da39d2fa25d7aa12c9e1",
       "revision": 1,
       "status": "active",

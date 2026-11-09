@@ -3,6 +3,65 @@
   "shard": "04",
   "assets": [
     {
+      "id": "sha256:046dc9e256d52a8fee108356f0650537a853f27de9fda87455c46a0c07a2108a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "046dc9e256d52a8fee108356f0650537a853f27de9fda87455c46a0c07a2108a",
+        "path": "objects/sha256/04/046dc9e256d52a8fee108356f0650537a853f27de9fda87455c46a0c07a2108a.png",
+        "mime": "image/png",
+        "bytes": 6945,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "没看见我正在忙吗",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "没看见我正在忙吗"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "没看见我正在忙吗",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:033-没看见我正在忙吗.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:04c5a2adf51bde5a637cfde3f47d278ecdd46a3eff9e4b217d5d256575437a78",
       "revision": 1,
       "status": "active",

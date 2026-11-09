@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "shard": "2a",
+  "assets": [
+    {
+      "id": "sha256:2a51632b98dfbb233a7f8c1cc4f01c0c4537b27c7c0b9438e3117d82dda92191",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "2a51632b98dfbb233a7f8c1cc4f01c0c4537b27c7c0b9438e3117d82dda92191",
+        "path": "objects/sha256/2a/2a51632b98dfbb233a7f8c1cc4f01c0c4537b27c7c0b9438e3117d82dda92191.png",
+        "mime": "image/png",
+        "bytes": 7603,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "用户名或密码错误",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "用户名或密码错误"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "用户名或密码错误",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:031-用户名或密码错误.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
+      "id": "sha256:2ac473e6407bcda3d093dd02ede771e04c16868aea370e6efc1d40971490b042",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "2ac473e6407bcda3d093dd02ede771e04c16868aea370e6efc1d40971490b042",
+        "path": "objects/sha256/2a/2ac473e6407bcda3d093dd02ede771e04c16868aea370e6efc1d40971490b042.png",
+        "mime": "image/png",
+        "bytes": 7706,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我也不知道为什么",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "我也不知道为什么"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我也不知道为什么",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:023-我也不知道为什么.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

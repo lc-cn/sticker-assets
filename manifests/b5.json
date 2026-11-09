@@ -62,6 +62,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:b54f5d96a65cf982787172cd09845b075f5eda98f3ded8cbd232784962329676",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b54f5d96a65cf982787172cd09845b075f5eda98f3ded8cbd232784962329676",
+        "path": "objects/sha256/b5/b54f5d96a65cf982787172cd09845b075f5eda98f3ded8cbd232784962329676.png",
+        "mime": "image/png",
+        "bytes": 7872,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "麻烦帮我PS照片",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "麻烦帮我PS照片"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "麻烦帮我PS照片",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:39:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:028-麻烦帮我PS照片.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:39:19Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:39:19Z",
+      "lastOperationId": "op_ea14dc05786f750e199a8f3a72a03972",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:b5b778dfc0e4ab6a37dc57a61d8a1a440a7afa03f8539f8226d0ad71388743ca",
       "revision": 1,
       "status": "active",
