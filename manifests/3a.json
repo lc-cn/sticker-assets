@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "3a",
+  "assets": [
+    {
+      "id": "sha256:3a7eb5af8733a096547907181d39a704b50751da624ddaa5df3591d573115514",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "3a7eb5af8733a096547907181d39a704b50751da624ddaa5df3591d573115514",
+        "path": "objects/sha256/3a/3a7eb5af8733a096547907181d39a704b50751da624ddaa5df3591d573115514.png",
+        "mime": "image/png",
+        "bytes": 143628,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "强颜欢笑",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "强颜欢笑",
+        "微笑",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "强颜欢笑",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:18:46Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/强颜欢笑.png",
+        "itemId": "kitten-crs:强颜欢笑.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:18:46Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/强颜欢笑.png"
+      },
+      "updatedAt": "2026-11-09T09:18:46Z",
+      "lastOperationId": "op_902a95cdb3a64bb6e0d36c27ae165c70",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
