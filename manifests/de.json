@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "de",
+  "assets": [
+    {
+      "id": "sha256:de41bdf85b477ed3b4c5deaf760328c56d0050e2ed0279078f35492b32dca842",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "de41bdf85b477ed3b4c5deaf760328c56d0050e2ed0279078f35492b32dca842",
+        "path": "objects/sha256/de/de41bdf85b477ed3b4c5deaf760328c56d0050e2ed0279078f35492b32dca842.jpg",
+        "mime": "image/jpeg",
+        "bytes": 80607,
+        "width": 1275,
+        "height": 1233,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "负心汉",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "负心汉"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "负心汉",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:32:24Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600006-%E8%B4%9F%E5%BF%83%E6%B1%89.jpg",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00006-负心汉.jpg",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:32:24Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600006-%E8%B4%9F%E5%BF%83%E6%B1%89.jpg"
+      },
+      "updatedAt": "2026-11-09T09:32:24Z",
+      "lastOperationId": "op_454cf84e9e269047b03f5196d30ee907",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
