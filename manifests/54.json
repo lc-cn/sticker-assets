@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "54",
+  "assets": [
+    {
+      "id": "sha256:5466c289761dc847633c3e647c1c6a8a621334bd1bf107e1995be86d839b65d6",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "5466c289761dc847633c3e647c1c6a8a621334bd1bf107e1995be86d839b65d6",
+        "path": "objects/sha256/54/5466c289761dc847633c3e647c1c6a8a621334bd1bf107e1995be86d839b65d6.png",
+        "mime": "image/png",
+        "bytes": 184599,
+        "width": 836,
+        "height": 836,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "会就会不会就不会约会是什么意思",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "会就会不会就不会约会是什么意思",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:40:25Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000030-%E4%BC%9A%E5%B0%B1%E4%BC%9A%E4%B8%8D%E4%BC%9A%E5%B0%B1%E4%B8%8D%E4%BC%9A%E7%BA%A6%E4%BC%9A%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00030-会就会不会就不会约会是什么意思.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:40:25Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000030-%E4%BC%9A%E5%B0%B1%E4%BC%9A%E4%B8%8D%E4%BC%9A%E5%B0%B1%E4%B8%8D%E4%BC%9A%E7%BA%A6%E4%BC%9A%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D.png"
+      },
+      "updatedAt": "2026-11-09T09:40:25Z",
+      "lastOperationId": "op_d36f1da00719ee473c6de6deb81115d1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
