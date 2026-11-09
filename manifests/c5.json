@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "c5",
+  "assets": [
+    {
+      "id": "sha256:c5c524ad1b249ac87ac16836a2ddd30e3ed9da29e89adf279fc7085a162bde10",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "c5c524ad1b249ac87ac16836a2ddd30e3ed9da29e89adf279fc7085a162bde10",
+        "path": "objects/sha256/c5/c5c524ad1b249ac87ac16836a2ddd30e3ed9da29e89adf279fc7085a162bde10.jpg",
+        "mime": "image/jpeg",
+        "bytes": 8632,
+        "width": 235,
+        "height": 215,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "瞬间就坠入了爱河",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "瞬间就坠入了爱河"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "瞬间就坠入了爱河",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:42:34Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000024-%E7%9E%AC%E9%97%B4%E5%B0%B1%E5%9D%A0%E5%85%A5%E4%BA%86%E7%88%B1%E6%B2%B3.jpg",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00024-瞬间就坠入了爱河.jpg",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:42:34Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000024-%E7%9E%AC%E9%97%B4%E5%B0%B1%E5%9D%A0%E5%85%A5%E4%BA%86%E7%88%B1%E6%B2%B3.jpg"
+      },
+      "updatedAt": "2026-11-09T09:42:34Z",
+      "lastOperationId": "op_46cc4269987891de19ee3482c2c3632a",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
