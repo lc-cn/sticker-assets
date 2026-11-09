@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "22",
+  "assets": [
+    {
+      "id": "sha256:22222f8823edb175086f0af7c2e5f9437ca82b7310e4f2245cc789531ff2b908",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "22222f8823edb175086f0af7c2e5f9437ca82b7310e4f2245cc789531ff2b908",
+        "path": "objects/sha256/22/22222f8823edb175086f0af7c2e5f9437ca82b7310e4f2245cc789531ff2b908.png",
+        "mime": "image/png",
+        "bytes": 235779,
+        "width": 844,
+        "height": 812,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你说那只负鼠吗已经被我干掉了",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你说那只负鼠吗已经被我干掉了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:45:57Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000013-%E4%BD%A0%E8%AF%B4%E9%82%A3%E5%8F%AA%E8%B4%9F%E9%BC%A0%E5%90%97%E5%B7%B2%E7%BB%8F%E8%A2%AB%E6%88%91%E5%B9%B2%E6%8E%89%E4%BA%86.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00013-你说那只负鼠吗已经被我干掉了.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:45:57Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000013-%E4%BD%A0%E8%AF%B4%E9%82%A3%E5%8F%AA%E8%B4%9F%E9%BC%A0%E5%90%97%E5%B7%B2%E7%BB%8F%E8%A2%AB%E6%88%91%E5%B9%B2%E6%8E%89%E4%BA%86.png"
+      },
+      "updatedAt": "2026-11-09T09:45:57Z",
+      "lastOperationId": "op_2beab9e15b969b48a6192a3af698ab86",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
