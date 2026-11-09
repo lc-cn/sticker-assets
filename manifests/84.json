@@ -3,6 +3,65 @@
   "shard": "84",
   "assets": [
     {
+      "id": "sha256:840497b3777cb1794fc70131a4183159459dc6b8f20a2b9c9fe39a5287896464",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "840497b3777cb1794fc70131a4183159459dc6b8f20a2b9c9fe39a5287896464",
+        "path": "objects/sha256/84/840497b3777cb1794fc70131a4183159459dc6b8f20a2b9c9fe39a5287896464.png",
+        "mime": "image/png",
+        "bytes": 3128,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "shocked",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "shocked"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:45:23Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/shocked.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:45:23Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:45:23Z",
+      "lastOperationId": "op_13ff9915cd8f09e2bcaf64810639eb3e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:8489fd7d3bd48b58b049ad1191ca5a7b801f7db94b412a0abe2fdf88ca8986fc",
       "revision": 1,
       "status": "active",

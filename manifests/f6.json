@@ -119,6 +119,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:f66b548ac86fe1b782f60e1dd101c0f9b5b1d872d8a7e858b627eb1293c75d74",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f66b548ac86fe1b782f60e1dd101c0f9b5b1d872d8a7e858b627eb1293c75d74",
+        "path": "objects/sha256/f6/f66b548ac86fe1b782f60e1dd101c0f9b5b1d872d8a7e858b627eb1293c75d74.png",
+        "mime": "image/png",
+        "bytes": 31237,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "wave",
+      "categories": [
+        "greeting"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "wave"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:45:23Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/wave.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:45:23Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:45:23Z",
+      "lastOperationId": "op_13ff9915cd8f09e2bcaf64810639eb3e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

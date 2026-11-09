@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "29",
+  "assets": [
+    {
+      "id": "sha256:29aa29404472abb40c26a2b16e3e6c40aa238c5127a754429564c92e6fc40198",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "29aa29404472abb40c26a2b16e3e6c40aa238c5127a754429564c92e6fc40198",
+        "path": "objects/sha256/29/29aa29404472abb40c26a2b16e3e6c40aa238c5127a754429564c92e6fc40198.png",
+        "mime": "image/png",
+        "bytes": 3388,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "thinking",
+      "categories": [
+        "greeting"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "thinking"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:45:23Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/thinking.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:45:23Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:45:23Z",
+      "lastOperationId": "op_13ff9915cd8f09e2bcaf64810639eb3e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -3,6 +3,65 @@
   "shard": "1f",
   "assets": [
     {
+      "id": "sha256:1f8cba8af46234520b3d9511014d7ce97de87896ab01505e79ee284ce3c72d09",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "1f8cba8af46234520b3d9511014d7ce97de87896ab01505e79ee284ce3c72d09",
+        "path": "objects/sha256/1f/1f8cba8af46234520b3d9511014d7ce97de87896ab01505e79ee284ce3c72d09.png",
+        "mime": "image/png",
+        "bytes": 5832,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "skullcowboy",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "skullcowboy"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:45:23Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/skullcowboy.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:45:23Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:45:23Z",
+      "lastOperationId": "op_13ff9915cd8f09e2bcaf64810639eb3e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:1fb32f36806137b26da60715d0461c50d2e3a1f921247bcc9558d3ed5db5076d",
       "revision": 1,
       "status": "active",

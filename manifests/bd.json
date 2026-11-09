@@ -62,6 +62,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:bd4dac56cb67fc0faaaa7159de1ca79bbaa81d4f076cd6fb3742521af1abff6a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bd4dac56cb67fc0faaaa7159de1ca79bbaa81d4f076cd6fb3742521af1abff6a",
+        "path": "objects/sha256/bd/bd4dac56cb67fc0faaaa7159de1ca79bbaa81d4f076cd6fb3742521af1abff6a.png",
+        "mime": "image/png",
+        "bytes": 4534,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "stars",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "stars"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:45:23Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/stars.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:45:23Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:45:23Z",
+      "lastOperationId": "op_13ff9915cd8f09e2bcaf64810639eb3e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:bd9fb4e420eb1362f63e8a524c0913c775e74282f71cd56bc0411c7b47e2c37e",
       "revision": 1,
       "status": "active",

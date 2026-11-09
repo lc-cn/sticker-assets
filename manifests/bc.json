@@ -3,6 +3,65 @@
   "shard": "bc",
   "assets": [
     {
+      "id": "sha256:bcd07db1740800f6e39a7d52dabf9f8a3169fe30418ee079dcf6a7efbb53cc9f",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bcd07db1740800f6e39a7d52dabf9f8a3169fe30418ee079dcf6a7efbb53cc9f",
+        "path": "objects/sha256/bc/bcd07db1740800f6e39a7d52dabf9f8a3169fe30418ee079dcf6a7efbb53cc9f.png",
+        "mime": "image/png",
+        "bytes": 14359,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "penguinscared",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "penguinscared"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:45:23Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/penguinscared.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:45:23Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:45:23Z",
+      "lastOperationId": "op_13ff9915cd8f09e2bcaf64810639eb3e",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:bcdb455687497cdd00eeb011c7f090d1ea13b40eb62638c50270088f8c61752d",
       "revision": 1,
       "status": "active",
