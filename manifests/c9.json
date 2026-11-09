@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "c9",
+  "assets": [
+    {
+      "id": "sha256:c9751c9e49ac7a850fcf1ee7c9adaeb62869f8087ef6ed5d5e852e8633d9c945",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "c9751c9e49ac7a850fcf1ee7c9adaeb62869f8087ef6ed5d5e852e8633d9c945",
+        "path": "objects/sha256/c9/c9751c9e49ac7a850fcf1ee7c9adaeb62869f8087ef6ed5d5e852e8633d9c945.png",
+        "mime": "image/png",
+        "bytes": 52431,
+        "width": 460,
+        "height": 459,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "无语·典型C++思维",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "C++",
+        "无语",
+        "程序员",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "无语·典型C++思维",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:28:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Im_speechless_I_cant_continue_talking_with_you/cppmind.png",
+        "itemId": "wxmeme:Im_speechless_I_cant_continue_talking_with_you/cppmind.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:28:19Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Im_speechless_I_cant_continue_talking_with_you/cppmind.png"
+      },
+      "updatedAt": "2026-11-09T09:28:19Z",
+      "lastOperationId": "op_acb49d1ce7119e1cf96f93cbc71d61c6",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
