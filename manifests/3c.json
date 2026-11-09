@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "3c",
+  "assets": [
+    {
+      "id": "sha256:3c2d73141d0e14f1cc322a5e081060ef28689a52c29dc15ceedcfe466e3bef6d",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "3c2d73141d0e14f1cc322a5e081060ef28689a52c29dc15ceedcfe466e3bef6d",
+        "path": "objects/sha256/3c/3c2d73141d0e14f1cc322a5e081060ef28689a52c29dc15ceedcfe466e3bef6d.png",
+        "mime": "image/png",
+        "bytes": 138760,
+        "width": 700,
+        "height": 698,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "前途一片阴暗好凉快",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "前途一片阴暗好凉快"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "前途一片阴暗好凉快",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:44:07Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000019-%E5%89%8D%E9%80%94%E4%B8%80%E7%89%87%E9%98%B4%E6%9A%97%E5%A5%BD%E5%87%89%E5%BF%AB.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00019-前途一片阴暗好凉快.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:44:07Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000019-%E5%89%8D%E9%80%94%E4%B8%80%E7%89%87%E9%98%B4%E6%9A%97%E5%A5%BD%E5%87%89%E5%BF%AB.png"
+      },
+      "updatedAt": "2026-11-09T09:44:07Z",
+      "lastOperationId": "op_e93179053edd314b0294cf03c6a225e6",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
