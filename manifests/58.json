@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "58",
+  "assets": [
+    {
+      "id": "sha256:58ed769a32e793bedbb0c803f2db6a7dfa4d63cc6b5529c651127ce88d3284b1",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "58ed769a32e793bedbb0c803f2db6a7dfa4d63cc6b5529c651127ce88d3284b1",
+        "path": "objects/sha256/58/58ed769a32e793bedbb0c803f2db6a7dfa4d63cc6b5529c651127ce88d3284b1.png",
+        "mime": "image/png",
+        "bytes": 75042,
+        "width": 412,
+        "height": 422,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "要冰的",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys",
+        "要冰的"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "要冰的",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:34:24Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00012-%E8%A6%81%E5%86%B0%E7%9A%84.png",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00012-要冰的.png",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:34:24Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00012-%E8%A6%81%E5%86%B0%E7%9A%84.png"
+      },
+      "updatedAt": "2026-11-09T09:34:24Z",
+      "lastOperationId": "op_b15da1a55027126d2178c0b01fde480c",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
