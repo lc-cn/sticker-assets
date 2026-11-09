@@ -61,6 +61,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:151be2cd45bdb5cb93ac694b91634fa6f839c7d0ab96436f029178dcd8e4ba8b",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "151be2cd45bdb5cb93ac694b91634fa6f839c7d0ab96436f029178dcd8e4ba8b",
+        "path": "objects/sha256/15/151be2cd45bdb5cb93ac694b91634fa6f839c7d0ab96436f029178dcd8e4ba8b.png",
+        "mime": "image/png",
+        "bytes": 215028,
+        "width": 591,
+        "height": 557,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你还能有Linus聪明？",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "Linux",
+        "Linus",
+        "程序员",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你还能有Linus聪明？",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:22:00Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/linus.png",
+        "itemId": "wxmeme:Could_you_possibly_be_any_smarter_than_XXX/linus.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:22:00Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/linus.png"
+      },
+      "updatedAt": "2026-11-09T09:22:00Z",
+      "lastOperationId": "op_75cb1f57dc4975392eb855ba1584a749",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }
