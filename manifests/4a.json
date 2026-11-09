@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "shard": "4a",
+  "assets": [
+    {
+      "id": "sha256:4af9057cbde1a71bdb61354ffa851da68204f2da73b921d113e6d16e2f98d825",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "4af9057cbde1a71bdb61354ffa851da68204f2da73b921d113e6d16e2f98d825",
+        "path": "objects/sha256/4a/4af9057cbde1a71bdb61354ffa851da68204f2da73b921d113e6d16e2f98d825.png",
+        "mime": "image/png",
+        "bytes": 177053,
+        "width": 720,
+        "height": 686,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "改方案-好的呢-职业假笑",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "改方案",
+        "好的呢",
+        "职业假笑"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "改方案-好的呢-职业假笑",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:05:51Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000004-%E6%94%B9%E6%96%B9%E6%A1%88-%E5%A5%BD%E7%9A%84%E5%91%A2-%E8%81%8C%E4%B8%9A%E5%81%87%E7%AC%91.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00004-改方案-好的呢-职业假笑.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:05:51Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000004-%E6%94%B9%E6%96%B9%E6%A1%88-%E5%A5%BD%E7%9A%84%E5%91%A2-%E8%81%8C%E4%B8%9A%E5%81%87%E7%AC%91.png"
+      },
+      "updatedAt": "2026-11-09T10:05:51Z",
+      "lastOperationId": "op_e5fcfa96b3b17aaf25f40ce94db10691",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

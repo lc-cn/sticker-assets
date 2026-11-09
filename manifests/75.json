@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "75",
+  "assets": [
+    {
+      "id": "sha256:7551432ab2adc4ed0faa119da5db6168740ab4d7f7dcda6864ffe362b8753fb6",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "7551432ab2adc4ed0faa119da5db6168740ab4d7f7dcda6864ffe362b8753fb6",
+        "path": "objects/sha256/75/7551432ab2adc4ed0faa119da5db6168740ab4d7f7dcda6864ffe362b8753fb6.png",
+        "mime": "image/png",
+        "bytes": 87277,
+        "width": 546,
+        "height": 562,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "慢慢急不要来",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "慢慢急不要来"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "慢慢急不要来",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:05:51Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000003-%E6%85%A2%E6%85%A2%E6%80%A5%E4%B8%8D%E8%A6%81%E6%9D%A5.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00003-慢慢急不要来.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:05:51Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000003-%E6%85%A2%E6%85%A2%E6%80%A5%E4%B8%8D%E8%A6%81%E6%9D%A5.png"
+      },
+      "updatedAt": "2026-11-09T10:05:51Z",
+      "lastOperationId": "op_e5fcfa96b3b17aaf25f40ce94db10691",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
