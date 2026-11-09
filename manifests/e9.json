@@ -3,6 +3,66 @@
   "shard": "e9",
   "assets": [
     {
+      "id": "sha256:e905c9eeb083136c525748d4f73cda8e2fbe42b6f974d51188e2ad997f29e0ca",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "e905c9eeb083136c525748d4f73cda8e2fbe42b6f974d51188e2ad997f29e0ca",
+        "path": "objects/sha256/e9/e905c9eeb083136c525748d4f73cda8e2fbe42b6f974d51188e2ad997f29e0ca.jpg",
+        "mime": "image/jpeg",
+        "bytes": 4791,
+        "width": 200,
+        "height": 200,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "英雄还是没有出现",
+      "categories": [
+        "celebrate"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys",
+        "英雄还是没有出现"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "英雄还是没有出现",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:35:29Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00008-%E8%8B%B1%E9%9B%84%E8%BF%98%E6%98%AF%E6%B2%A1%E6%9C%89%E5%87%BA%E7%8E%B0.jpg",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00008-英雄还是没有出现.jpg",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:35:29Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00008-%E8%8B%B1%E9%9B%84%E8%BF%98%E6%98%AF%E6%B2%A1%E6%9C%89%E5%87%BA%E7%8E%B0.jpg"
+      },
+      "updatedAt": "2026-11-09T09:35:29Z",
+      "lastOperationId": "op_3d01c9f1b25904d8d3fee708a0c0d378",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:e9d2e35bc65258fc6e6094d2eb9f21f70038b3095152da39d2fa25d7aa12c9e1",
       "revision": 1,
       "status": "active",
