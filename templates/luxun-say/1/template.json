@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "luxun-say",
+  "version": 1,
+  "title": "鲁迅说",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "鲁迅说",
+    "鲁迅",
+    "名言",
+    "我没说过",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 40
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 480,
+    "height": 480,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 480
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 40,
+        "y": 280,
+        "w": 400,
+        "h": 100
+      },
+      "font": "default-sans",
+      "fontSize": 40,
+      "minFontSize": 30,
+      "color": "#ffffff",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "f603781b07b77345e64f629ee764cc8b1b82a9f639d065bad8b950f0b164b5e4",
+      "bytes": 223925,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "移植自 MemeCrafters/meme-generator 的表情「luxun_say」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/luxun_say 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。底图已预先烧录固定文字“--鲁迅”。"
+}

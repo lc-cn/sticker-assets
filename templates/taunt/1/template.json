@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "taunt",
+  "version": 1,
+  "title": "嘲讽",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "嘲讽",
+    "嘲笑",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 720,
+    "height": 720,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 720
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 245,
+        "y": 245,
+        "w": 230,
+        "h": 230
+      },
+      "fit": "cover"
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "9947440ddfd5a7c9edeea09ca86851f6c31b1ed4294b93ae20e3436f347dc5d5",
+      "bytes": 496180,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "移植自 MemeCrafters/meme-generator 的表情「taunt」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/taunt 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。"
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "id": "daynight",
+  "version": 1,
+  "title": "白天黑夜",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "白天黑夜",
+    "白天晚上",
+    "反差",
+    "头像",
+    "双图"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 2,
+      "max": 2
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 682,
+    "height": 718,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 682,
+        "h": 718
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 349,
+        "y": 0,
+        "w": 333,
+        "h": 360
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "slot-image",
+      "slot": 1,
+      "box": {
+        "x": 349,
+        "y": 361,
+        "w": 333,
+        "h": 357
+      },
+      "fit": "cover"
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "fa1e76abeda7aecd36eff4f8215ffd66d9a4a62740bc7175a80646f0202a84b8",
+      "bytes": 58139,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "移植自 MemeCrafters/meme-generator 的表情「daynight」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/daynight 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。"
+}

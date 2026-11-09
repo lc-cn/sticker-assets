@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "imprison",
+  "version": 1,
+  "title": "坐牢",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "坐牢",
+    "被抓",
+    "铁窗",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 240,
+    "height": 202,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.jpg",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 202
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 10,
+        "y": 157,
+        "w": 220,
+        "h": 40
+      },
+      "font": "default-sans",
+      "fontSize": 35,
+      "minFontSize": 15,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.jpg",
+      "sha256": "b9ca0dc5b50308dd24bbb60fd4023aaa08a650b1841f7787adc5b84ebecb3533",
+      "bytes": 7716,
+      "mime": "image/jpeg",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "移植自 MemeCrafters/meme-generator 的表情「imprison」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/imprison 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。"
+}

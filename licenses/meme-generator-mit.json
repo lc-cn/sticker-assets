@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "meme-generator-mit",
+  "kind": "license",
+  "name": "MemeCrafters/meme-generator（MIT 代码许可；底图版权未核实）",
+  "spdx": "MIT",
+  "url": "https://github.com/MemeCrafters/meme-generator/blob/619fa10518fc2eca4fa1053af37f0a00a839f062/LICENSE",
+  "attribution": "MemeCrafters/meme-generator — Copyright (c) 2021 MeetWq，MIT License",
+  "notice": "MIT 许可仅覆盖 meme-generator 的代码（本仓库据其源码换算文字框与图片位置）。上游 README 声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”：底图是网络表情/动漫/影视截图，版权归原权利人，上游与本项目均未取得授权，MIT 不覆盖这些图片。按“发现问题即下架”处理：权利人或任何人提出异议时，将对应模板设为 disabled 并从仓库移除底图。",
+  "scope": "templates/ 下自 meme-generator 移植的模板（notice 中注明来源目录与上游提交）",
+  "reviewedAt": "2026-11-09T00:00:00Z"
+}

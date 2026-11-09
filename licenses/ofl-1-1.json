@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ofl-1-1",
+  "kind": "license",
+  "name": "SIL Open Font License 1.1",
+  "spdx": "OFL-1.1",
+  "url": "https://openfontlicense.org/open-font-license-official-text/",
+  "attribution": "Noto Sans SC — Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'",
+  "notice": "模板引用的字体 default-sans 由 B（sticker-api）渲染器提供：Noto Sans SC Regular，字体文件与 OFL 文本随 sticker-api 仓库分发，A 不含字体文件。",
+  "scope": "模板字体引用（default-sans）",
+  "reviewedAt": "2026-11-09T00:00:00Z"
+}

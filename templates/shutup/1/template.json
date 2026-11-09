@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "shutup",
+  "version": 1,
+  "title": "别说了",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "别说了",
+    "闭嘴",
+    "不要再说了",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 240,
+    "height": 240,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.jpg",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 240
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 10,
+        "y": 180,
+        "w": 220,
+        "h": 50
+      },
+      "font": "default-sans",
+      "fontSize": 40,
+      "minFontSize": 15,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.jpg",
+      "sha256": "4c9878b0a4d489f8e85165bd71c545b59d8863800aa8cb3a7c58516fbd42876a",
+      "bytes": 10575,
+      "mime": "image/jpeg",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "移植自 MemeCrafters/meme-generator 的表情「shutup」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/shutup 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。"
+}

@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "id": "find-chips",
+  "version": 1,
+  "title": "整点薯条",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "整点薯条",
+    "码头",
+    "薯条",
+    "人生意义",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 4,
+      "max": 4,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 720,
+    "height": 700,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.jpg",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 700
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 405,
+        "y": 54,
+        "w": 125,
+        "h": 76
+      },
+      "font": "default-sans",
+      "fontSize": 30,
+      "minFontSize": 12,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    },
+    {
+      "type": "text",
+      "slot": 1,
+      "box": {
+        "x": 570,
+        "y": 62,
+        "w": 97,
+        "h": 98
+      },
+      "font": "default-sans",
+      "fontSize": 30,
+      "minFontSize": 12,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    },
+    {
+      "type": "text",
+      "slot": 2,
+      "box": {
+        "x": 65,
+        "y": 400,
+        "w": 260,
+        "h": 63
+      },
+      "font": "default-sans",
+      "fontSize": 30,
+      "minFontSize": 12,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    },
+    {
+      "type": "text",
+      "slot": 3,
+      "box": {
+        "x": 430,
+        "y": 400,
+        "w": 200,
+        "h": 70
+      },
+      "font": "default-sans",
+      "fontSize": 30,
+      "minFontSize": 12,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.jpg",
+      "sha256": "2f1ab167ddb575e771a050a3947a4e33cd45146eb553783c8331afa32af4917c",
+      "bytes": 68610,
+      "mime": "image/jpeg",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "移植自 MemeCrafters/meme-generator 的表情「find_chips」（MIT，Copyright (c) 2021 MeetWq）：https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/find_chips 。文字框/图片位置按其 Python 源码换算。底图来自网络、版权归原权利人且未经核实（上游声明“本仓库的表情素材等均来自网络，如有侵权请联系作者删除”）；如有侵权请提 issue，将下架。"
+}
