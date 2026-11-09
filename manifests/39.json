@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "39",
+  "assets": [
+    {
+      "id": "sha256:3996d44882a7279893eb3d31324fdc873fd0013b139899daad217889025de363",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "3996d44882a7279893eb3d31324fdc873fd0013b139899daad217889025de363",
+        "path": "objects/sha256/39/3996d44882a7279893eb3d31324fdc873fd0013b139899daad217889025de363.jpg",
+        "mime": "image/jpeg",
+        "bytes": 215291,
+        "width": 1179,
+        "height": 1506,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "砸瓦鲁多",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "AI",
+        "人工智能",
+        "砸瓦鲁多"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "砸瓦鲁多",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:39:37Z",
+      "firstSeenAt": "2026-09-10T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00003-%E7%A0%B8%E7%93%A6%E9%B2%81%E5%A4%9A.jpg",
+        "itemId": "chinesebqb:110_AI_人工智能_BQB/人工智能00003-砸瓦鲁多.jpg",
+        "publishedAt": "2026-09-10T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:39:37Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00003-%E7%A0%B8%E7%93%A6%E9%B2%81%E5%A4%9A.jpg"
+      },
+      "updatedAt": "2026-11-09T09:39:37Z",
+      "lastOperationId": "op_d16dc3b6ccae9f0ce117783e497663af",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
