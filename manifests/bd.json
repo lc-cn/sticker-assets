@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "bd",
+  "assets": [
+    {
+      "id": "sha256:bd9fb4e420eb1362f63e8a524c0913c775e74282f71cd56bc0411c7b47e2c37e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bd9fb4e420eb1362f63e8a524c0913c775e74282f71cd56bc0411c7b47e2c37e",
+        "path": "objects/sha256/bd/bd9fb4e420eb1362f63e8a524c0913c775e74282f71cd56bc0411c7b47e2c37e.png",
+        "mime": "image/png",
+        "bytes": 273259,
+        "width": 974,
+        "height": 658,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "Europe",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "AI",
+        "人工智能",
+        "Europe"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "Europe",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:38:38Z",
+      "firstSeenAt": "2026-09-10T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00008-Europe.png",
+        "itemId": "chinesebqb:110_AI_人工智能_BQB/人工智能00008-Europe.png",
+        "publishedAt": "2026-09-10T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:38:38Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/110_AI_%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD_BQB/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD00008-Europe.png"
+      },
+      "updatedAt": "2026-11-09T09:38:38Z",
+      "lastOperationId": "op_d746b1c46478ff9f10fd7eb0c46d5a36",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
