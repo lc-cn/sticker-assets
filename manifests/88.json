@@ -3,6 +3,66 @@
   "shard": "88",
   "assets": [
     {
+      "id": "sha256:88a3fa6996e104759c1ca62412a8b0afb4676a8bf0b44fc4c2b6fcfb1e220549",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "88a3fa6996e104759c1ca62412a8b0afb4676a8bf0b44fc4c2b6fcfb1e220549",
+        "path": "objects/sha256/88/88a3fa6996e104759c1ca62412a8b0afb4676a8bf0b44fc4c2b6fcfb1e220549.png",
+        "mime": "image/png",
+        "bytes": 156272,
+        "width": 658,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "哈哈哈",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "哈哈",
+        "大笑",
+        "笑死",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "哈哈哈",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:17:47Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/哈哈哈.png",
+        "itemId": "kitten-crs:哈哈哈.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:17:47Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/哈哈哈.png"
+      },
+      "updatedAt": "2026-11-09T09:17:47Z",
+      "lastOperationId": "op_eca4921ee0cbac43c1b802fc1008f327",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:88eed8b8a3697aa86b4c29ee946fb775b6b7aeed1a0fb7e413cfdade3bb82f1a",
       "revision": 1,
       "status": "active",
