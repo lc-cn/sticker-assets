@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "30",
+  "assets": [
+    {
+      "id": "sha256:3046bb65a5103eefd83751b675e3be2fe4493300d60c2471e95bb47ef61c53bb",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "3046bb65a5103eefd83751b675e3be2fe4493300d60c2471e95bb47ef61c53bb",
+        "path": "objects/sha256/30/3046bb65a5103eefd83751b675e3be2fe4493300d60c2471e95bb47ef61c53bb.png",
+        "mime": "image/png",
+        "bytes": 138993,
+        "width": 697,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "白眼",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "白眼",
+        "无语",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "白眼",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:20:40Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/白眼.png",
+        "itemId": "kitten-crs:白眼.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:20:40Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/白眼.png"
+      },
+      "updatedAt": "2026-11-09T09:20:40Z",
+      "lastOperationId": "op_7d6fedb3a74bcb2bcb2ce8a65876f771",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
