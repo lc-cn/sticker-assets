@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "da",
+  "assets": [
+    {
+      "id": "sha256:dafd2cc5a30c2901bb51d3eae2fb303c5ce3bf227fe9e7b7648c5dcd1064148b",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "dafd2cc5a30c2901bb51d3eae2fb303c5ce3bf227fe9e7b7648c5dcd1064148b",
+        "path": "objects/sha256/da/dafd2cc5a30c2901bb51d3eae2fb303c5ce3bf227fe9e7b7648c5dcd1064148b.png",
+        "mime": "image/png",
+        "bytes": 164495,
+        "width": 538,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "招财猫",
+      "categories": [
+        "celebrate"
+      ],
+      "tags": [
+        "招财",
+        "好运",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "招财猫",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:19:28Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/招财猫.png",
+        "itemId": "kitten-crs:招财猫.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:19:28Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/招财猫.png"
+      },
+      "updatedAt": "2026-11-09T09:19:28Z",
+      "lastOperationId": "op_f9d280b4b7bb16133bbeb98312e4bf17",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
