@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "2f",
+  "assets": [
+    {
+      "id": "sha256:2fe07b7aeacc9dd0bcfa2aaf04b9030db22e75e2e5f02596b8a0a41bb1634c74",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "2fe07b7aeacc9dd0bcfa2aaf04b9030db22e75e2e5f02596b8a0a41bb1634c74",
+        "path": "objects/sha256/2f/2fe07b7aeacc9dd0bcfa2aaf04b9030db22e75e2e5f02596b8a0a41bb1634c74.png",
+        "mime": "image/png",
+        "bytes": 49998,
+        "width": 396,
+        "height": 304,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "新手柄很滑的",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "影之刃零",
+        "游戏",
+        "新手柄很滑的"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "新手柄很滑的",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:31:28Z",
+      "firstSeenAt": "2026-10-31T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600009-%E6%96%B0%E6%89%8B%E6%9F%84%E5%BE%88%E6%BB%91%E7%9A%84.png",
+        "itemId": "chinesebqb:112PhantomBladeZero_影之刃零_BQB/影之刃零00009-新手柄很滑的.png",
+        "publishedAt": "2026-10-31T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:31:28Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/112PhantomBladeZero_%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B6_BQB/%E5%BD%B1%E4%B9%8B%E5%88%83%E9%9B%B600009-%E6%96%B0%E6%89%8B%E6%9F%84%E5%BE%88%E6%BB%91%E7%9A%84.png"
+      },
+      "updatedAt": "2026-11-09T09:31:28Z",
+      "lastOperationId": "op_5d449f43ffb8f3bbe17ce2512d5634e2",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
