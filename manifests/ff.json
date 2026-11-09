@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "ff",
+  "assets": [
+    {
+      "id": "sha256:ff1cb83e220c332f291ffb30a93f2c17dcc12c12c6f8c9edf6c0909a8a157e64",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "ff1cb83e220c332f291ffb30a93f2c17dcc12c12c6f8c9edf6c0909a8a157e64",
+        "path": "objects/sha256/ff/ff1cb83e220c332f291ffb30a93f2c17dcc12c12c6f8c9edf6c0909a8a157e64.png",
+        "mime": "image/png",
+        "bytes": 6733,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我加班，不去年会",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "我加班，不去年会"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我加班，不去年会",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:048-我加班，不去年会.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

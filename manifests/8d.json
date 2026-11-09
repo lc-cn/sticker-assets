@@ -63,6 +63,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:8d46f9e4286b772f00a9d80fb85b38d14e5622e8bd9a670fb12217ad0fc38184",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "8d46f9e4286b772f00a9d80fb85b38d14e5622e8bd9a670fb12217ad0fc38184",
+        "path": "objects/sha256/8d/8d46f9e4286b772f00a9d80fb85b38d14e5622e8bd9a670fb12217ad0fc38184.png",
+        "mime": "image/png",
+        "bytes": 7248,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "稍微改一下就行了",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "稍微改一下就行了"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "稍微改一下就行了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:042-稍微改一下就行了.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:8dc8e0fe5c479332d2f34079879758207a94196a0f9d1740fb05c96f2d000c5d",
       "revision": 1,
       "status": "active",

@@ -60,6 +60,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:46ab77e19166481b7cebf2eaea9a95171368da236953c606b02fdfcef5716f9a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "46ab77e19166481b7cebf2eaea9a95171368da236953c606b02fdfcef5716f9a",
+        "path": "objects/sha256/46/46ab77e19166481b7cebf2eaea9a95171368da236953c606b02fdfcef5716f9a.png",
+        "mime": "image/png",
+        "bytes": 5524,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "今天下午５点下班",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "今天下午５点下班"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "今天下午５点下班",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:051-今天下午５点下班.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "16",
+  "assets": [
+    {
+      "id": "sha256:16eec2f1af7f228a9df34a9d11785f1fadaa1f9061a4d79bfaecbf31fd591113",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "16eec2f1af7f228a9df34a9d11785f1fadaa1f9061a4d79bfaecbf31fd591113",
+        "path": "objects/sha256/16/16eec2f1af7f228a9df34a9d11785f1fadaa1f9061a4d79bfaecbf31fd591113.png",
+        "mime": "image/png",
+        "bytes": 8932,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "循环冗余校验失败",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "循环冗余校验失败"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "循环冗余校验失败",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:057-循环冗余校验失败.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

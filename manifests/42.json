@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "42",
+  "assets": [
+    {
+      "id": "sha256:426104732c0e69121d7a6767942cc37dcdcda193a4f312d58fad38a402e29b12",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "426104732c0e69121d7a6767942cc37dcdcda193a4f312d58fad38a402e29b12",
+        "path": "objects/sha256/42/426104732c0e69121d7a6767942cc37dcdcda193a4f312d58fad38a402e29b12.png",
+        "mime": "image/png",
+        "bytes": 6300,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "醒醒，该写代码了",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "醒醒，该写代码了"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "醒醒，该写代码了",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:059-醒醒，该写代码了.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -3,6 +3,65 @@
   "shard": "f8",
   "assets": [
     {
+      "id": "sha256:f8700e6091142881a6315824fb6d31097eb1a6460cc309053c3d564980e3522f",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f8700e6091142881a6315824fb6d31097eb1a6460cc309053c3d564980e3522f",
+        "path": "objects/sha256/f8/f8700e6091142881a6315824fb6d31097eb1a6460cc309053c3d564980e3522f.png",
+        "mime": "image/png",
+        "bytes": 6090,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "需要一个产品祭天",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "需要一个产品祭天"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "需要一个产品祭天",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:044-需要一个产品祭天.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:f8862c9c369381d459c9ba9c36bafe63eea4bbc4e17b153deb371cadd3f32f7c",
       "revision": 1,
       "status": "active",
@@ -57,6 +116,65 @@
       },
       "updatedAt": "2026-11-09T09:28:51Z",
       "lastOperationId": "op_61b9fbeefe365a17ee68402ac9ed3444",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
+      "id": "sha256:f893c258fa93d737587c7038434852d331246f015af553660579b2ab76a927eb",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f893c258fa93d737587c7038434852d331246f015af553660579b2ab76a927eb",
+        "path": "objects/sha256/f8/f893c258fa93d737587c7038434852d331246f015af553660579b2ab76a927eb.png",
+        "mime": "image/png",
+        "bytes": 7169,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "求求你了我想回家",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "求求你了我想回家"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "求求你了我想回家",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:046-求求你了我想回家.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null

@@ -3,6 +3,65 @@
   "shard": "41",
   "assets": [
     {
+      "id": "sha256:414aeee0f9f895373f7bd80d828bf4b1f36c25e7c3fd2a3f5682003a06625daa",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "414aeee0f9f895373f7bd80d828bf4b1f36c25e7c3fd2a3f5682003a06625daa",
+        "path": "objects/sha256/41/414aeee0f9f895373f7bd80d828bf4b1f36c25e7c3fd2a3f5682003a06625daa.png",
+        "mime": "image/png",
+        "bytes": 6714,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "一行代码报５个错",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "一行代码报５个错"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "一行代码报５个错",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:060-一行代码报５个错.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:41e670820bd4813ca09162b715f2e898210f26a16e93dfe489fc92457625f276",
       "revision": 1,
       "status": "active",

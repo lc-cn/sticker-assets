@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "49",
+  "assets": [
+    {
+      "id": "sha256:49697f1c8d3d2a00abbec7f6b9778f868835b66614526ea9ddbcae6f0906e98e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "49697f1c8d3d2a00abbec7f6b9778f868835b66614526ea9ddbcae6f0906e98e",
+        "path": "objects/sha256/49/49697f1c8d3d2a00abbec7f6b9778f868835b66614526ea9ddbcae6f0906e98e.png",
+        "mime": "image/png",
+        "bytes": 6939,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "0警告0错误完美",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "0警告0错误完美"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "0警告0错误完美",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:041-0警告0错误完美.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

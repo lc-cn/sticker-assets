@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "ba",
+  "assets": [
+    {
+      "id": "sha256:bae4787cc452c5da822269f3640ad1d3c9a387ded2a2cdb9c47f84a71b970007",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bae4787cc452c5da822269f3640ad1d3c9a387ded2a2cdb9c47f84a71b970007",
+        "path": "objects/sha256/ba/bae4787cc452c5da822269f3640ad1d3c9a387ded2a2cdb9c47f84a71b970007.png",
+        "mime": "image/png",
+        "bytes": 8503,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "是你的参数有问题",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "是你的参数有问题"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "是你的参数有问题",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:049-是你的参数有问题.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

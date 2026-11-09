@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "0e",
+  "assets": [
+    {
+      "id": "sha256:0e1aa41a379b524ae9a1410f740e8263da6c4afe28ec9d63a77d59e40b4a243c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "0e1aa41a379b524ae9a1410f740e8263da6c4afe28ec9d63a77d59e40b4a243c",
+        "path": "objects/sha256/0e/0e1aa41a379b524ae9a1410f740e8263da6c4afe28ec9d63a77d59e40b4a243c.png",
+        "mime": "image/png",
+        "bytes": 6721,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我跑一下单元测试",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "我跑一下单元测试"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我跑一下单元测试",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:045-我跑一下单元测试.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

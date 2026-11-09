@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "b7",
+  "assets": [
+    {
+      "id": "sha256:b74002d431de2a23f5319602f08098c234a7c3960a93dcd7758df696f848748c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b74002d431de2a23f5319602f08098c234a7c3960a93dcd7758df696f848748c",
+        "path": "objects/sha256/b7/b74002d431de2a23f5319602f08098c234a7c3960a93dcd7758df696f848748c.png",
+        "mime": "image/png",
+        "bytes": 6837,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你看看哪里有问题",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "你看看哪里有问题"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你看看哪里有问题",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:40:42Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:053-你看看哪里有问题.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:40:42Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:40:42Z",
+      "lastOperationId": "op_de0fe12c2872311a7f7d2e42b47a68dd",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
