@@ -3,6 +3,66 @@
   "shard": "58",
   "assets": [
     {
+      "id": "sha256:586241e4e9fa3c985e6bc93a2b7c62246548bf5c7f0decc4905583cc0b51d93b",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "586241e4e9fa3c985e6bc93a2b7c62246548bf5c7f0decc4905583cc0b51d93b",
+        "path": "objects/sha256/58/586241e4e9fa3c985e6bc93a2b7c62246548bf5c7f0decc4905583cc0b51d93b.jpg",
+        "mime": "image/jpeg",
+        "bytes": 25144,
+        "width": 550,
+        "height": 509,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "重生之我又回到了周一",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "重生之我又回到了周一"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "重生之我又回到了周一",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:42:52Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000023-%E9%87%8D%E7%94%9F%E4%B9%8B%E6%88%91%E5%8F%88%E5%9B%9E%E5%88%B0%E4%BA%86%E5%91%A8%E4%B8%80.jpg",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00023-重生之我又回到了周一.jpg",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:42:52Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000023-%E9%87%8D%E7%94%9F%E4%B9%8B%E6%88%91%E5%8F%88%E5%9B%9E%E5%88%B0%E4%BA%86%E5%91%A8%E4%B8%80.jpg"
+      },
+      "updatedAt": "2026-11-09T09:42:52Z",
+      "lastOperationId": "op_5281a5ed91bbbf542ac09f6a0f90d051",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:58ed769a32e793bedbb0c803f2db6a7dfa4d63cc6b5529c651127ce88d3284b1",
       "revision": 1,
       "status": "active",
