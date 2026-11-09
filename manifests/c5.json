@@ -3,6 +3,66 @@
   "shard": "c5",
   "assets": [
     {
+      "id": "sha256:c59e60dba1e38e4bd91bcd9bf8a12afa9fb8f2bd5696b42e2c7709a1da440e41",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "c59e60dba1e38e4bd91bcd9bf8a12afa9fb8f2bd5696b42e2c7709a1da440e41",
+        "path": "objects/sha256/c5/c59e60dba1e38e4bd91bcd9bf8a12afa9fb8f2bd5696b42e2c7709a1da440e41.png",
+        "mime": "image/png",
+        "bytes": 124231,
+        "width": 616,
+        "height": 582,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "这几年里我窝囊过也窝囊过",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "这几年里我窝囊过也窝囊过"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "negative",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "这几年里我窝囊过也窝囊过",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:43:12Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000022-%E8%BF%99%E5%87%A0%E5%B9%B4%E9%87%8C%E6%88%91%E7%AA%9D%E5%9B%8A%E8%BF%87%E4%B9%9F%E7%AA%9D%E5%9B%8A%E8%BF%87.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00022-这几年里我窝囊过也窝囊过.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:43:12Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000022-%E8%BF%99%E5%87%A0%E5%B9%B4%E9%87%8C%E6%88%91%E7%AA%9D%E5%9B%8A%E8%BF%87%E4%B9%9F%E7%AA%9D%E5%9B%8A%E8%BF%87.png"
+      },
+      "updatedAt": "2026-11-09T09:43:12Z",
+      "lastOperationId": "op_36d340381b33cc173322f7b56e185988",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:c5c524ad1b249ac87ac16836a2ddd30e3ed9da29e89adf279fc7085a162bde10",
       "revision": 1,
       "status": "active",
