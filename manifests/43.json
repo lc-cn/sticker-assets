@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "43",
+  "assets": [
+    {
+      "id": "sha256:43af27776d53e1815846eaf383e13c2aa26f766db348b62522a96b7a84483bf3",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "43af27776d53e1815846eaf383e13c2aa26f766db348b62522a96b7a84483bf3",
+        "path": "objects/sha256/43/43af27776d53e1815846eaf383e13c2aa26f766db348b62522a96b7a84483bf3.jpg",
+        "mime": "image/jpeg",
+        "bytes": 43682,
+        "width": 1080,
+        "height": 792,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你是有什么特殊癖好吗",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys",
+        "你是有什么特殊癖好吗"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你是有什么特殊癖好吗",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:36:57Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00003-%E4%BD%A0%E6%98%AF%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E6%AE%8A%E7%99%96%E5%A5%BD%E5%90%97.jpg",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00003-你是有什么特殊癖好吗.jpg",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:36:57Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00003-%E4%BD%A0%E6%98%AF%E6%9C%89%E4%BB%80%E4%B9%88%E7%89%B9%E6%AE%8A%E7%99%96%E5%A5%BD%E5%90%97.jpg"
+      },
+      "updatedAt": "2026-11-09T09:36:57Z",
+      "lastOperationId": "op_faf078770ce2640f33aa008fea8a9ec4",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
