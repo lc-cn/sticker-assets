@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "36",
+  "assets": [
+    {
+      "id": "sha256:36b708498c7477fdfa9af8de93cd3570a5dc0af0a7b14df79d7d309462cb147c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "36b708498c7477fdfa9af8de93cd3570a5dc0af0a7b14df79d7d309462cb147c",
+        "path": "objects/sha256/36/36b708498c7477fdfa9af8de93cd3570a5dc0af0a7b14df79d7d309462cb147c.png",
+        "mime": "image/png",
+        "bytes": 148184,
+        "width": 589,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "眨眼",
+      "categories": [
+        "cute"
+      ],
+      "tags": [
+        "眨眼",
+        "卖萌",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "眨眼",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:17:21Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/wink.png",
+        "itemId": "kitten-crs:wink.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:17:21Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/wink.png"
+      },
+      "updatedAt": "2026-11-09T09:17:21Z",
+      "lastOperationId": "op_8ab3c8de3beb1e0b6c4953ede94a64a1",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
