@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "0b",
+  "assets": [
+    {
+      "id": "sha256:0b726910095d86618330acbc00b1c1ec7618a11926795121703d4ea31239865c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "0b726910095d86618330acbc00b1c1ec7618a11926795121703d4ea31239865c",
+        "path": "objects/sha256/0b/0b726910095d86618330acbc00b1c1ec7618a11926795121703d4ea31239865c.png",
+        "mime": "image/png",
+        "bytes": 6933,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "保证今晚十点上线",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "保证今晚十点上线"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "保证今晚十点上线",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:002-保证今晚十点上线.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

@@ -3,6 +3,65 @@
   "shard": "3a",
   "assets": [
     {
+      "id": "sha256:3a32804afe5968a403f64a192c3050ccf55db3e1d8427ff91700b3ef3fdf60ba",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "3a32804afe5968a403f64a192c3050ccf55db3e1d8427ff91700b3ef3fdf60ba",
+        "path": "objects/sha256/3a/3a32804afe5968a403f64a192c3050ccf55db3e1d8427ff91700b3ef3fdf60ba.png",
+        "mime": "image/png",
+        "bytes": 6956,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你的打开方式不对",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "你的打开方式不对"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你的打开方式不对",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:020-你的打开方式不对.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:3a7eb5af8733a096547907181d39a704b50751da624ddaa5df3591d573115514",
       "revision": 1,
       "status": "active",

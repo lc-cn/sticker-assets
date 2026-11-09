@@ -3,6 +3,65 @@
   "shard": "bd",
   "assets": [
     {
+      "id": "sha256:bd02ea2b1b7607b22c65f9dd73c020d08d5c24e94ae48a0582d6eef096dd803e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bd02ea2b1b7607b22c65f9dd73c020d08d5c24e94ae48a0582d6eef096dd803e",
+        "path": "objects/sha256/bd/bd02ea2b1b7607b22c65f9dd73c020d08d5c24e94ae48a0582d6eef096dd803e.png",
+        "mime": "image/png",
+        "bytes": 7862,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我不会修电脑谢谢",
+      "categories": [
+        "thanks"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "我不会修电脑谢谢"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我不会修电脑谢谢",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:005-我不会修电脑谢谢.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:bd9fb4e420eb1362f63e8a524c0913c775e74282f71cd56bc0411c7b47e2c37e",
       "revision": 1,
       "status": "active",

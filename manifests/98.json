@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "98",
+  "assets": [
+    {
+      "id": "sha256:989c93574de4a6a7a6d4a8fe5073b22e95ab3a3de8640e2f56153d943e01aeac",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "989c93574de4a6a7a6d4a8fe5073b22e95ab3a3de8640e2f56153d943e01aeac",
+        "path": "objects/sha256/98/989c93574de4a6a7a6d4a8fe5073b22e95ab3a3de8640e2f56153d943e01aeac.png",
+        "mime": "image/png",
+        "bytes": 7191,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "换一台设备试试看",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "换一台设备试试看"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "换一台设备试试看",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:011-换一台设备试试看.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

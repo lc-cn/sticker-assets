@@ -3,6 +3,65 @@
   "shard": "a5",
   "assets": [
     {
+      "id": "sha256:a5729c408b31ea8db98817e315d2c624fdfe5846013fce57dbde7a16dd888a25",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "a5729c408b31ea8db98817e315d2c624fdfe5846013fce57dbde7a16dd888a25",
+        "path": "objects/sha256/a5/a5729c408b31ea8db98817e315d2c624fdfe5846013fce57dbde7a16dd888a25.png",
+        "mime": "image/png",
+        "bytes": 7237,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "听说今晚不用加班",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "听说今晚不用加班"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "听说今晚不用加班",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:007-听说今晚不用加班.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:a57667ffb60d8c648a5c441d527e101a55ce78354f00a529fee899ea88c4ec10",
       "revision": 1,
       "status": "active",

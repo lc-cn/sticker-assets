@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "21",
+  "assets": [
+    {
+      "id": "sha256:2133bbbcacf02642cb6e43c7db1b67a1afba7be76434f308819cd29456040a01",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "2133bbbcacf02642cb6e43c7db1b67a1afba7be76434f308819cd29456040a01",
+        "path": "objects/sha256/21/2133bbbcacf02642cb6e43c7db1b67a1afba7be76434f308819cd29456040a01.png",
+        "mime": "image/png",
+        "bytes": 5384,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "要不重启一下试试",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "要不重启一下试试"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "要不重启一下试试",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:014-要不重启一下试试.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

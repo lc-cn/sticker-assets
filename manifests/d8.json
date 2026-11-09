@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "d8",
+  "assets": [
+    {
+      "id": "sha256:d8ff5228bc74693f8eb5be279974ca2e51e99a8841d810b2add4f3b5928a25fe",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "d8ff5228bc74693f8eb5be279974ca2e51e99a8841d810b2add4f3b5928a25fe",
+        "path": "objects/sha256/d8/d8ff5228bc74693f8eb5be279974ca2e51e99a8841d810b2add4f3b5928a25fe.png",
+        "mime": "image/png",
+        "bytes": 7918,
+        "width": 240,
+        "height": 240,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "下个版本我会优化",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "程序员",
+        "ProgrammersStickers",
+        "梗",
+        "下个版本我会优化"
+      ],
+      "aliases": [],
+      "language": "zh-CN",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "下个版本我会优化",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:38:01Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/celeron533/Programmers-Stickers",
+        "itemId": "programmers-stickers:006-下个版本我会优化.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "programmers-stickers-mit",
+        "reviewedAt": "2026-11-09T10:38:01Z",
+        "publicUrl": "https://github.com/celeron533/Programmers-Stickers"
+      },
+      "updatedAt": "2026-11-09T10:38:01Z",
+      "lastOperationId": "op_966cb37d35fe44f6643f6ecfe4479387",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
