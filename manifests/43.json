@@ -3,6 +3,66 @@
   "shard": "43",
   "assets": [
     {
+      "id": "sha256:43acd0517231257b0f7258199a50e1be8c495ce6897791e937a210603dc778ca",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "43acd0517231257b0f7258199a50e1be8c495ce6897791e937a210603dc778ca",
+        "path": "objects/sha256/43/43acd0517231257b0f7258199a50e1be8c495ce6897791e937a210603dc778ca.gif",
+        "mime": "image/gif",
+        "bytes": 743204,
+        "width": 389,
+        "height": 250,
+        "frames": 28,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "尴尬",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys",
+        "尴尬"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "尴尬",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:37:19Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00002-%E5%B0%B4%E5%B0%AC.gif",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00002-尴尬.gif",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:37:19Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00002-%E5%B0%B4%E5%B0%AC.gif"
+      },
+      "updatedAt": "2026-11-09T09:37:19Z",
+      "lastOperationId": "op_c87591775a7dba508e925863e7ca8d86",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:43af27776d53e1815846eaf383e13c2aa26f766db348b62522a96b7a84483bf3",
       "revision": 1,
       "status": "active",
