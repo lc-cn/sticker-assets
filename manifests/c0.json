@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "c0",
+  "assets": [
+    {
+      "id": "sha256:c0c4be5f33ef404c87c67f91854258d5cb5a8826b3244045c35bffc695aedd79",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "c0c4be5f33ef404c87c67f91854258d5cb5a8826b3244045c35bffc695aedd79",
+        "path": "objects/sha256/c0/c0c4be5f33ef404c87c67f91854258d5cb5a8826b3244045c35bffc695aedd79.png",
+        "mime": "image/png",
+        "bytes": 170061,
+        "width": 709,
+        "height": 576,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "疑惑",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "疑惑",
+        "问号",
+        "猫猫CRS",
+        "KittenCRS"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "疑惑",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:20:27Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/疑惑.png",
+        "itemId": "kitten-crs:疑惑.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "cc0-1-0-kitten-crs",
+        "reviewedAt": "2026-11-09T09:20:27Z",
+        "publicUrl": "https://github.com/CrSjimo/stickers.sjimo.dev/blob/main/public/stickers/疑惑.png"
+      },
+      "updatedAt": "2026-11-09T09:20:27Z",
+      "lastOperationId": "op_5b99394a2c1f401199f1e7dd5067c60c",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
