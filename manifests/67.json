@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "67",
+  "assets": [
+    {
+      "id": "sha256:67b97fde4224a5664287d53dc27ea18d827b024a46f67490f415ea7b5b2a1b00",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "67b97fde4224a5664287d53dc27ea18d827b024a46f67490f415ea7b5b2a1b00",
+        "path": "objects/sha256/67/67b97fde4224a5664287d53dc27ea18d827b024a46f67490f415ea7b5b2a1b00.png",
+        "mime": "image/png",
+        "bytes": 160209,
+        "width": 710,
+        "height": 690,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "姜还是老的老",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "姜还是老的老"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "姜还是老的老",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:05:24Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000006-%E5%A7%9C%E8%BF%98%E6%98%AF%E8%80%81%E7%9A%84%E8%80%81.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00006-姜还是老的老.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:05:24Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000006-%E5%A7%9C%E8%BF%98%E6%98%AF%E8%80%81%E7%9A%84%E8%80%81.png"
+      },
+      "updatedAt": "2026-11-09T10:05:24Z",
+      "lastOperationId": "op_38354f32814985c17a0ab6aece394325",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

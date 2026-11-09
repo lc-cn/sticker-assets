@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "31",
+  "assets": [
+    {
+      "id": "sha256:317c34ccc0222e9e47db4e167e89d44076d13d9c287f46bd78c20cd181ff089e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "317c34ccc0222e9e47db4e167e89d44076d13d9c287f46bd78c20cd181ff089e",
+        "path": "objects/sha256/31/317c34ccc0222e9e47db4e167e89d44076d13d9c287f46bd78c20cd181ff089e.png",
+        "mime": "image/png",
+        "bytes": 206704,
+        "width": 830,
+        "height": 820,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "我没有梦想我只想玩",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "我没有梦想我只想玩"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "我没有梦想我只想玩",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:05:24Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000007-%E6%88%91%E6%B2%A1%E6%9C%89%E6%A2%A6%E6%83%B3%E6%88%91%E5%8F%AA%E6%83%B3%E7%8E%A9.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00007-我没有梦想我只想玩.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:05:24Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000007-%E6%88%91%E6%B2%A1%E6%9C%89%E6%A2%A6%E6%83%B3%E6%88%91%E5%8F%AA%E6%83%B3%E7%8E%A9.png"
+      },
+      "updatedAt": "2026-11-09T10:05:24Z",
+      "lastOperationId": "op_38354f32814985c17a0ab6aece394325",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
