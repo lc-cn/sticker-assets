@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "f9",
+  "assets": [
+    {
+      "id": "sha256:f9252ccb6814910386482dda686fcdbd03d2201616508e47a0c7786f7ef15a5b",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f9252ccb6814910386482dda686fcdbd03d2201616508e47a0c7786f7ef15a5b",
+        "path": "objects/sha256/f9/f9252ccb6814910386482dda686fcdbd03d2201616508e47a0c7786f7ef15a5b.png",
+        "mime": "image/png",
+        "bytes": 146147,
+        "width": 591,
+        "height": 557,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你还能有华为聪明？",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "华为",
+        "程序员",
+        "吐槽",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你还能有华为聪明？",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:27:27Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/huawei.png",
+        "itemId": "wxmeme:Could_you_possibly_be_any_smarter_than_XXX/huawei.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:27:27Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/huawei.png"
+      },
+      "updatedAt": "2026-11-09T09:27:27Z",
+      "lastOperationId": "op_2649b341e43b2a8f5029ee561ae5a774",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
