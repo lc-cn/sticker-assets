@@ -1,0 +1,58 @@
+indexes/catalog.json
+  h_b64ebe5d3c7815 1
+licenses/meme-generator-mit.json
+  h_b64ebe5d3c7815 1-12
+licenses/ofl-1-1.json
+  h_b64ebe5d3c7815 1-12
+templates/bad-news/1/template.json
+  h_b64ebe5d3c7815 1-89
+templates/bronya-holdsign/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/daynight/1/template.json
+  h_b64ebe5d3c7815 1-91
+templates/decent-kiss/1/template.json
+  h_b64ebe5d3c7815 1-78
+templates/divorce/1/template.json
+  h_b64ebe5d3c7815 1-79
+templates/find-chips/1/template.json
+  h_b64ebe5d3c7815 1-141
+templates/good-news/1/template.json
+  h_b64ebe5d3c7815 1-90
+templates/high-eq/1/template.json
+  h_b64ebe5d3c7815 1-111
+templates/imprison/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/let-me-in/1/template.json
+  h_b64ebe5d3c7815 1-78
+templates/luxun-say/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/need/1/template.json
+  h_b64ebe5d3c7815 1-79
+templates/nijika-holdsign/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/perfect/1/template.json
+  h_b64ebe5d3c7815 1-78
+templates/scratchcard/1/template.json
+  h_b64ebe5d3c7815 1-103
+templates/shutup/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/slap/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/taunt/1/template.json
+  h_b64ebe5d3c7815 1-78
+templates/think-what/1/template.json
+  h_b64ebe5d3c7815 1-78
+templates/wish-fail/1/template.json
+  h_b64ebe5d3c7815 1-86
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "9a55afc25ac0d685927d85d2f8602b3563313b23",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
