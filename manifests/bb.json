@@ -3,6 +3,65 @@
   "shard": "bb",
   "assets": [
     {
+      "id": "sha256:bb2142fdb13987dfd717af28d6c16cbc072ae37496d73b6242fc18d52f3f8ddd",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "bb2142fdb13987dfd717af28d6c16cbc072ae37496d73b6242fc18d52f3f8ddd",
+        "path": "objects/sha256/bb/bb2142fdb13987dfd717af28d6c16cbc072ae37496d73b6242fc18d52f3f8ddd.png",
+        "mime": "image/png",
+        "bytes": 3033,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "banknote",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "banknote"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:46:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/banknote.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:46:19Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:46:19Z",
+      "lastOperationId": "op_9091a3e5fccd4a46968d9c4aa171e060",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:bbd6c7d8a35fe22e93cf4a55612b591c27a0c24f54a3d63da93ca0eb648b0a8f",
       "revision": 1,
       "status": "active",

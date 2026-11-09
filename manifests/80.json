@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "80",
+  "assets": [
+    {
+      "id": "sha256:801107b543f62d0e5ca1c571a4e320f6f3c2cc45031f8edb341c4f6983059a44",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "801107b543f62d0e5ca1c571a4e320f6f3c2cc45031f8edb341c4f6983059a44",
+        "path": "objects/sha256/80/801107b543f62d0e5ca1c571a4e320f6f3c2cc45031f8edb341c4f6983059a44.png",
+        "mime": "image/png",
+        "bytes": 1691,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "arrowup",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "arrowup"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:46:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/arrowup.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:46:19Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:46:19Z",
+      "lastOperationId": "op_9091a3e5fccd4a46968d9c4aa171e060",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

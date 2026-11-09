@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "28",
+  "assets": [
+    {
+      "id": "sha256:2856024378d30a1d3ea9fae9dd389834e960f32fc0269ff944dff78733b41efa",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "2856024378d30a1d3ea9fae9dd389834e960f32fc0269ff944dff78733b41efa",
+        "path": "objects/sha256/28/2856024378d30a1d3ea9fae9dd389834e960f32fc0269ff944dff78733b41efa.png",
+        "mime": "image/png",
+        "bytes": 10380,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "bellno",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "bellno"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:46:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/bellno.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:46:19Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:46:19Z",
+      "lastOperationId": "op_9091a3e5fccd4a46968d9c4aa171e060",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

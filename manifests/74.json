@@ -61,6 +61,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:744da70dbd9c6b7194d50bfcb9d98089a61e611bf8d1a92967bcba9287369cfd",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "744da70dbd9c6b7194d50bfcb9d98089a61e611bf8d1a92967bcba9287369cfd",
+        "path": "objects/sha256/74/744da70dbd9c6b7194d50bfcb9d98089a61e611bf8d1a92967bcba9287369cfd.png",
+        "mime": "image/png",
+        "bytes": 7109,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "astonishment",
+      "categories": [
+        "shock"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "astonishment"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:46:19Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/astonishment.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:46:19Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:46:19Z",
+      "lastOperationId": "op_9091a3e5fccd4a46968d9c4aa171e060",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }
