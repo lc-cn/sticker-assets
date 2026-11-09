@@ -1,0 +1,16 @@
+licenses/README.md
+  h_b64ebe5d3c7815 20
+licenses/zhaoolee-chinesebqb.json
+  h_b64ebe5d3c7815 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "bbed5f2ad2bb3284b1b39c6d1eb22642325553ba",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
