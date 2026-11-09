@@ -3,6 +3,65 @@
   "shard": "38",
   "assets": [
     {
+      "id": "sha256:38a08b3a010c534f889207707abbbfe0e547f39ac721e599021a5bd4b28a05a0",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "38a08b3a010c534f889207707abbbfe0e547f39ac721e599021a5bd4b28a05a0",
+        "path": "objects/sha256/38/38a08b3a010c534f889207707abbbfe0e547f39ac721e599021a5bd4b28a05a0.png",
+        "mime": "image/png",
+        "bytes": 2859,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "angry",
+      "categories": [
+        "angry"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "angry"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/angry.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:38c0c46718c1aa3a113350824afbdcccc67a2a8814d149f020f09685c715c5c5",
       "revision": 1,
       "status": "active",

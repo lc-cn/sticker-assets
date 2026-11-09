@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "12",
+  "assets": [
+    {
+      "id": "sha256:12f5292f330a133b7fb6ae88e4c0b5597ee150b514f57105e03de1d848caee9c",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "12f5292f330a133b7fb6ae88e4c0b5597ee150b514f57105e03de1d848caee9c",
+        "path": "objects/sha256/12/12f5292f330a133b7fb6ae88e4c0b5597ee150b514f57105e03de1d848caee9c.png",
+        "mime": "image/png",
+        "bytes": 2379,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "aliengreensad",
+      "categories": [
+        "sad"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "aliengreensad"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/aliengreensad.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

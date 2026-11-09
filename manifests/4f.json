@@ -3,6 +3,65 @@
   "shard": "4f",
   "assets": [
     {
+      "id": "sha256:4f0a15ede84aaba223b2fe7f24b6a73f7a53353a069a688c33694dbd155fa216",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "4f0a15ede84aaba223b2fe7f24b6a73f7a53353a069a688c33694dbd155fa216",
+        "path": "objects/sha256/4f/4f0a15ede84aaba223b2fe7f24b6a73f7a53353a069a688c33694dbd155fa216.png",
+        "mime": "image/png",
+        "bytes": 2711,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "aliengreenscream",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "aliengreenscream"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/aliengreenscream.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:4f274043d6ba0c0ea20b266819891ef4f1e52dc7f73aedb6cdfc25c1cc640c80",
       "revision": 1,
       "status": "active",

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "operationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+  "type": "import.batch",
+  "occurredAt": "2026-11-09T10:42:39Z",
+  "actorKind": "machine",
+  "idempotency": {
+    "keyId": "k1",
+    "keyHmac": "a83ea5b5049c6251606ceb3db377655e9dea227ee18af05b4ab19c601866c2a4"
+  },
+  "requestFingerprint": {
+    "keyId": "k1",
+    "hmac": "8c827994b6f9611c94313e61477a09c4ed508c6e4d223b97cd2f395235fd4bdc"
+  },
+  "assets": [
+    {
+      "id": "sha256:41a334b9cb3d89dbd4f47c77de67d0d7126042bf402d87a3499d5c1af54e4c1a",
+      "revision": 1
+    },
+    {
+      "id": "sha256:6d5d50093fb30b9ee12c453e4b2dc6c24ee8b4750046e68e7f195cdf837b9bcc",
+      "revision": 1
+    },
+    {
+      "id": "sha256:ccb8e78153ec2636cbe993bca9df38ef0375e9113c9ca6909968aaa47a9cb01d",
+      "revision": 1
+    },
+    {
+      "id": "sha256:12f5292f330a133b7fb6ae88e4c0b5597ee150b514f57105e03de1d848caee9c",
+      "revision": 1
+    },
+    {
+      "id": "sha256:4f0a15ede84aaba223b2fe7f24b6a73f7a53353a069a688c33694dbd155fa216",
+      "revision": 1
+    },
+    {
+      "id": "sha256:a712cec9e52b69abd7f5ef99952b7a8ca8f0e4806cc2fa59b9fa00237fac1f15",
+      "revision": 1
+    },
+    {
+      "id": "sha256:a958997751eec1cfca375a27f2c64bc031a3308b8cf757cd57dfc80ac061ad3b",
+      "revision": 1
+    },
+    {
+      "id": "sha256:bff45a59efcd2a5ee36013d53e421ad9afef7c76a037da3125522f2151fc5928",
+      "revision": 1
+    },
+    {
+      "id": "sha256:7c6e40ee3d428b07992215c9894d589070ce4bbc0cd656092915a81b8a503b91",
+      "revision": 1
+    },
+    {
+      "id": "sha256:38a08b3a010c534f889207707abbbfe0e547f39ac721e599021a5bd4b28a05a0",
+      "revision": 1
+    },
+    {
+      "id": "sha256:cbee7d269cd29e24fde24b4f46d0917240f72e74e5a86f315d74b4aca334d4ac",
+      "revision": 1
+    },
+    {
+      "id": "sha256:164aea18cc3f21d073fb12b782e8c116dd88558f6ff5f45e3d6fdc92383c2c21",
+      "revision": 1
+    },
+    {
+      "id": "sha256:f549f5fb54b9c87fb754bd1fe36a97e2116262a90ce202ed9f9e5f18515bee68",
+      "revision": 1
+    },
+    {
+      "id": "sha256:0cd36d431612666ec610738bdbc89b47215758d76b0ca52cd81b009242a7d356",
+      "revision": 1
+    },
+    {
+      "id": "sha256:00a1dc1bec835d3b1ec0b3a5174bc2a4912bc77919b2c60285b94590af79f5ee",
+      "revision": 1
+    },
+    {
+      "id": "sha256:427eb5f9f1a9581b27dde1412b902bb57558f64c70600b235c36d4c2ee6ec865",
+      "revision": 1
+    },
+    {
+      "id": "sha256:b3a848ea9168370f7e117e27aff8760c4019c098a44b1e5037c3d5de22ca4223",
+      "revision": 1
+    },
+    {
+      "id": "sha256:55ea5f94480f1b8e91804a704b39f295ec35f662d18766f2fd072990e721a617",
+      "revision": 1
+    },
+    {
+      "id": "sha256:f6418951dacd2a27dd1fb1fcf6c394a3184a0477a5fd6984ffe5d9d431ad5008",
+      "revision": 1
+    },
+    {
+      "id": "sha256:131d83b7e937812c88bc91341fbcff1d869f7b87e7834925509aea2dd14cd20e",
+      "revision": 1
+    }
+  ],
+  "summary": {
+    "added": 20,
+    "addedBytes": 69491
+  }
+}

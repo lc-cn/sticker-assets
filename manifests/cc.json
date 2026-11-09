@@ -61,6 +61,65 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:ccb8e78153ec2636cbe993bca9df38ef0375e9113c9ca6909968aaa47a9cb01d",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "ccb8e78153ec2636cbe993bca9df38ef0375e9113c9ca6909968aaa47a9cb01d",
+        "path": "objects/sha256/cc/ccb8e78153ec2636cbe993bca9df38ef0375e9113c9ca6909968aaa47a9cb01d.png",
+        "mime": "image/png",
+        "bytes": 2339,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "aliengreenhappy",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "aliengreenhappy"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/aliengreenhappy.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }

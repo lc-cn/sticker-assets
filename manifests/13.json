@@ -3,6 +3,65 @@
   "shard": "13",
   "assets": [
     {
+      "id": "sha256:131d83b7e937812c88bc91341fbcff1d869f7b87e7834925509aea2dd14cd20e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "131d83b7e937812c88bc91341fbcff1d869f7b87e7834925509aea2dd14cd20e",
+        "path": "objects/sha256/13/131d83b7e937812c88bc91341fbcff1d869f7b87e7834925509aea2dd14cd20e.png",
+        "mime": "image/png",
+        "bytes": 2923,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "cathappy",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "cathappy"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/cathappy.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:13f6ecf73563f3e37dc96f4df68f0d4444c441249a9ca4576b61b533f55195a1",
       "revision": 1,
       "status": "active",

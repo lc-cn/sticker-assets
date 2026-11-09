@@ -3,6 +3,65 @@
   "shard": "16",
   "assets": [
     {
+      "id": "sha256:164aea18cc3f21d073fb12b782e8c116dd88558f6ff5f45e3d6fdc92383c2c21",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "164aea18cc3f21d073fb12b782e8c116dd88558f6ff5f45e3d6fdc92383c2c21",
+        "path": "objects/sha256/16/164aea18cc3f21d073fb12b782e8c116dd88558f6ff5f45e3d6fdc92383c2c21.png",
+        "mime": "image/png",
+        "bytes": 9751,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "baby",
+      "categories": [
+        "cute"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "baby"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/baby.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:16eec2f1af7f228a9df34a9d11785f1fadaa1f9061a4d79bfaecbf31fd591113",
       "revision": 1,
       "status": "active",

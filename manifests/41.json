@@ -62,6 +62,65 @@
       "tombstone": null
     },
     {
+      "id": "sha256:41a334b9cb3d89dbd4f47c77de67d0d7126042bf402d87a3499d5c1af54e4c1a",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "41a334b9cb3d89dbd4f47c77de67d0d7126042bf402d87a3499d5c1af54e4c1a",
+        "path": "objects/sha256/41/41a334b9cb3d89dbd4f47c77de67d0d7126042bf402d87a3499d5c1af54e4c1a.png",
+        "mime": "image/png",
+        "bytes": 2247,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "alien",
+      "categories": [
+        "animal"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "alien"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/alien.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:41e670820bd4813ca09162b715f2e898210f26a16e93dfe489fc92457625f276",
       "revision": 1,
       "status": "active",

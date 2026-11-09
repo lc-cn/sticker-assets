@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "b3",
+  "assets": [
+    {
+      "id": "sha256:b3a848ea9168370f7e117e27aff8760c4019c098a44b1e5037c3d5de22ca4223",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "b3a848ea9168370f7e117e27aff8760c4019c098a44b1e5037c3d5de22ca4223",
+        "path": "objects/sha256/b3/b3a848ea9168370f7e117e27aff8760c4019c098a44b1e5037c3d5de22ca4223.png",
+        "mime": "image/png",
+        "bytes": 3051,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "blush",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "blush"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/blush.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

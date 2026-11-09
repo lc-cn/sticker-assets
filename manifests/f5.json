@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "f5",
+  "assets": [
+    {
+      "id": "sha256:f549f5fb54b9c87fb754bd1fe36a97e2116262a90ce202ed9f9e5f18515bee68",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f549f5fb54b9c87fb754bd1fe36a97e2116262a90ce202ed9f9e5f18515bee68",
+        "path": "objects/sha256/f5/f549f5fb54b9c87fb754bd1fe36a97e2116262a90ce202ed9f9e5f18515bee68.png",
+        "mime": "image/png",
+        "bytes": 6449,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "bad",
+      "categories": [
+        "other"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "bad"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/bad.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

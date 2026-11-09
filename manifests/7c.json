@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "7c",
+  "assets": [
+    {
+      "id": "sha256:7c6e40ee3d428b07992215c9894d589070ce4bbc0cd656092915a81b8a503b91",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "7c6e40ee3d428b07992215c9894d589070ce4bbc0cd656092915a81b8a503b91",
+        "path": "objects/sha256/7c/7c6e40ee3d428b07992215c9894d589070ce4bbc0cd656092915a81b8a503b91.png",
+        "mime": "image/png",
+        "bytes": 3174,
+        "width": 256,
+        "height": 256,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "angel",
+      "categories": [
+        "cute"
+      ],
+      "tags": [
+        "BFunEmoji",
+        "emoji",
+        "CC0",
+        "angel"
+      ],
+      "aliases": [],
+      "language": "en",
+      "tone": "neutral",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": null,
+        "ocrSource": null,
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:42:39Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/PenguinMod/BFunEmoji",
+        "itemId": "bfunemoji:emojiset/angel.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "bfunemoji-cc0",
+        "reviewedAt": "2026-11-09T10:42:39Z",
+        "publicUrl": "https://github.com/PenguinMod/BFunEmoji"
+      },
+      "updatedAt": "2026-11-09T10:42:39Z",
+      "lastOperationId": "op_2bd88b3e22bdcf1de4a562c814cdf463",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
