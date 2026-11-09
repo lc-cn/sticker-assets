@@ -1,0 +1,18 @@
+licenses/README.md
+  h_b64ebe5d3c7815 12-19
+licenses/cc0-1-0-kitten-crs.json
+  h_b64ebe5d3c7815 1-12
+licenses/wxmeme-stickers-mit.json
+  h_b64ebe5d3c7815 1-12
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "96e39ef84440db8ab8756f01aa5be5b655f82473",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
