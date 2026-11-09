@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "teach",
+  "version": 1,
+  "title": "讲课",
+  "description": "黑板上贴头像/图，底下配字（如昵称）",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "讲课",
+    "敲黑板",
+    "头像",
+    "昵称"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 40
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 960,
+    "height": 540,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 313,
+        "y": 60,
+        "w": 550,
+        "h": 395
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 960,
+        "h": 540
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 10,
+        "y": 460,
+        "w": 940,
+        "h": 70
+      },
+      "font": "default-sans",
+      "fontSize": 40,
+      "minFontSize": 18,
+      "color": "#ffffff",
+      "stroke": {
+        "color": "#000000",
+        "width": 3
+      },
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "ccf97e972be64dcc0cfdae3b777f5a90f39b6ea8e9ef76538bb155eb5cd8f81f",
+      "bytes": 324936,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "teach",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/teach",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

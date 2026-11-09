@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "look-this-icon",
+  "version": 1,
+  "title": "看图标",
+  "description": "把头像塞进图标位，底下配字",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "看图标",
+    "头像",
+    "昵称",
+    "nmsl"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 40
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1170,
+    "height": 1143,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 599,
+        "y": 403,
+        "w": 515,
+        "h": 515
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1170,
+        "h": 1143
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 933,
+        "w": 1170,
+        "h": 210
+      },
+      "font": "default-sans",
+      "fontSize": 72,
+      "minFontSize": 36,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "496a3ab46d40757d40b38c50194c479be7755511c9194465a4669f15fbd2dee9",
+      "bytes": 381339,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "look_this_icon",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/look_this_icon",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

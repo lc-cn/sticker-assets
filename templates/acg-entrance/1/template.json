@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "acg-entrance",
+  "version": 1,
+  "title": "二次元入口",
+  "description": "把头像拉进二次元门，底下配字",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "二次元入口",
+    "头像",
+    "昵称"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 40
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 640,
+    "height": 962,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 190,
+        "y": 265,
+        "w": 290,
+        "h": 410
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 962
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 30,
+        "y": 720,
+        "w": 580,
+        "h": 90
+      },
+      "font": "default-sans",
+      "fontSize": 40,
+      "minFontSize": 20,
+      "color": "#ffffff",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "3713841fe43c1168648473d69a6f12984a44a126d5e9165b90b8e02f05f5685d",
+      "bytes": 381756,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "acg_entrance",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/acg_entrance",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "dont-go-near",
+  "version": 1,
+  "title": "不要靠近",
+  "description": "警告牌里头像：不要靠近",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "不要靠近",
+    "头像",
+    "警告"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 600,
+    "height": 600,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 600,
+        "h": 600
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 23,
+        "y": 231,
+        "w": 170,
+        "h": 170
+      },
+      "fit": "cover"
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "8bd5f381d6fdf6b5e726340bb3e3feeb38cfef2a300d382b2afb69ad26a9051c",
+      "bytes": 224869,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "dont_go_near",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/dont_go_near",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

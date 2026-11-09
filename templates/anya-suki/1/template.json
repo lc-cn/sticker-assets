@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "id": "anya-suki",
+  "version": 1,
+  "title": "阿尼亚喜欢",
+  "description": "阿尼亚举牌喜欢某人/某物（头像）",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "阿尼亚喜欢",
+    "头像",
+    "昵称",
+    "阿尼亚"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 475,
+    "height": 500,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 106,
+        "y": 72,
+        "w": 305,
+        "h": 235
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 475,
+        "h": 500
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 5,
+        "y": 440,
+        "w": 465,
+        "h": 50
+      },
+      "font": "default-sans",
+      "fontSize": 32,
+      "minFontSize": 16,
+      "color": "#ffffff",
+      "stroke": {
+        "color": "#000000",
+        "width": 3
+      },
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "2d8be5c4895ef5d23c194e252bc0b469caa75b5373791aca583baaa22660e862",
+      "bytes": 168875,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "anya_suki",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/anya_suki",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}
