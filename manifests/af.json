@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "af",
+  "assets": [
+    {
+      "id": "sha256:af76cf572d6eb565570f7ae0c17319debdef2c252cee1be9d603d025116267a3",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "af76cf572d6eb565570f7ae0c17319debdef2c252cee1be9d603d025116267a3",
+        "path": "objects/sha256/af/af76cf572d6eb565570f7ae0c17319debdef2c252cee1be9d603d025116267a3.png",
+        "mime": "image/png",
+        "bytes": 5457,
+        "width": 101,
+        "height": 106,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "像鸽子的鹦鹉",
+      "categories": [
+        "refuse"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "鸽子",
+        "鸽了",
+        "像鸽子的鹦鹉"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "像鸽子的鹦鹉",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:34:06Z",
+      "firstSeenAt": "2026-10-17T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/029Pigeon_%E9%B8%BD%E5%AD%90%F0%9F%95%8ABQB/%E9%B8%BD%E5%AD%9000002-%E5%83%8F%E9%B8%BD%E5%AD%90%E7%9A%84%E9%B9%A6%E9%B9%89.png",
+        "itemId": "chinesebqb:029Pigeon_鸽子🕊BQB/鸽子00002-像鸽子的鹦鹉.png",
+        "publishedAt": "2026-10-17T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:34:06Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/029Pigeon_%E9%B8%BD%E5%AD%90%F0%9F%95%8ABQB/%E9%B8%BD%E5%AD%9000002-%E5%83%8F%E9%B8%BD%E5%AD%90%E7%9A%84%E9%B9%A6%E9%B9%89.png"
+      },
+      "updatedAt": "2026-11-09T09:34:06Z",
+      "lastOperationId": "op_259b40d10f888f6cb1b9b7a83f6b3b07",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
