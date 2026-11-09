@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "cc",
+  "assets": [
+    {
+      "id": "sha256:cc3960a11de6e3f6b7e29136c850e150444b30cc89664a5d96ae5edf9487e82e",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "cc3960a11de6e3f6b7e29136c850e150444b30cc89664a5d96ae5edf9487e82e",
+        "path": "objects/sha256/cc/cc3960a11de6e3f6b7e29136c850e150444b30cc89664a5d96ae5edf9487e82e.png",
+        "mime": "image/png",
+        "bytes": 190773,
+        "width": 716,
+        "height": 688,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "别人事业有成我蜜雪冰城",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "别人事业有成我蜜雪冰城"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "别人事业有成我蜜雪冰城",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:40:45Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000029-%E5%88%AB%E4%BA%BA%E4%BA%8B%E4%B8%9A%E6%9C%89%E6%88%90%E6%88%91%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00029-别人事业有成我蜜雪冰城.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:40:45Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000029-%E5%88%AB%E4%BA%BA%E4%BA%8B%E4%B8%9A%E6%9C%89%E6%88%90%E6%88%91%E8%9C%9C%E9%9B%AA%E5%86%B0%E5%9F%8E.png"
+      },
+      "updatedAt": "2026-11-09T09:40:45Z",
+      "lastOperationId": "op_a0f1e5523a312b8de84f311de61f18ab",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
