@@ -60,6 +60,66 @@
       "archivedAt": null,
       "deletedAt": null,
       "tombstone": null
+    },
+    {
+      "id": "sha256:f44f0e7f678eef948177468af593735fb6c7735daf96e4ea69ac1cdf4d450c41",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f44f0e7f678eef948177468af593735fb6c7735daf96e4ea69ac1cdf4d450c41",
+        "path": "objects/sha256/f4/f44f0e7f678eef948177468af593735fb6c7735daf96e4ea69ac1cdf4d450c41.png",
+        "mime": "image/png",
+        "bytes": 166874,
+        "width": 734,
+        "height": 962,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "把老板锁在办公室",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "把老板锁在办公室"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "把老板锁在办公室",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:44:44Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000017-%E6%8A%8A%E8%80%81%E6%9D%BF%E9%94%81%E5%9C%A8%E5%8A%9E%E5%85%AC%E5%AE%A4.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00017-把老板锁在办公室.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:44:44Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000017-%E6%8A%8A%E8%80%81%E6%9D%BF%E9%94%81%E5%9C%A8%E5%8A%9E%E5%85%AC%E5%AE%A4.png"
+      },
+      "updatedAt": "2026-11-09T09:44:44Z",
+      "lastOperationId": "op_96d69411d321a58d97e13842eff55226",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
     }
   ]
 }
