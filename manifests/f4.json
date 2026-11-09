@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "f4",
+  "assets": [
+    {
+      "id": "sha256:f402339ea38394c95ff827681cc4ab8b478e7843d84c221264e0f5529208fd00",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "f402339ea38394c95ff827681cc4ab8b478e7843d84c221264e0f5529208fd00",
+        "path": "objects/sha256/f4/f402339ea38394c95ff827681cc4ab8b478e7843d84c221264e0f5529208fd00.png",
+        "mime": "image/png",
+        "bytes": 146726,
+        "width": 591,
+        "height": 557,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "你还能有谷歌聪明？",
+      "categories": [
+        "speechless"
+      ],
+      "tags": [
+        "谷歌",
+        "程序员",
+        "吐槽",
+        "WXMeme"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "你还能有谷歌聪明？",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:21:11Z",
+      "firstSeenAt": null,
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/google.png",
+        "itemId": "wxmeme:Could_you_possibly_be_any_smarter_than_XXX/google.png",
+        "publishedAt": null,
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "license",
+        "licenseId": "wxmeme-stickers-mit",
+        "reviewedAt": "2026-11-09T09:21:11Z",
+        "publicUrl": "https://github.com/anzhi0708/WXMemeStickers/blob/main/Could_you_possibly_be_any_smarter_than_XXX/google.png"
+      },
+      "updatedAt": "2026-11-09T09:21:11Z",
+      "lastOperationId": "op_44c0ae5a259bdd2c5e11901c681d7959",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
