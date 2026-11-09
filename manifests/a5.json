@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "shard": "a5",
+  "assets": [
+    {
+      "id": "sha256:a57667ffb60d8c648a5c441d527e101a55ce78354f00a529fee899ea88c4ec10",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "a57667ffb60d8c648a5c441d527e101a55ce78354f00a529fee899ea88c4ec10",
+        "path": "objects/sha256/a5/a57667ffb60d8c648a5c441d527e101a55ce78354f00a529fee899ea88c4ec10.jpg",
+        "mime": "image/jpeg",
+        "bytes": 40555,
+        "width": 1069,
+        "height": 746,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "而你我的朋友你是真正的英雄",
+      "categories": [
+        "celebrate"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "黑袍纠察队",
+        "TheBoys"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "而你我的朋友你是真正的英雄",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T09:35:48Z",
+      "firstSeenAt": "2026-09-12T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00007-%E8%80%8C%E4%BD%A0%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BD%A0%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%8B%B1%E9%9B%84.jpg",
+        "itemId": "chinesebqb:111_TheBoys_黑袍纠察队_BQB/黑袍纠察队00007-而你我的朋友你是真正的英雄.jpg",
+        "publishedAt": "2026-09-12T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T09:35:48Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/111_TheBoys_%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F_BQB/%E9%BB%91%E8%A2%8D%E7%BA%A0%E5%AF%9F%E9%98%9F00007-%E8%80%8C%E4%BD%A0%E6%88%91%E7%9A%84%E6%9C%8B%E5%8F%8B%E4%BD%A0%E6%98%AF%E7%9C%9F%E6%AD%A3%E7%9A%84%E8%8B%B1%E9%9B%84.jpg"
+      },
+      "updatedAt": "2026-11-09T09:35:48Z",
+      "lastOperationId": "op_dc5a1f61fa1c71825a3af14579456348",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}
