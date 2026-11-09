@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "shard": "71",
+  "assets": [
+    {
+      "id": "sha256:7186f423c21d1c1241fecddb698886b018ff70a01c4a40f71a3ffabe826e15f4",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "7186f423c21d1c1241fecddb698886b018ff70a01c4a40f71a3ffabe826e15f4",
+        "path": "objects/sha256/71/7186f423c21d1c1241fecddb698886b018ff70a01c4a40f71a3ffabe826e15f4.gif",
+        "mime": "image/gif",
+        "bytes": 148786,
+        "width": 353,
+        "height": 270,
+        "frames": 9,
+        "animated": true
+      },
+      "originalSha256": null,
+      "title": "鼓掌",
+      "categories": [
+        "laugh"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "企鹅家族",
+        "Pingu",
+        "鼓掌"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "positive",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "鼓掌",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:06:24Z",
+      "firstSeenAt": "2026-05-01T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/108_Pingu_%E4%BC%81%E9%B9%85%E5%AE%B6%E6%97%8F_BQB/%E4%BC%81%E9%B9%85%E5%AE%B6%E6%97%8F00007-%E9%BC%93%E6%8E%8C.gif",
+        "itemId": "chinesebqb:108_Pingu_企鹅家族_BQB/企鹅家族00007-鼓掌.gif",
+        "publishedAt": "2026-05-01T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:06:24Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/108_Pingu_%E4%BC%81%E9%B9%85%E5%AE%B6%E6%97%8F_BQB/%E4%BC%81%E9%B9%85%E5%AE%B6%E6%97%8F00007-%E9%BC%93%E6%8E%8C.gif"
+      },
+      "updatedAt": "2026-11-09T10:06:24Z",
+      "lastOperationId": "op_348150c8c4b856c95f6be9ad20604ee5",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    }
+  ]
+}

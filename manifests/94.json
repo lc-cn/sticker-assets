@@ -3,6 +3,66 @@
   "shard": "94",
   "assets": [
     {
+      "id": "sha256:943f47c029eb64ea0d140f9d33858cceea8baf3b81151ea872ff993db295cd58",
+      "revision": 1,
+      "status": "active",
+      "object": {
+        "sha256": "943f47c029eb64ea0d140f9d33858cceea8baf3b81151ea872ff993db295cd58",
+        "path": "objects/sha256/94/943f47c029eb64ea0d140f9d33858cceea8baf3b81151ea872ff993db295cd58.png",
+        "mime": "image/png",
+        "bytes": 100609,
+        "width": 556,
+        "height": 638,
+        "frames": 1,
+        "animated": false
+      },
+      "originalSha256": null,
+      "title": "已深度思考",
+      "categories": [
+        "work"
+      ],
+      "tags": [
+        "ChineseBQB",
+        "表情包",
+        "负鼠",
+        "打工人",
+        "已深度思考"
+      ],
+      "aliases": [],
+      "language": "zh",
+      "tone": "sarcastic",
+      "safety": {
+        "rating": "general",
+        "offensive": false
+      },
+      "text": {
+        "ocr": "已深度思考",
+        "ocrSource": "manual",
+        "ocrConfirmed": false
+      },
+      "uploadedAt": "2026-11-09T10:06:24Z",
+      "firstSeenAt": "2026-06-19T00:00:00Z",
+      "source": {
+        "kind": "import",
+        "adapter": null,
+        "url": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000001-%E5%B7%B2%E6%B7%B1%E5%BA%A6%E6%80%9D%E8%80%83.png",
+        "itemId": "chinesebqb:109_Opossum_负鼠_BQB/负鼠00001-已深度思考.png",
+        "publishedAt": "2026-06-19T00:00:00Z",
+        "confidence": "high"
+      },
+      "rights": {
+        "basis": "creator-permission",
+        "licenseId": "zhaoolee-chinesebqb",
+        "reviewedAt": "2026-11-09T10:06:24Z",
+        "publicUrl": "https://github.com/zhaoolee/ChineseBQB/blob/master/109_Opossum_%E8%B4%9F%E9%BC%A0_BQB/%E8%B4%9F%E9%BC%A000001-%E5%B7%B2%E6%B7%B1%E5%BA%A6%E6%80%9D%E8%80%83.png"
+      },
+      "updatedAt": "2026-11-09T10:06:24Z",
+      "lastOperationId": "op_348150c8c4b856c95f6be9ad20604ee5",
+      "archivedAt": null,
+      "deletedAt": null,
+      "tombstone": null
+    },
+    {
       "id": "sha256:949ffa75a913feb8fb2f51f5dfee13636ee2fb0ad8835c6c58791c4dc5e596d4",
       "revision": 1,
       "status": "active",
