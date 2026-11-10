@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "genshin-start",
+  "version": 1,
+  "title": "原神启动",
+  "description": "原神启动 · 原神 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "原神启动",
+    "原神",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 20
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1621,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 412,
+        "y": 121,
+        "w": 600,
+        "h": 330
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1621
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 100,
+        "y": 1471,
+        "w": 880,
+        "h": 150
+      },
+      "font": "default-sans",
+      "fontSize": 80,
+      "minFontSize": 40,
+      "color": "#ffffff",
+      "stroke": {
+        "color": "#000000",
+        "width": 4
+      },
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "094e7c6eddb3156159a15fddda15103df10ff7c7c6f652d33ec943f320047e3c",
+      "bytes": 963223,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "genshin_start",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/genshin_start",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "overtime",
+  "version": 1,
+  "title": "加班",
+  "description": "加班 · 头像 · 打工人",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "加班",
+    "头像",
+    "打工人"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 428,
+    "height": 454,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 165,
+        "y": 220,
+        "w": 250,
+        "h": 234
+      },
+      "fit": "cover",
+      "rotate": -25
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 428,
+        "h": 454
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "53666bb706e54528559915cef6c719f5f76b78e0e3efbca59eabf8bc79471681",
+      "bytes": 174582,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "overtime",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/overtime",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

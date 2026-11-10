@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "nekoha-holdsign",
+  "version": 1,
+  "title": "猫羽雫举牌",
+  "description": "猫羽雫举牌 · 猫猫举牌 · 举牌",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "猫羽雫举牌",
+    "猫猫举牌",
+    "举牌",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 800,
+    "height": 1066,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.jpg",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 800,
+        "h": 1066
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 210,
+        "y": 520,
+        "w": 360,
+        "h": 245
+      },
+      "font": "default-sans",
+      "fontSize": 48,
+      "minFontSize": 20,
+      "color": "#486EAD",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.jpg",
+      "sha256": "9118cdd9b6b18319fdc96976997a796d37554a06752ae014c6de5268eb44b58d",
+      "bytes": 140054,
+      "mime": "image/jpeg",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "nekoha_holdsign",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/nekoha_holdsign",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

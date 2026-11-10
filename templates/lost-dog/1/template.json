@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "lost-dog",
+  "version": 1,
+  "title": "寻狗启事",
+  "description": "寻狗启事 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "寻狗启事",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 800,
+    "height": 1033,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 295,
+        "y": 165,
+        "w": 280,
+        "h": 280
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 800,
+        "h": 1033
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "f5dcd347c813108a41df74b4fd5bca13283095ee7203a06bf38db0730c588ee2",
+      "bytes": 366860,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "lost_dog",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/lost_dog",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

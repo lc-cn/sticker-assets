@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "pinch",
+  "version": 1,
+  "title": "捏脸",
+  "description": "捏 · 捏脸 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "捏",
+    "捏脸",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 2048,
+    "height": 1024,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 546,
+        "y": 0,
+        "w": 910,
+        "h": 728
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 2048,
+        "h": 1024
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "64a176cdb58477e9d1bcb412487fd0036760563695bbb5f0e9c7152b1d6eee24",
+      "bytes": 1423548,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "pinch",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/pinch",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

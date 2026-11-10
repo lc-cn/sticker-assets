@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "ascension",
+  "version": 1,
+  "title": "升天",
+  "description": "升天 · 文字",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "升天",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 640,
+    "height": 625,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 625
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 40,
+        "y": 30,
+        "w": 442,
+        "h": 105
+      },
+      "font": "default-sans",
+      "fontSize": 40,
+      "minFontSize": 16,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "f4f92dcdcb2dcf4a62efedde1d44a5113f6345340fcbd178571f43310f383452",
+      "bytes": 478418,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "ascension",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/ascension",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

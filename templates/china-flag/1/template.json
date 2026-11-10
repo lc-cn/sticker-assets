@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "china-flag",
+  "version": 1,
+  "title": "国旗",
+  "description": "国旗 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "国旗",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 640,
+    "height": 640,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 640
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 640
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "18b312820efe7617f9546d2fbf48e9b94d332044db5a0847878d7db2fc2e7ce6",
+      "bytes": 148065,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "china_flag",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/china_flag",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

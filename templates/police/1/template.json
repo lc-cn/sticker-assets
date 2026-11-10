@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "police",
+  "version": 1,
+  "title": "出警",
+  "description": "出警 · 警察 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "出警",
+    "警察",
+    "头像",
+    "昵称"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 20
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 670,
+    "height": 480,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 224,
+        "y": 46,
+        "w": 245,
+        "h": 245
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 670,
+        "h": 480
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 220,
+        "y": 395,
+        "w": 250,
+        "h": 85
+      },
+      "font": "default-sans",
+      "fontSize": 48,
+      "minFontSize": 18,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "125fae12c8187ece74c48c7cfa3e9658f4066539bb70752ea7fa67954335b19c",
+      "bytes": 154502,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "police",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/police",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

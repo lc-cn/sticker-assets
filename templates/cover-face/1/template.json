@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "id": "cover-face",
+  "version": 1,
+  "title": "捂脸",
+  "description": "捂脸 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "捂脸",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 690,
+    "height": 690,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 120,
+        "y": 150,
+        "w": 450,
+        "h": 450
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 690,
+        "h": 690
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "96738bce4fc2a0df30b790a6ef2195ff9ae9b1a113cfa67813d611e80c9d7d9a",
+      "bytes": 206664,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "cover_face",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/cover_face",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

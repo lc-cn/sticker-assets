@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "keep-your-money",
+  "version": 1,
+  "title": "压岁钱不要交给",
+  "description": "压岁钱不要交给 · 压岁钱 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "压岁钱不要交给",
+    "压岁钱",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 440,
+        "w": 500,
+        "h": 640
+      },
+      "fit": "contain"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1080
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "6b8c9deacd08e921ca106f84debafebc3ebc416ae440fb649494021565c10f66",
+      "bytes": 929033,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "keep_your_money",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/keep_your_money",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

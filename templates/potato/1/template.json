@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "potato",
+  "version": 1,
+  "title": "土豆",
+  "description": "土豆 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "土豆",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1000,
+    "height": 612,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 531,
+        "y": 15,
+        "w": 458,
+        "h": 458
+      },
+      "fit": "cover",
+      "rotate": -5
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1000,
+        "h": 612
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "e4b9d1785b05c094bf1ffb054f2b37cc1a88c860db939cd3adb04f852791bba8",
+      "bytes": 366643,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "potato",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/potato",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

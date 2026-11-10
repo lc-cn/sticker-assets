@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "maimai-join",
+  "version": 1,
+  "title": "旅行伙伴加入",
+  "description": "旅行伙伴加入 · 头像 · 舞萌",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "旅行伙伴加入",
+    "头像",
+    "舞萌"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 500,
+    "height": 500,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 50,
+        "y": 50,
+        "w": 400,
+        "h": 400
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 500
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "89b4e0887a8e3877007ccb1286df0a093268604c49797d2201f201cf9e36d998",
+      "bytes": 201168,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "maimai_join",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/maimai_join",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

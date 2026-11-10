@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "luotianyi-say",
+  "version": 1,
+  "title": "洛天依说",
+  "description": "洛天依说 · 天依说 · 文字",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "洛天依说",
+    "天依说",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 40
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1080
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 520,
+        "y": 20,
+        "w": 540,
+        "h": 200
+      },
+      "font": "default-sans",
+      "fontSize": 80,
+      "minFontSize": 28,
+      "color": "#66CCFF",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "d5a8e2a127ca2749ebb51633fa9afa28ab839572f0a0ea71e44f366c2c445cf5",
+      "bytes": 487134,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "luotianyi_say",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/luotianyi_say",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

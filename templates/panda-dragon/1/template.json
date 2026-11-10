@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "panda-dragon",
+  "version": 1,
+  "title": "熊猫龙图",
+  "description": "熊猫龙图 · 文字",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "熊猫龙图",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 2,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 550,
+    "height": 550,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 550,
+        "h": 550
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 550,
+        "h": 120
+      },
+      "font": "default-sans",
+      "fontSize": 56,
+      "minFontSize": 18,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    },
+    {
+      "type": "text",
+      "slot": 1,
+      "box": {
+        "x": 0,
+        "y": 470,
+        "w": 470,
+        "h": 80
+      },
+      "font": "default-sans",
+      "fontSize": 40,
+      "minFontSize": 16,
+      "color": "#ffffff",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "5740ef0a6f3238ea33c391b2f78f628c82506ebbf3c3979651caee741226f3b2",
+      "bytes": 88959,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "panda_dragon_figure",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/panda_dragon_figure",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

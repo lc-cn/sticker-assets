@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "play-game",
+  "version": 1,
+  "title": "玩游戏",
+  "description": "玩游戏 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "玩游戏",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 30
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 526,
+    "height": 503,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 161,
+        "y": 117,
+        "w": 220,
+        "h": 160
+      },
+      "fit": "cover",
+      "rotate": 9
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 526,
+        "h": 503
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 20,
+        "y": 433,
+        "w": 486,
+        "h": 70
+      },
+      "font": "default-sans",
+      "fontSize": 36,
+      "minFontSize": 20,
+      "color": "#000000",
+      "stroke": {
+        "color": "#ffffff",
+        "width": 3
+      },
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "a2d9737b48bd52ac0b30be56684df9fd36aaeda995d8d3b9d97c98fd19df18f1",
+      "bytes": 300196,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "play_game",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/play_game",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

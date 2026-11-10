@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "blood-pressure",
+  "version": 1,
+  "title": "高血压",
+  "description": "高血压 · 头像 · 群友",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "高血压",
+    "头像",
+    "群友"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 16,
+        "y": 17,
+        "w": 414,
+        "h": 450
+      },
+      "fit": "cover"
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1080
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "ebe8aad0aa5506a15efff51ecd9e0c04015b055b1a609de4b9a8bc565dfcaa1d",
+      "bytes": 932710,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "blood_pressure",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/blood_pressure",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

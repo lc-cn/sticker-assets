@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "back-to-work",
+  "version": 1,
+  "title": "继续干活",
+  "description": "继续干活 · 打工人 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "继续干活",
+    "打工人",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 750,
+    "height": 750,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 56,
+        "y": 32,
+        "w": 220,
+        "h": 310
+      },
+      "fit": "cover",
+      "rotate": 25
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 750,
+        "h": 750
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "9d3d86fe8800ceca19966c2a3c8c2c7338f7c582d932706f0d1bb16f3fd681d5",
+      "bytes": 525145,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "back_to_work",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/back_to_work",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

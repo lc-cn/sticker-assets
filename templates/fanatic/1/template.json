@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "fanatic",
+  "version": 1,
+  "title": "狂爱",
+  "description": "狂爱 · 狂粉 · 文字",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "狂爱",
+    "狂粉",
+    "文字"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 1,
+      "max": 1,
+      "maxLength": 20
+    },
+    "images": {
+      "min": 0,
+      "max": 0
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 480,
+    "height": 400,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "image",
+      "file": "base.jpg",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 480,
+        "h": 400
+      }
+    },
+    {
+      "type": "text",
+      "slot": 0,
+      "box": {
+        "x": 145,
+        "y": 40,
+        "w": 198,
+        "h": 120
+      },
+      "font": "default-sans",
+      "fontSize": 48,
+      "minFontSize": 20,
+      "color": "#000000",
+      "stroke": null,
+      "align": "center",
+      "valign": "middle",
+      "wrap": true
+    }
+  ],
+  "files": [
+    {
+      "path": "base.jpg",
+      "sha256": "6f615a36d578010140caebc3ab5357b141e92cc6ebf9ff713db121588a3e723a",
+      "bytes": 31279,
+      "mime": "image/jpeg",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "fanatic",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/fanatic",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}
