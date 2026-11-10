@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "why-at-me",
+  "version": 1,
+  "title": "为什么@我",
+  "description": "为什么@我 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "为什么@我",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 462,
+    "height": 513,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 42,
+        "y": 13,
+        "w": 265,
+        "h": 265
+      },
+      "fit": "cover",
+      "rotate": 19
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 462,
+        "h": 513
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "8278c707981973a5f8e79d274d6094e0dff12caef49a1bb2d20d8be20a38d780",
+      "bytes": 216366,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "why_at_me",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/why_at_me",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

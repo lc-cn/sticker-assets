@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "applaud",
+  "version": 1,
+  "title": "鼓掌",
+  "description": "鼓掌 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "鼓掌",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 240,
+    "height": 240,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 5,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 27,
+        "y": 17,
+        "w": 109,
+        "h": 102
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 27,
+            "y": 17,
+            "w": 109,
+            "h": 102
+          }
+        },
+        {
+          "box": {
+            "x": 28,
+            "y": 15,
+            "w": 107,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 27,
+            "y": 14,
+            "w": 110,
+            "h": 106
+          }
+        },
+        {
+          "box": {
+            "x": 27,
+            "y": 14,
+            "w": 109,
+            "h": 106
+          }
+        },
+        {
+          "box": {
+            "x": 29,
+            "y": 12,
+            "w": 107,
+            "h": 108
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 240
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "00f562288538556f014fabdb27693ee97b62c70613f6e5852599a3fe0964029f",
+      "bytes": 23264,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "15f7eefeeb6647011da3d76066ff1a8f8ae224ef0ab131386b8ea6b036ef9415",
+      "bytes": 23980,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "9faf0eee53f2f99a18b6428601c22786daeefe9770ee26593795de406afd4d06",
+      "bytes": 24428,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "12e04688480411086126ce6f529f0c0e78bd3eab5bb6c0c32bd2570d15be513f",
+      "bytes": 25611,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "8ca095d4c1a9a702a6c937c2a07981e11052d0eb82e9e303a2ecfe3d1d914d82",
+      "bytes": 26647,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "applaud",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/applaud",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "hammer",
+  "version": 1,
+  "title": "锤",
+  "description": "锤 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "锤",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 247,
+    "height": 285,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 7,
+    "frameDurationMs": 70,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 62,
+        "y": 143,
+        "w": 158,
+        "h": 113
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 62,
+            "y": 143,
+            "w": 158,
+            "h": 113
+          }
+        },
+        {
+          "box": {
+            "x": 52,
+            "y": 177,
+            "w": 173,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 42,
+            "y": 192,
+            "w": 192,
+            "h": 92
+          }
+        },
+        {
+          "box": {
+            "x": 46,
+            "y": 182,
+            "w": 184,
+            "h": 100
+          }
+        },
+        {
+          "box": {
+            "x": 54,
+            "y": 169,
+            "w": 174,
+            "h": 110
+          }
+        },
+        {
+          "box": {
+            "x": 69,
+            "y": 128,
+            "w": 144,
+            "h": 135
+          }
+        },
+        {
+          "box": {
+            "x": 65,
+            "y": 130,
+            "w": 152,
+            "h": 124
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 247,
+        "h": 285
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "485ef1f93efc7129397a6924337923bbf83be6d3f41cbb61b10b6d64dbef4114",
+      "bytes": 5532,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "3d382addaec304f677ca0c0d86b1f0b5c6f8ef9872010733d79e4f360f49dece",
+      "bytes": 6465,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "004cb988887554b8febf26d03bcc6e9f893290df038e0e4050b2d71d1aabcc98",
+      "bytes": 5307,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "613916a204a84d90cd26eb64452a19c12822ca80c2132b5dd526e2b3a36e6d04",
+      "bytes": 4045,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "e81a1780bbd8958c855f701c72bff91840dd65dd66ff1a0fc032009c8f62642c",
+      "bytes": 5036,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "2ffbc0b8598908fbf33717e7884f85c3ee334a7941d18d00c54167b1bb9a5d53",
+      "bytes": 5674,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "068eb59815bdda6c65e74eea9edb09d28f6f04230498254062d5077ab9e40087",
+      "bytes": 6159,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "hammer",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/hammer",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

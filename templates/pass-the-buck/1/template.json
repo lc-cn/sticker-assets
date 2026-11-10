@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "pass-the-buck",
+  "version": 1,
+  "title": "甩锅",
+  "description": "推锅 · 甩锅 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "推锅",
+    "甩锅",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 20
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 48,
+    "height": 88,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 8,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 88
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 2,
+        "y": 26,
+        "w": 27,
+        "h": 27
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 2,
+            "y": 26,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 10,
+            "y": 24,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 15,
+            "y": 27,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 17,
+            "y": 29,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 10,
+            "y": 20,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 2,
+            "y": 29,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 3,
+            "y": 31,
+            "w": 27,
+            "h": 27
+          }
+        },
+        {
+          "box": {
+            "x": 1,
+            "y": 30,
+            "w": 27,
+            "h": 27
+          }
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "a783d815c744fe6e58fb7e82a9da7b6b030b6cf308a29a81cfddd15e3729ccbc",
+      "bytes": 1752,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "5270195f4edfc121764f1f39dad61feec975116ed8c21e75f6476c859c9054c6",
+      "bytes": 2028,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "27ee617e031d2dbc8a925d27e6165dd910ded838dd3f35f00d05879465729a46",
+      "bytes": 1945,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "1f051cf8956d9f07beabb90be6684f8598d342af83b6eb55a9f7d0f2202120b1",
+      "bytes": 1837,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "57d27dcf5dc5755bf80a7bac0a341069a72b82d335278800c9f43b3c0d14851f",
+      "bytes": 1961,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "9b27ef93415dc9a0fb2427e64c7c47f0b7c4e130cbec46cb1601935fb4c44d80",
+      "bytes": 2013,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "f36addcdbe1bdd99428894d0e1cce819962f3cd910c5e220249f6993144e3e72",
+      "bytes": 1897,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "b3fc7f8be65166bd90a87a1ce4b224d7d8302cfba696abe4f236147962c1da43",
+      "bytes": 1586,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "pass_the_buck",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/pass_the_buck",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

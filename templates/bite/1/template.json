@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "id": "bite",
+  "version": 1,
+  "title": "啃",
+  "description": "啃 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "啃",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 362,
+    "height": 364,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 16,
+    "frameDurationMs": 70,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 105,
+        "y": 150,
+        "w": 90,
+        "h": 90
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 105,
+            "y": 150,
+            "w": 90,
+            "h": 90
+          }
+        },
+        {
+          "box": {
+            "x": 96,
+            "y": 172,
+            "w": 90,
+            "h": 83
+          }
+        },
+        {
+          "box": {
+            "x": 106,
+            "y": 148,
+            "w": 90,
+            "h": 90
+          }
+        },
+        {
+          "box": {
+            "x": 97,
+            "y": 167,
+            "w": 88,
+            "h": 88
+          }
+        },
+        {
+          "box": {
+            "x": 89,
+            "y": 179,
+            "w": 90,
+            "h": 85
+          }
+        },
+        {
+          "box": {
+            "x": 106,
+            "y": 151,
+            "w": 90,
+            "h": 90
+          }
+        },
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png",
+        "14.png",
+        "15.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 362,
+        "h": 364
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "91ef0ce434ccfd6b02ad69396316a702ae6f5454fe5b0ce96b2acbab1a1b14be",
+      "bytes": 32030,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "afc61a7f81491f9931fbb459c4d44f17f03ad99ee2f397be0776353a76d713e3",
+      "bytes": 29829,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "61fc92db822823bbe8246accfc0fe765f677ade9ccafcd2740884e69928cbc80",
+      "bytes": 34046,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "567027d5adf0281d3a6030584256a7f0aabe75025921c4e7d802db9377be2019",
+      "bytes": 30984,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "a23f0ae1fd63161894ad009b584a1599ec9567f865fa03e7f1198271c66ff37e",
+      "bytes": 30049,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "f1c1a5e05885d0f45bba0208cb334a91d47628bcc0dfd9f5e15ea88a284c81b5",
+      "bytes": 30655,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "a3d34700b19f258d59b12dbcc9e44a0a5a7822b170af3818482e226c2cc00ddd",
+      "bytes": 28782,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "5e02e6cd28989e837e1442fd63cb1cf2387a259c6ce31dc0d23f47c037e1ec3d",
+      "bytes": 32165,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "aec19aa2e98749cf4d1f7d9b2f2bf947bbdeea3d4ff471c243fe80e7c67896ee",
+      "bytes": 34162,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "72e7434fd2ff423955fceca250f3043a78d073a2c78c1fbc793abf4523a0893a",
+      "bytes": 33995,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "10.png",
+      "sha256": "934d04a8d0784a80f330a33cf943b6b09b5fa6816dd030e78cf804c73151ed5d",
+      "bytes": 34030,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "11.png",
+      "sha256": "2d8531f0cf4a8788a46914acbc41f8c2de11385ed3fae0eba45fabbb007eaf46",
+      "bytes": 34037,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "12.png",
+      "sha256": "aec19aa2e98749cf4d1f7d9b2f2bf947bbdeea3d4ff471c243fe80e7c67896ee",
+      "bytes": 34162,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "13.png",
+      "sha256": "72e7434fd2ff423955fceca250f3043a78d073a2c78c1fbc793abf4523a0893a",
+      "bytes": 33995,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "14.png",
+      "sha256": "934d04a8d0784a80f330a33cf943b6b09b5fa6816dd030e78cf804c73151ed5d",
+      "bytes": 34030,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "15.png",
+      "sha256": "2d8531f0cf4a8788a46914acbc41f8c2de11385ed3fae0eba45fabbb007eaf46",
+      "bytes": 34037,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "bite",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/bite",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

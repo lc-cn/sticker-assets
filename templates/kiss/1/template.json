@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "id": "kiss",
+  "version": 1,
+  "title": "亲亲",
+  "description": "亲 · 亲亲 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "亲",
+    "亲亲",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 2,
+      "max": 2
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 200,
+    "height": 200,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 13,
+    "frameDurationMs": 50,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 200
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 1,
+      "box": {
+        "x": 58,
+        "y": 90,
+        "w": 50,
+        "h": 50
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 58,
+            "y": 90,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 62,
+            "y": 95,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 42,
+            "y": 100,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 50,
+            "y": 100,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 56,
+            "y": 100,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 18,
+            "y": 120,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 28,
+            "y": 110,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 54,
+            "y": 100,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 46,
+            "y": 100,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 60,
+            "y": 100,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 35,
+            "y": 115,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 20,
+            "y": 120,
+            "w": 50,
+            "h": 50
+          }
+        },
+        {
+          "box": {
+            "x": 40,
+            "y": 96,
+            "w": 50,
+            "h": 50
+          }
+        }
+      ],
+      "clip": "circle"
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 92,
+        "y": 64,
+        "w": 40,
+        "h": 40
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 92,
+            "y": 64,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 135,
+            "y": 40,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 84,
+            "y": 105,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 80,
+            "y": 110,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 155,
+            "y": 82,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 60,
+            "y": 96,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 50,
+            "y": 80,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 98,
+            "y": 55,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 35,
+            "y": 65,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 38,
+            "y": 100,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 70,
+            "y": 80,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 84,
+            "y": 65,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 75,
+            "y": 65,
+            "w": 40,
+            "h": 40
+          }
+        }
+      ],
+      "clip": "circle"
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "6e564dcd6e8b8c6b30a8f864beaf215a64fa4daff3dcc14c50d68a929a28e13b",
+      "bytes": 13392,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "cb8f039dee316281f701e6e6b0542db9a5b3e756a651fc541977cb716d645e28",
+      "bytes": 16547,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "100823072a88103a3f1994557394ab16ca77364091e03f09452823f8a471bb97",
+      "bytes": 13565,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "4dea4b914a1840f3113a2dd0fd54420773ff6b0999a401472e7e755bcdecf727",
+      "bytes": 12205,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "b48b580a2d392334c6aa25154207a331404b85c53c6e290a12a7d27e8483c9f2",
+      "bytes": 15465,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "ad5cb50e525396a1cbc9fc893bbdf9a7784a7268673cc8e27a2e2dcc743bf6cc",
+      "bytes": 13922,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "3202b11146ecd51bb1c83ee449abbfb1f1640f9971029bdc4dfe98f74fc8dad2",
+      "bytes": 14591,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "7d7552de66354f8565e35c958469e3e99d7be19fc58c1cd05a342f75732e35b6",
+      "bytes": 15177,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "5ce5292ed3489f0b3f02955414e6fb80c25d8dcf01a443e8bb3f0907e7cd2a87",
+      "bytes": 14116,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "b7b590a0ee59ea2b9b20e90c63a199bb049706d9502f3ca660b63382bdda821a",
+      "bytes": 13554,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "10.png",
+      "sha256": "b847221534ccdb54ed68adcafea336f68569726284c7346eeefa1e61254a8a7d",
+      "bytes": 13215,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "11.png",
+      "sha256": "382a8cc73b5324272839223211be45d4bdfc15113b7e60876b1360b455535b33",
+      "bytes": 13799,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "12.png",
+      "sha256": "2c43761aea9523c5b7524a4653ef685650d30df1ebe0fb3ad2a1c59bb87714f8",
+      "bytes": 11872,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "kiss",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/kiss",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

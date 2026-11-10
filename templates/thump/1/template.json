@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "thump",
+  "version": 1,
+  "title": "捶",
+  "description": "捶 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "捶",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 200,
+    "height": 200,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 4,
+    "frameDurationMs": 40,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 65,
+        "y": 128,
+        "w": 77,
+        "h": 72
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 65,
+            "y": 128,
+            "w": 77,
+            "h": 72
+          }
+        },
+        {
+          "box": {
+            "x": 67,
+            "y": 128,
+            "w": 73,
+            "h": 72
+          }
+        },
+        {
+          "box": {
+            "x": 54,
+            "y": 139,
+            "w": 94,
+            "h": 61
+          }
+        },
+        {
+          "box": {
+            "x": 57,
+            "y": 135,
+            "w": 86,
+            "h": 65
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 200,
+        "h": 200
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "dcbc8c8cddb77577a685abcc1834b6f7e27a510c3ce9a2705b4c595ba58e9d56",
+      "bytes": 19278,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "4c02bcc7aea1ba1b33b3988e2ccc81e972798a5289c4588aeff35c4743e81891",
+      "bytes": 19844,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "594539e3c74c18200fe7baea2b0e2389e33fc628e2c57bfde0e3770eb2f8b8cb",
+      "bytes": 19824,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "5c7df8a80b406a708cc5c5b7d8c81616b08e9d06ec77fb0c09b5add8667751c6",
+      "bytes": 19831,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "thump",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/thump",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

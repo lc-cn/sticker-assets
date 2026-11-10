@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "jiujiu",
+  "version": 1,
+  "title": "啾啾",
+  "description": "啾啾 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "啾啾",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 75,
+    "height": 51,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 8,
+    "frameDurationMs": 60,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 51
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 51
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 51
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "30cc6f2a3e91f3248d8b18180d7b706ccd563e1ea6d84353398821f24208c7ed",
+      "bytes": 1302,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "e13ca4acec73c6cb126e8f8c2077b9b4e4bd14e27422113328160d28d56e6ed4",
+      "bytes": 1246,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "47461686c9b8bbcebc0a0af2c8ad1cb8dec483b3b60d6ecf9212b691ca6e1d2e",
+      "bytes": 1162,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "0e29aad4b7a9609d68985a1e2a5a2a29f3bfbf63e9f3e2251e9e01c2bfd068b8",
+      "bytes": 1276,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "001826596e7d665767ebd870bcb6b9d74cfe1dc6f38409217a9a43ec58097de2",
+      "bytes": 1287,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "37900b13cba42e2a4cc0b9bfd70af0a9303d62264b6bdf493250a527987f6870",
+      "bytes": 1256,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "61b59d9ddf01a418ff9791b2d82f9b236adfc7ef6b4e999b71ee621e751b2387",
+      "bytes": 1237,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "a1c5d0dae5a9b54e336824f92b3350ebd740b9f44f1b1a2f2fa0d5ee635273eb",
+      "bytes": 1292,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "jiujiu",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/jiujiu",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

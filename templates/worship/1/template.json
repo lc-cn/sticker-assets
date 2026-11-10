@@ -1,0 +1,427 @@
+{
+  "schemaVersion": 1,
+  "id": "worship",
+  "version": 1,
+  "title": "膜拜",
+  "description": "膜 · 膜拜 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "膜",
+    "膜拜",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 300,
+    "height": 169,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 10,
+    "frameDurationMs": 40,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 150
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 150
+          },
+          "quad": [
+            [
+              0,
+              -30
+            ],
+            [
+              135,
+              17
+            ],
+            [
+              135,
+              145
+            ],
+            [
+              0,
+              140
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 169
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "ace016777af4ffa65e1987c4cbb525fc1085f5608609143df44497c8d6ecb77c",
+      "bytes": 46035,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "53d4a83dcbc46f236372c961acc4bc340085b1a87b55c5bbf8e78d7bf1915cbc",
+      "bytes": 45228,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "7c1d740adc2d12c547d6b806ce19fa8bf4df8414f7a7db40afb8e0efb2f442c5",
+      "bytes": 45973,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "3d4cc9c64dcf977adde20d636741678b1f9f7c8836324c51284072c6b5aa1c2f",
+      "bytes": 43239,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "446f9d801275998b99322d957621b85a89877adbef276aca7d4a5e7a9743070a",
+      "bytes": 43422,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "7fed145f63a1391f57bfd41aaee1e10fc265ebf0b2fde6bd341a24e7596e3cdf",
+      "bytes": 42709,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "47832f25bdf33a6e3a673de23c7cd3acc07f99a4b22bb64886504229e9952ea6",
+      "bytes": 43778,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "a16f0d7da42efa84d7f18054698212789565e048719cb6af39315f1c1e55e8dc",
+      "bytes": 43261,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "a7d2061850f9a892a0c2967e5597ffe5db588d26f9893a387c5af7072d73f44b",
+      "bytes": 45251,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "2155c2a328a0fd7f71058efef940a5305f56d80582359551dbdaae03a690a965",
+      "bytes": 45618,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "worship",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/worship",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

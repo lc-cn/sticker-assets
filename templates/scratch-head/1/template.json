@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "scratch-head",
+  "version": 1,
+  "title": "挠头",
+  "description": "挠头 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "挠头",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 65,
+    "height": 65,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 6,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 4,
+        "y": 5,
+        "w": 53,
+        "h": 46
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 4,
+            "y": 5,
+            "w": 53,
+            "h": 46
+          }
+        },
+        {
+          "box": {
+            "x": 7,
+            "y": 6,
+            "w": 50,
+            "h": 45
+          }
+        },
+        {
+          "box": {
+            "x": 6,
+            "y": 8,
+            "w": 50,
+            "h": 42
+          }
+        },
+        {
+          "box": {
+            "x": 7,
+            "y": 7,
+            "w": 50,
+            "h": 44
+          }
+        },
+        {
+          "box": {
+            "x": 4,
+            "y": 8,
+            "w": 53,
+            "h": 42
+          }
+        },
+        {
+          "box": {
+            "x": 7,
+            "y": 7,
+            "w": 52,
+            "h": 45
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 65,
+        "h": 65
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "d1431ffd57f50c4be1883bb9be658c20ecd7d8067ed68bcb1907f42df6cd8b85",
+      "bytes": 2883,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "2718d291d77502f9c63413db0e2f9e66a2711136368ddff5408f0f0e9994d1b0",
+      "bytes": 2310,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "94314117dc9fdcc95495a2d8c457ea44d73eaf0f7202720147addd9f261a6acc",
+      "bytes": 2474,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "aca452023bf85453a216e088f666eeebf9ea6bfac28279878ca8b8cf6376bcd6",
+      "bytes": 2499,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "472dc8588b42a2a72fca2414334033b290c041ff705da91979f70e5eb3cfb34e",
+      "bytes": 2487,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "9a0a272591b0ad43017b319a88980c9bdd49468f42c43b0f7ec05cbc4a0862a9",
+      "bytes": 2644,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "scratch_head",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/scratch_head",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

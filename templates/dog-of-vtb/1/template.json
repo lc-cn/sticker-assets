@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "id": "dog-of-vtb",
+  "version": 1,
+  "title": "管人痴",
+  "description": "管人痴 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "管人痴",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 910,
+    "height": 1280,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 97,
+        "y": 32,
+        "w": 600,
+        "h": 450
+      },
+      "fit": "cover",
+      "quad": [
+        [
+          0,
+          0
+        ],
+        [
+          579,
+          0
+        ],
+        [
+          584,
+          430
+        ],
+        [
+          5,
+          440
+        ]
+      ]
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 910,
+        "h": 1280
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "6608043fee409bac368a9ba44ad64b69984b957c951d031f33ba4d8e8e981ed8",
+      "bytes": 1443051,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "dog_of_vtb",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/dog_of_vtb",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

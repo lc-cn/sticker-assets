@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "capoo-stew",
+  "version": 1,
+  "title": "咖波炖",
+  "description": "咖波炖 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "咖波炖",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 364,
+    "height": 266,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 5,
+    "frameDurationMs": 80,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 88,
+        "y": 47,
+        "w": 80,
+        "h": 80
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 88,
+            "y": 47,
+            "w": 80,
+            "h": 80
+          }
+        },
+        {
+          "box": {
+            "x": 88,
+            "y": 47,
+            "w": 80,
+            "h": 80
+          }
+        },
+        {
+          "box": {
+            "x": 88,
+            "y": 45,
+            "w": 80,
+            "h": 80
+          }
+        },
+        {
+          "box": {
+            "x": 88,
+            "y": 45,
+            "w": 80,
+            "h": 80
+          }
+        },
+        {
+          "box": {
+            "x": 88,
+            "y": 47,
+            "w": 80,
+            "h": 80
+          }
+        }
+      ],
+      "clip": "circle"
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 364,
+        "h": 266
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "27d55c0b8ae7adc6adf0b9ae9da6bd4922eb9e29152ee6941465aeaf96cee072",
+      "bytes": 22455,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "ecae969b476ba1abc64748454c1a5643d558ff4c52ae886f7b16fb2c5c78876f",
+      "bytes": 22483,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "2f7c7f1795bba329ef79a91a0dc952b2098bfe8813d99bf4411c2598c0d46c46",
+      "bytes": 22490,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "f8c98ebe8d68370ab815297bb1b95ebb81fec87a31837a788dd7ce75a7d38b6f",
+      "bytes": 22525,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "4dbeccada86abfc1a70e9219dac6f5fbde8ff9f09c3c09c9b23a174a6a827db0",
+      "bytes": 22496,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "capoo_stew",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/capoo_stew",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "id": "beat-up",
+  "version": 1,
+  "title": "揍",
+  "description": "揍 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "揍",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 2,
+      "max": 2
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 272,
+    "height": 208,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 3,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 272,
+        "h": 208
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 1,
+      "box": {
+        "x": 99,
+        "y": 136,
+        "w": 45,
+        "h": 45
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 99,
+            "y": 136,
+            "w": 45,
+            "h": 45
+          }
+        },
+        {
+          "box": {
+            "x": 99,
+            "y": 136,
+            "w": 45,
+            "h": 45
+          }
+        },
+        {
+          "box": {
+            "x": 89,
+            "y": 140,
+            "w": 45,
+            "h": 45
+          }
+        }
+      ],
+      "clip": "circle"
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 100,
+        "y": 43,
+        "w": 55,
+        "h": 55
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 100,
+            "y": 43,
+            "w": 55,
+            "h": 55
+          }
+        },
+        {
+          "box": {
+            "x": 110,
+            "y": 46,
+            "w": 55,
+            "h": 55
+          }
+        },
+        {
+          "box": {
+            "x": 101,
+            "y": 40,
+            "w": 55,
+            "h": 55
+          }
+        }
+      ],
+      "clip": "circle"
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "a60a42f56fcab0fff10d805716a05e4d5819b988975e5553c3a5b1a12ed6662f",
+      "bytes": 81261,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "7aa42456a87f32d1033ea5d06634024e4dde96139a56eb8e383ff58ead97963c",
+      "bytes": 85280,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "d0c4704293099ef958d5320ea5831365ac186eebc9bd865e6d5a47910e294a94",
+      "bytes": 83550,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "beat_up",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/beat_up",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

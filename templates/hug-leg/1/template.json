@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "id": "hug-leg",
+  "version": 1,
+  "title": "抱大腿",
+  "description": "抱大腿 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "抱大腿",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 240,
+    "height": 240,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 6,
+    "frameDurationMs": 60,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 50,
+        "y": 73,
+        "w": 68,
+        "h": 92
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 50,
+            "y": 73,
+            "w": 68,
+            "h": 92
+          }
+        },
+        {
+          "box": {
+            "x": 58,
+            "y": 60,
+            "w": 62,
+            "h": 95
+          }
+        },
+        {
+          "box": {
+            "x": 65,
+            "y": 10,
+            "w": 67,
+            "h": 118
+          }
+        },
+        {
+          "box": {
+            "x": 61,
+            "y": 20,
+            "w": 77,
+            "h": 97
+          }
+        },
+        {
+          "box": {
+            "x": 55,
+            "y": 44,
+            "w": 65,
+            "h": 106
+          }
+        },
+        {
+          "box": {
+            "x": 66,
+            "y": 85,
+            "w": 60,
+            "h": 98
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 240,
+        "h": 240
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "a89054dae7a484bd21a2a2ac8f701696052c3bf8d1d29dfd615b7ef67668786e",
+      "bytes": 39293,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "e6aeb5e7d58d772def6b011b13c169afa3f8b02e0616e53fef16ce75327fb1b1",
+      "bytes": 37904,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "0c3c85aca1215c206bf118154d41b1dbba7059f822c7330fd0fca368be3ccb4c",
+      "bytes": 36698,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "e57b9aebb90c343c006171bf19fa2426206228225012b386654e3cfb36565def",
+      "bytes": 36997,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "36d7147817907d4fa9a0857b4bcd7d02ec70a3b10f10c80d367ca24df0a17a15",
+      "bytes": 38915,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "988a5295efe7db0cf497005f462c35fd51e454c1759660afe1d273f1c2583c91",
+      "bytes": 37129,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "hug_leg",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/hug_leg",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

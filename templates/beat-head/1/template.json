@@ -1,0 +1,135 @@
+{
+  "schemaVersion": 1,
+  "id": "beat-head",
+  "version": 1,
+  "title": "拍头",
+  "description": "拍头 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "拍头",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 1,
+      "maxLength": 20
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 331,
+    "height": 270,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 3,
+    "frameDurationMs": 50,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 160,
+        "y": 121,
+        "w": 76,
+        "h": 76
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 160,
+            "y": 121,
+            "w": 76,
+            "h": 76
+          }
+        },
+        {
+          "box": {
+            "x": 172,
+            "y": 124,
+            "w": 69,
+            "h": 69
+          }
+        },
+        {
+          "box": {
+            "x": 208,
+            "y": 166,
+            "w": 52,
+            "h": 52
+          }
+        }
+      ],
+      "clip": "circle"
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 331,
+        "h": 270
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "817f5fe94c76c96b981520ece54dc24b16d26850b6a347e22def601a00f58acf",
+      "bytes": 29044,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "18bb006ee6a33b6f3d54ae662b52e09ebc40dae68da6618d92042b86222c1f0f",
+      "bytes": 29649,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "4c14872680c9daad000d4bc09656762737ce1504050b520dcb99a9cd082ca353",
+      "bytes": 30254,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "beat_head",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/beat_head",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

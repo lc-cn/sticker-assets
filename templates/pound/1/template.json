@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "pound",
+  "version": 1,
+  "title": "捣",
+  "description": "捣 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "捣",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 500,
+    "height": 400,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 8,
+    "frameDurationMs": 50,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 135,
+        "y": 240,
+        "w": 138,
+        "h": 47
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 135,
+            "y": 240,
+            "w": 138,
+            "h": 47
+          }
+        },
+        {
+          "box": {
+            "x": 135,
+            "y": 240,
+            "w": 138,
+            "h": 47
+          }
+        },
+        {
+          "box": {
+            "x": 150,
+            "y": 190,
+            "w": 105,
+            "h": 95
+          }
+        },
+        {
+          "box": {
+            "x": 150,
+            "y": 190,
+            "w": 105,
+            "h": 95
+          }
+        },
+        {
+          "box": {
+            "x": 148,
+            "y": 188,
+            "w": 106,
+            "h": 98
+          }
+        },
+        {
+          "box": {
+            "x": 146,
+            "y": 196,
+            "w": 110,
+            "h": 88
+          }
+        },
+        {
+          "box": {
+            "x": 145,
+            "y": 223,
+            "w": 112,
+            "h": 61
+          }
+        },
+        {
+          "box": {
+            "x": 145,
+            "y": 223,
+            "w": 112,
+            "h": 61
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 400
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "ca70afdd9ddb1481a7e3e619e4d2a99772e7dfb1dd36d9545f0853225e14cdea",
+      "bytes": 13652,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "2908b861e19226cb9a68c4b4a83481a0971194d8f1e15331591ff1882f1d6b23",
+      "bytes": 10737,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "8c6039b6b5917de82ee232250217066a2a4257cf244eb8e49c4c828b6ebcdc93",
+      "bytes": 11600,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "90be6638e13c11e33696cd45fe4612836c0980c28ba7513de45ab8d9c14a898b",
+      "bytes": 12533,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "175606e49266add1b204802e5f0116cdca5cd69ee688c124e81b8d02fbad38ca",
+      "bytes": 11359,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "666940d56b6a4e14eb10da50e2a3db3d8b01ecf3bb37b5e9b25ec882b286e046",
+      "bytes": 13235,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "ac0501e6b35625b287f55b15ea81e4ab0e37196291842eb19b5e69bb1824d2e6",
+      "bytes": 12631,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "da381067f6f579e545e40e4f015bd4964c5a4d03a96bf0d45e5b486ff655149d",
+      "bytes": 12797,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "pound",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/pound",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

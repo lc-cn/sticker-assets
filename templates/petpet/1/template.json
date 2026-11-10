@@ -1,0 +1,169 @@
+{
+  "schemaVersion": 1,
+  "id": "petpet",
+  "version": 1,
+  "title": "摸头",
+  "description": "摸 · 摸摸 · 摸头",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "摸",
+    "摸摸",
+    "摸头",
+    "rua",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 112,
+    "height": 112,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 5,
+    "frameDurationMs": 60,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 112
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 14,
+        "y": 20,
+        "w": 98,
+        "h": 98
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 14,
+            "y": 20,
+            "w": 98,
+            "h": 98
+          }
+        },
+        {
+          "box": {
+            "x": 12,
+            "y": 33,
+            "w": 101,
+            "h": 85
+          }
+        },
+        {
+          "box": {
+            "x": 8,
+            "y": 40,
+            "w": 110,
+            "h": 76
+          }
+        },
+        {
+          "box": {
+            "x": 10,
+            "y": 33,
+            "w": 102,
+            "h": 84
+          }
+        },
+        {
+          "box": {
+            "x": 12,
+            "y": 20,
+            "w": 98,
+            "h": 98
+          }
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "69da867cbb64df16fb2eaf43b1e312a33600963fb2e2079c074e55ef4cfa5986",
+      "bytes": 6049,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "7d0dced26c6f6ff6d30b0c9cfd1eabf9bfc897e6fe8ecb28a1cc148d208aae68",
+      "bytes": 6115,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "30707317d526660c41b4d666a404fcd56eebb4a50b8609b70eb2f6aba54e50a1",
+      "bytes": 6482,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "0f3964243f86324185ddb4505a8a41b9395d27a7fd7982cc48a095e3b6b5d428",
+      "bytes": 6197,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "502464be19528bc68872198cd63982edfc1fcaf2501d9ad0e5b7ddc79c578cf6",
+      "bytes": 5652,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "petpet",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/petpet",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

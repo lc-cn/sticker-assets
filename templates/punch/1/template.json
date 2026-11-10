@@ -1,0 +1,294 @@
+{
+  "schemaVersion": 1,
+  "id": "punch",
+  "version": 1,
+  "title": "打拳",
+  "description": "打拳 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "打拳",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 260,
+    "height": 230,
+    "background": "#ffffff"
+  },
+  "animation": {
+    "frameCount": 13,
+    "frameDurationMs": 30,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 230
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": -50,
+        "y": 5,
+        "w": 260,
+        "h": 260
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": -50,
+            "y": 5,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": -40,
+            "y": -5,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": -30,
+            "y": -15,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": -20,
+            "y": -25,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": -10,
+            "y": -25,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": -15,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": 10,
+            "y": -5,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": 20,
+            "y": 5,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": 10,
+            "y": -5,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": -15,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": -10,
+            "y": -25,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": 10,
+            "y": -15,
+            "w": 260,
+            "h": 260
+          }
+        },
+        {
+          "box": {
+            "x": -30,
+            "y": -5,
+            "w": 260,
+            "h": 260
+          }
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "46f61c51b6ffcf1c3b892bbf9fa076215e0b6b9c8c29db121720e44d61d450b6",
+      "bytes": 9374,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "9a2e376c012a4d93f151c0960dfe8d41a0404f7731615290a8c1355b0b94e8ef",
+      "bytes": 14232,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "c682bc61a0e38d527bcb1fe7ee52ff04f675b9c38e1b93d54f63d4fba48a865e",
+      "bytes": 18588,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "fa32ffae4461bbecc6eb115c6c79100f426bcb7bf2c8deac4f85d112b5c7cfd0",
+      "bytes": 16788,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "bd04609c8dff36f103c2c2cb8556e45a465062f3b4b9a007c736ef963e8cfff1",
+      "bytes": 18868,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "73ea4e61d13d69dd1c5c335cd6d650d4f15d104ed95d3a670930fa02538622da",
+      "bytes": 16091,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "8ba6a5d180703035e42c751f5cc4c2871198f0a0de5db005c19f17f2a565e94e",
+      "bytes": 13661,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "fb0c3620c8628f4f928208ade2043cd31fe32835b0f1835bd041dca13efdc07f",
+      "bytes": 7628,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "2cb049655f12cb27bff9e1d05a45465fa4c607b59305fe5edd067cc657ad89d2",
+      "bytes": 14464,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "8b5bf74eb6a40ec3028ba578fd43ed379affed64c56be2a1f2fadeedcdefc042",
+      "bytes": 19398,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "10.png",
+      "sha256": "f7555565ad9c50356b2b70008f822e6a9559420863850789f45f448d37091d41",
+      "bytes": 21593,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "11.png",
+      "sha256": "a01fa9e5ca5494062aab8ac9c553c29e115ad2599000586d15c6d12e091701ed",
+      "bytes": 16164,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "12.png",
+      "sha256": "70baba70b85bededc267e10a996fcddf96d07114562471eaa00603f11fe4e5c2",
+      "bytes": 12783,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "punch",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/punch",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

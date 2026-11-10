@@ -1,0 +1,171 @@
+{
+  "schemaVersion": 1,
+  "id": "twist",
+  "version": 1,
+  "title": "搓",
+  "description": "搓 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "搓",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 166,
+    "height": 168,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 5,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 25,
+        "y": 66,
+        "w": 78,
+        "h": 78
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 25,
+            "y": 66,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": 0
+        },
+        {
+          "box": {
+            "x": 25,
+            "y": 66,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": 60
+        },
+        {
+          "box": {
+            "x": 23,
+            "y": 68,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": 120
+        },
+        {
+          "box": {
+            "x": 20,
+            "y": 69,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": 180
+        },
+        {
+          "box": {
+            "x": 22,
+            "y": 68,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": 240
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 168
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "7dd9e97e68522b6def8806e458c4e939e4ff405cd4fab94ad3b16cc09a20b1ef",
+      "bytes": 28492,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "c97aa05ffe6105f76dcfb4e5c6d7be414eda70b70f7e565fdfd5567ae1d4c63e",
+      "bytes": 28313,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "a48424e68cfcd5758297bdd20a37cb096c1a2d370a50cce806e08b9219c386fb",
+      "bytes": 28435,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "7f0b334de0087873a00d3d43f4999304b5d277dfa138cae1962d1af4c5e7f7ab",
+      "bytes": 28635,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "a78ca4801bf31e41af11036e1b503bb58e30d6e694851096c1eef6a4f2b1f197",
+      "bytes": 28468,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "twist",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/twist",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

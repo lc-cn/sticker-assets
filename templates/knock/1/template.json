@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "knock",
+  "version": 1,
+  "title": "敲",
+  "description": "敲 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "敲",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 600,
+    "height": 532,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 8,
+    "frameDurationMs": 40,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 60,
+        "y": 308,
+        "w": 210,
+        "h": 195
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 60,
+            "y": 308,
+            "w": 210,
+            "h": 195
+          }
+        },
+        {
+          "box": {
+            "x": 60,
+            "y": 308,
+            "w": 210,
+            "h": 198
+          }
+        },
+        {
+          "box": {
+            "x": 45,
+            "y": 330,
+            "w": 250,
+            "h": 172
+          }
+        },
+        {
+          "box": {
+            "x": 58,
+            "y": 320,
+            "w": 218,
+            "h": 180
+          }
+        },
+        {
+          "box": {
+            "x": 60,
+            "y": 310,
+            "w": 215,
+            "h": 193
+          }
+        },
+        {
+          "box": {
+            "x": 40,
+            "y": 320,
+            "w": 250,
+            "h": 285
+          }
+        },
+        {
+          "box": {
+            "x": 48,
+            "y": 308,
+            "w": 226,
+            "h": 192
+          }
+        },
+        {
+          "box": {
+            "x": 51,
+            "y": 301,
+            "w": 223,
+            "h": 200
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 600,
+        "h": 532
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "9ce3cc98df42b3c5cf72f2fd828144ac700ce01d58ad92febe9e70b62dc461c8",
+      "bytes": 143931,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "368756190ee30b52fa1f2a0b2c25b9fdca46321406fa6dcc060a1295829af47e",
+      "bytes": 128330,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "d60826d6df28f6db8aff78b35d8402c6f0d8f6aa9b3cad8012f10372862eed76",
+      "bytes": 143588,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "77b692a1234f768177476ca325f068e4c7aea859b92dafb5e97a602eca4e564f",
+      "bytes": 136117,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "97c425bfcbe83a0a0418cb387df4e5d89997cde12bd8b8f38e57530788a5f717",
+      "bytes": 144475,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "ea4483ff52ab865d397faa039d65007e675dbadb26eb459702348049107ad17c",
+      "bytes": 151731,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "a27fd4e12a9cacfc95231a535446dd8799720e040131d40ad7308e8cf71182dd",
+      "bytes": 144355,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "4d4329cbaf8c4e438539b2c72573d1523870c45dc92666711ae5d2454c62093c",
+      "bytes": 152348,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "knock",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/knock",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

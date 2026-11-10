@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "id": "haruhi-raise",
+  "version": 1,
+  "title": "凉宫春日举",
+  "description": "凉宫春日举 · 春日举 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "凉宫春日举",
+    "春日举",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1000,
+    "height": 563,
+    "background": "#ffffff"
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 429,
+        "y": 79,
+        "w": 250,
+        "h": 180
+      },
+      "fit": "cover",
+      "quad": [
+        [
+          0,
+          51
+        ],
+        [
+          204,
+          0
+        ],
+        [
+          211,
+          147
+        ],
+        [
+          17,
+          217
+        ]
+      ]
+    },
+    {
+      "type": "image",
+      "file": "base.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1000,
+        "h": 563
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "base.png",
+      "sha256": "16135c67c3da0e90bb98866d3624735f1df37fd129055c7d689a433895edf404",
+      "bytes": 816639,
+      "mime": "image/png",
+      "role": "base"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "haruhi_raise",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/haruhi_raise",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

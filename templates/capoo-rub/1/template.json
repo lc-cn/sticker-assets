@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "id": "capoo-rub",
+  "version": 1,
+  "title": "咖波蹭",
+  "description": "咖波蹭 · 咖波贴 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "咖波蹭",
+    "咖波贴",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 512,
+    "height": 512,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 4,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 78,
+        "y": 260,
+        "w": 178,
+        "h": 184
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 78,
+            "y": 260,
+            "w": 178,
+            "h": 184
+          }
+        },
+        {
+          "box": {
+            "x": 84,
+            "y": 269,
+            "w": 178,
+            "h": 174
+          }
+        },
+        {
+          "box": {
+            "x": 84,
+            "y": 269,
+            "w": 178,
+            "h": 174
+          }
+        },
+        {
+          "box": {
+            "x": 84,
+            "y": 264,
+            "w": 178,
+            "h": 178
+          }
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 512
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "77cd5c6ca46f20f5d045a6c7993f3d1565b55911dbef6477c286d448f283e67a",
+      "bytes": 41137,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "6ca47376a213fcf38b34679cdda966acd41b54121e5e283a393d3cece094f4a2",
+      "bytes": 46200,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "773af286a5e09d5509e309cf883c6f83e0501b5a5003a29cfb0981e788dd4c1d",
+      "bytes": 37537,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "25626807266b321a335aa0c16a6d52df77226c46276e4be3583a3be6b56191c7",
+      "bytes": 41312,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "capoo_rub",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/capoo_rub",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "bubble-tea",
+  "version": 1,
+  "title": "奶茶",
+  "description": "奶茶 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "奶茶",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [
+    {
+      "name": "position",
+      "type": "enum",
+      "enum": [
+        "right",
+        "left",
+        "both"
+      ],
+      "default": "right"
+    }
+  ],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 500,
+    "height": 500,
+    "background": "#ffffff",
+    "fit": {
+      "slot": 0,
+      "mode": "cover",
+      "width": 500,
+      "height": 500
+    }
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 500
+      },
+      "fit": "cover",
+      "fill": true
+    },
+    {
+      "type": "image",
+      "file": "overlay.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 500
+      },
+      "when": {
+        "param": "position",
+        "in": [
+          "right",
+          "both"
+        ]
+      }
+    },
+    {
+      "type": "image",
+      "file": "overlay.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 500,
+        "h": 500
+      },
+      "when": {
+        "param": "position",
+        "in": [
+          "left",
+          "both"
+        ]
+      },
+      "flip": "horizontal"
+    }
+  ],
+  "files": [
+    {
+      "path": "overlay.png",
+      "sha256": "794d549a75071d0debf475bf5e780f828ecdbc9dd98ba07f7bae3e643d6186e3",
+      "bytes": 69945,
+      "mime": "image/png",
+      "role": "overlay"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "bubble_tea",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/bubble_tea",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

@@ -1,0 +1,342 @@
+{
+  "schemaVersion": 1,
+  "id": "hug",
+  "version": 1,
+  "title": "抱抱",
+  "description": "抱 · 抱抱 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "抱",
+    "抱抱",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 2,
+      "max": 2
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 300,
+    "height": 300,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 10,
+    "frameDurationMs": 50,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 1,
+      "box": {
+        "x": 108,
+        "y": 15,
+        "w": 105,
+        "h": 105
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 108,
+            "y": 15,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 107,
+            "y": 14,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 104,
+            "y": 16,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 102,
+            "y": 14,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 104,
+            "y": 15,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 108,
+            "y": 15,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 108,
+            "y": 15,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 103,
+            "y": 16,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 102,
+            "y": 15,
+            "w": 105,
+            "h": 105
+          }
+        },
+        {
+          "box": {
+            "x": 104,
+            "y": 14,
+            "w": 105,
+            "h": 105
+          }
+        }
+      ],
+      "clip": "circle"
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 78,
+        "y": 120,
+        "w": 120,
+        "h": 120
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 78,
+            "y": 120,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 115,
+            "y": 130,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 110,
+            "y": 100,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 80,
+            "y": 100,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 75,
+            "y": 115,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 105,
+            "y": 127,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 110,
+            "y": 98,
+            "w": 120,
+            "h": 120
+          }
+        },
+        {
+          "box": {
+            "x": 80,
+            "y": 105,
+            "w": 120,
+            "h": 120
+          }
+        }
+      ],
+      "clip": "circle"
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "9e479b37355d3f1302b3af51bf18ecaab03266e24299b4e2c5c0e53c4b4fa431",
+      "bytes": 13252,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "10647ff430cc7da62f7dc68890ef0f9ad51e40e4ba227ea8515a612ced664bb9",
+      "bytes": 12559,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "639dad903904935097469aeb1615457a390a33af6c9d60983c094e84340f747c",
+      "bytes": 10763,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "16424cd03feb494bed31bfdd3a794aaab3d55c865d6916a6057c2734c5aa1a34",
+      "bytes": 11281,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "afc613b74587f1f78cac5b6c8afd449cce8f536bd120bbb86600848f0542f6d6",
+      "bytes": 11326,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "b30322c3ca4e1975d633b0bd41ca7927276eeeb1ea7eda83366d15acf4ed2801",
+      "bytes": 13717,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "22e0c0c44f28b29d570fd08614e0a157424b2e7753d3dc426e4b1595cfaf69e1",
+      "bytes": 12211,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "1f3addc63ace300f841d7be6d648e8df7796aa6eef841bb5773c9d4a8806c9f4",
+      "bytes": 11495,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "5040109c3e134bc56866ff2d4f09cdde708d6c9a2b8132d039a1071c7a6b7efb",
+      "bytes": 10802,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "597b6eac9ef3641600bf4f812e57e07b9ec41c931104e91d97962646682133ec",
+      "bytes": 10945,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "hug",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/hug",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

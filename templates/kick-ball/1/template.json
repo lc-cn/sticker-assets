@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "id": "kick-ball",
+  "version": 1,
+  "title": "踢球",
+  "description": "踢球 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "踢球",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 300,
+    "height": 300,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 15,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 57,
+        "y": 136,
+        "w": 78,
+        "h": 78
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 57,
+            "y": 136,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": 0
+        },
+        {
+          "box": {
+            "x": 56,
+            "y": 117,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -24
+        },
+        {
+          "box": {
+            "x": 55,
+            "y": 99,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -48
+        },
+        {
+          "box": {
+            "x": 52,
+            "y": 113,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -72
+        },
+        {
+          "box": {
+            "x": 50,
+            "y": 126,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -96
+        },
+        {
+          "box": {
+            "x": 48,
+            "y": 139,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -120
+        },
+        {
+          "box": {
+            "x": 47,
+            "y": 112,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -144
+        },
+        {
+          "box": {
+            "x": 47,
+            "y": 85,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -168
+        },
+        {
+          "box": {
+            "x": 47,
+            "y": 57,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -192
+        },
+        {
+          "box": {
+            "x": 48,
+            "y": 97,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -216
+        },
+        {
+          "box": {
+            "x": 50,
+            "y": 136,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -240
+        },
+        {
+          "box": {
+            "x": 51,
+            "y": 176,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -264
+        },
+        {
+          "box": {
+            "x": 52,
+            "y": 169,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -288
+        },
+        {
+          "box": {
+            "x": 55,
+            "y": 181,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -312
+        },
+        {
+          "box": {
+            "x": 58,
+            "y": 153,
+            "w": 78,
+            "h": 78
+          },
+          "rotate": -336
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png",
+        "14.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "c628dc5abdcf0549412e085748a684d8198affb191a646921ece06550dc6c4fe",
+      "bytes": 14640,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "a48c5166d7ba5489e6ee38eac063e7acc9f35b38c76f86d080c0fa5416602bb0",
+      "bytes": 13552,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "d33a3b6187d4f9cead79329ef1a53c36e3d0e084840fb8dadde3240a1f8ecc78",
+      "bytes": 14145,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "7d4b8cf3493b3e23f4eb71129813e0252f0b1f8e08c75ef8c5fc2f89ac31d51a",
+      "bytes": 13949,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "c6edc9be84d1a81834557b73dad863d9e7c60d4d672862c5b26dc11d50d8d308",
+      "bytes": 14600,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "619373699678f86fbe680b7c8686ccd39d3c13b896df9a1058fac66982a1eeb1",
+      "bytes": 14387,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "59671c8b7abb30aa4b1f126f02eb9116c9ace94664be4c2ef695d8d7c9516f42",
+      "bytes": 15040,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "c55769276fa06a05c424f01c4af1eec542c63f622d8f2694ba654965fbd748ca",
+      "bytes": 15179,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "6f37ae7c3b1f8ad27ebfc3bf7d98a6f153654ccf1340c8409de9632c4173f014",
+      "bytes": 14740,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "a4264447f4665c1677d08ec757c1b23fc87ce0600ef1cc2558b2b62a3dd3154b",
+      "bytes": 14475,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "10.png",
+      "sha256": "76c8ccdc798047ba00c5cda433ce53b0de53ca88dfc6117b71265590e0571120",
+      "bytes": 13649,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "11.png",
+      "sha256": "865ca9f2544a7ec4015b3957c8db101ae59cbe064fe473802c3a10b30ab1f56a",
+      "bytes": 13546,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "12.png",
+      "sha256": "3c3d339f2fcde18510bb265c854ade85e42143ecc1fb3d1240d21e66e5be425d",
+      "bytes": 13786,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "13.png",
+      "sha256": "c5e03f190cb0a22b5745f42f7b048bc4f9d62191d579754cdbbd3c2deff3d7c3",
+      "bytes": 13625,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "14.png",
+      "sha256": "1ba5525daf7643313b7410c63ddd3cb13433f20d30697ad1de872e85a7e73bed",
+      "bytes": 15138,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "kick_ball",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/kick_ball",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

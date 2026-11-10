@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "marriage",
+  "version": 1,
+  "title": "结婚申请",
+  "description": "结婚申请 · 结婚登记 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "结婚申请",
+    "结婚登记",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/png",
+    "animated": false,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 1080,
+    "height": 1080,
+    "background": "#ffffff",
+    "fit": {
+      "slot": 0,
+      "mode": "height",
+      "height": 1080,
+      "minWidth": 800,
+      "maxWidth": 1500
+    }
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 1080,
+        "h": 1080
+      },
+      "fit": "cover",
+      "fill": true
+    },
+    {
+      "type": "image",
+      "file": "left.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 800,
+        "h": 1080
+      }
+    },
+    {
+      "type": "image",
+      "file": "right.png",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 280,
+        "h": 1080
+      },
+      "xFrom": "right"
+    }
+  ],
+  "files": [
+    {
+      "path": "left.png",
+      "sha256": "25670a509f30a8e41a9120f0b1d7e9ffedc59087ce77d2d5f061421202c68ced",
+      "bytes": 262055,
+      "mime": "image/png",
+      "role": "overlay"
+    },
+    {
+      "path": "right.png",
+      "sha256": "e49ab7ff2fb99837e82d9c1956ae3b25db71983c067ba8f311bf09a444b97a70",
+      "bytes": 42950,
+      "mime": "image/png",
+      "role": "overlay"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "marriage",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/marriage",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

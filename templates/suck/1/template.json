@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "id": "suck",
+  "version": 1,
+  "title": "吸",
+  "description": "吸 · 嗦 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "吸",
+    "嗦",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 320,
+    "height": 300,
+    "background": "#ffffff"
+  },
+  "animation": {
+    "frameCount": 12,
+    "frameDurationMs": 80,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "10.png",
+        "11.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 320,
+        "h": 300
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 82,
+        "y": 100,
+        "w": 130,
+        "h": 119
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 82,
+            "y": 100,
+            "w": 130,
+            "h": 119
+          }
+        },
+        {
+          "box": {
+            "x": 82,
+            "y": 94,
+            "w": 126,
+            "h": 125
+          }
+        },
+        {
+          "box": {
+            "x": 82,
+            "y": 120,
+            "w": 128,
+            "h": 99
+          }
+        },
+        {
+          "box": {
+            "x": 81,
+            "y": 164,
+            "w": 132,
+            "h": 55
+          }
+        },
+        {
+          "box": {
+            "x": 79,
+            "y": 163,
+            "w": 132,
+            "h": 55
+          }
+        },
+        {
+          "box": {
+            "x": 82,
+            "y": 140,
+            "w": 127,
+            "h": 79
+          }
+        },
+        {
+          "box": {
+            "x": 83,
+            "y": 152,
+            "w": 125,
+            "h": 67
+          }
+        },
+        {
+          "box": {
+            "x": 75,
+            "y": 157,
+            "w": 140,
+            "h": 62
+          }
+        },
+        {
+          "box": {
+            "x": 72,
+            "y": 165,
+            "w": 144,
+            "h": 54
+          }
+        },
+        {
+          "box": {
+            "x": 80,
+            "y": 132,
+            "w": 128,
+            "h": 87
+          }
+        },
+        {
+          "box": {
+            "x": 81,
+            "y": 127,
+            "w": 127,
+            "h": 92
+          }
+        },
+        {
+          "box": {
+            "x": 79,
+            "y": 111,
+            "w": 132,
+            "h": 108
+          }
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "206a9609b0e8254d4bcba46d023f9d71f53577054c2c931b209470f4c42fd737",
+      "bytes": 15780,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "a31b9fc15901b1221c84d1c7c0663434f6e94a6c5962f0b6b5f81bb22633820b",
+      "bytes": 15904,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "53741a4c9ee96bf3af75fb12ba905e031641c60014cbfb26b66a2f8a9319f9ac",
+      "bytes": 16545,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "e696b1c7f266c2cb48b46fe781d907e3a61b3e8a22c1e3d89eed0cd927dbf167",
+      "bytes": 15827,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "c3e8f104b75a0616259677e0fff7eb3328c204c721047df69743c3d9a7bad407",
+      "bytes": 15135,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "6a6ed1662ed77c423b1108798ea3094cac5b32f79d94609d8688dc7d4772cdcb",
+      "bytes": 14650,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "ca7533ca4d14794d86b60db387176d901d74d8d19190f1570c9f9b00e60b8503",
+      "bytes": 15928,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "3eafcb99e9b296ad31db5c06a13f38bab1faedc63e819797e70fe8d0948e2346",
+      "bytes": 15548,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "8.png",
+      "sha256": "72a7f6227f4b815d8ea6cd3fa67aa1867e07c36391a9e917f9eecd034d28b4e1",
+      "bytes": 15097,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "9.png",
+      "sha256": "855dd33ca9eef46a8b0c0be7e0ae51af6ba9f0f01f593df6318674a24e6871c8",
+      "bytes": 15052,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "10.png",
+      "sha256": "231e5286d7c5c410204ff39d67a3cff780902c5ecc6879349a253bc1fb4f37dc",
+      "bytes": 15786,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "11.png",
+      "sha256": "dc5b0e4461bad1fa0cb74b0c7380fa0640f07e2e789b016fed4082aaddc38c49",
+      "bytes": 15556,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "suck",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/suck",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

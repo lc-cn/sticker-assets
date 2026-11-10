@@ -1,0 +1,215 @@
+{
+  "schemaVersion": 1,
+  "id": "jump",
+  "version": 1,
+  "title": "跳",
+  "description": "跳 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "跳",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 70,
+    "height": 95,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 8,
+    "frameDurationMs": 50,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 70,
+        "h": 95
+      }
+    },
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 15,
+        "y": 50,
+        "w": 40,
+        "h": 40
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 15,
+            "y": 50,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 13,
+            "y": 43,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 15,
+            "y": 23,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 14,
+            "y": 4,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 16,
+            "y": -3,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 16,
+            "y": -4,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 14,
+            "y": 4,
+            "w": 40,
+            "h": 40
+          }
+        },
+        {
+          "box": {
+            "x": 15,
+            "y": 31,
+            "w": 40,
+            "h": 40
+          }
+        }
+      ],
+      "clip": "circle"
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "9a25d8075f3bc21312275fcc583c495cfa363121e71ab8089cac2dd2cd62f959",
+      "bytes": 3207,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "79d36559f7caab768f278b79c28ffca3e15d1bf53f2a4aa9fcd1ed3875cd99bf",
+      "bytes": 2902,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "e35d55ea0a1ddb7666947183f996c180046958c0cb545ec403757479ae7a5d2f",
+      "bytes": 3144,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "9a67815706f7a8bdf5acdb762bdddfd4c7290df4592877531352be110919843d",
+      "bytes": 3599,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "41c6fe1b3d3639476f2088f31443ed471e4e9eb30452b63a709f90323651c4c4",
+      "bytes": 3358,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "fcfd67c7f833d1a4e65bcb4b7f8b7d79bacdf26a55f0dd6763a1d06efce6a69e",
+      "bytes": 3190,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "7bdbbbe407192ff1d6b0215eac7afe71e3c6e3c61e7314a73cc2869273646e62",
+      "bytes": 3531,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "8e27eadbf938d78a4c72a1c9bc7b2f915a00f92d8b67ca3d64ab1445ef6e0046",
+      "bytes": 3363,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "jump",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/jump",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}

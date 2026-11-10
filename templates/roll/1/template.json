@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "roll",
+  "version": 1,
+  "title": "滚",
+  "description": "滚 · 头像",
+  "status": "active",
+  "renderer": "light-v1",
+  "tags": [
+    "滚",
+    "头像"
+  ],
+  "inputs": {
+    "texts": {
+      "min": 0,
+      "max": 0,
+      "maxLength": 1
+    },
+    "images": {
+      "min": 1,
+      "max": 1
+    }
+  },
+  "params": [],
+  "output": {
+    "mime": "image/gif",
+    "animated": true,
+    "maxBytes": 2097152
+  },
+  "canvas": {
+    "width": 300,
+    "height": 300,
+    "background": null
+  },
+  "animation": {
+    "frameCount": 8,
+    "frameDurationMs": 100,
+    "loop": 0
+  },
+  "layers": [
+    {
+      "type": "slot-image",
+      "slot": 0,
+      "box": {
+        "x": 87,
+        "y": 77,
+        "w": 210,
+        "h": 210
+      },
+      "fit": "cover",
+      "keyframes": [
+        {
+          "box": {
+            "x": 87,
+            "y": 77,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": 0
+        },
+        {
+          "box": {
+            "x": 96,
+            "y": 85,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -45
+        },
+        {
+          "box": {
+            "x": 92,
+            "y": 79,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -90
+        },
+        {
+          "box": {
+            "x": 92,
+            "y": 78,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -135
+        },
+        {
+          "box": {
+            "x": 92,
+            "y": 75,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -180
+        },
+        {
+          "box": {
+            "x": 92,
+            "y": 75,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -225
+        },
+        {
+          "box": {
+            "x": 93,
+            "y": 76,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -270
+        },
+        {
+          "box": {
+            "x": 90,
+            "y": 80,
+            "w": 210,
+            "h": 210
+          },
+          "rotate": -315
+        }
+      ]
+    },
+    {
+      "type": "image-sequence",
+      "files": [
+        "0.png",
+        "1.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "6.png",
+        "7.png"
+      ],
+      "box": {
+        "x": 0,
+        "y": 0,
+        "w": 300,
+        "h": 300
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "0.png",
+      "sha256": "77d02fe92e83d016ed7c4e961d3a2720364962bd60e25e13b74f9821647a4d7d",
+      "bytes": 42695,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "1.png",
+      "sha256": "c4ea4dfba90a3530d21a20878472a54a4e5c213f4bf12a4504d4f05025976355",
+      "bytes": 40211,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "2.png",
+      "sha256": "1d71b01cded6dc9985cb1bc5a78c206f817eaa1ceb91773e545671f961245a3c",
+      "bytes": 39498,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "3.png",
+      "sha256": "e12747487132ee52b4c15159ba864bf8bd3c655ae03ff7527611fb0447f8b063",
+      "bytes": 37374,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "4.png",
+      "sha256": "32e4b93a72c083e933e555cce33f6f4c223bacb6b07daafa50c21ee67ff05e8d",
+      "bytes": 39807,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "5.png",
+      "sha256": "abac817e8939a2cb953ab645011880d01de3f1cda20deb3d76fe77d60724aaf0",
+      "bytes": 39913,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "6.png",
+      "sha256": "9664300ea936cfb28ee2a66d66ada127fc9f649bee220683d7d27aa5f7824674",
+      "bytes": 39672,
+      "mime": "image/png",
+      "role": "frame"
+    },
+    {
+      "path": "7.png",
+      "sha256": "2524c2df145002b6f9a8f2dc9c5d895feae3f433825f9d85f70370e0dccdca72",
+      "bytes": 40161,
+      "mime": "image/png",
+      "role": "frame"
+    }
+  ],
+  "fonts": [
+    {
+      "id": "default-sans",
+      "licenseId": "ofl-1-1",
+      "providedBy": "renderer"
+    }
+  ],
+  "source": {
+    "kind": "meme-generator",
+    "project": "MemeCrafters/meme-generator",
+    "memeId": "roll",
+    "url": "https://github.com/MemeCrafters/meme-generator/tree/619fa10518fc2eca4fa1053af37f0a00a839f062/meme_generator/memes/roll",
+    "commit": "619fa10518fc2eca4fa1053af37f0a00a839f062"
+  },
+  "licenseIds": [
+    "meme-generator-mit"
+  ],
+  "notice": "见 licenses/meme-generator-mit.json（MIT · Copyright (c) 2021 MeetWq）。侵权请提 issue。"
+}
