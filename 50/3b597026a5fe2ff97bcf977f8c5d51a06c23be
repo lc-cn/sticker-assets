@@ -1,0 +1,96 @@
+CONTRACT.md
+  h_b64ebe5d3c7815 191
+indexes/catalog.json
+  h_b64ebe5d3c7815 1
+lib/validator.mjs
+  h_b64ebe5d3c7815 225-236,239-242,247-252
+schemas/v1/template.schema.json
+  h_b64ebe5d3c7815 38,43,65-157,358-412,419,439-460,494-495,506-539,631-691,700,730-731,817-844
+templates/applaud/1/template.json
+  h_b64ebe5d3c7815 1-166
+templates/beat-head/1/template.json
+  h_b64ebe5d3c7815 1-135
+templates/beat-up/1/template.json
+  h_b64ebe5d3c7815 1-173
+templates/bite/1/template.json
+  h_b64ebe5d3c7815 1-272
+templates/bubble-tea/1/template.json
+  h_b64ebe5d3c7815 1-128
+templates/capoo-point/1/template.json
+  h_b64ebe5d3c7815 1-150
+templates/capoo-rub/1/template.json
+  h_b64ebe5d3c7815 1-151
+templates/capoo-stew/1/template.json
+  h_b64ebe5d3c7815 1-167
+templates/dog-of-vtb/1/template.json
+  h_b64ebe5d3c7815 1-103
+templates/eat/1/template.json
+  h_b64ebe5d3c7815 1-134
+templates/fencing/1/template.json
+  h_b64ebe5d3c7815 1-558
+templates/gun/1/template.json
+  h_b64ebe5d3c7815 1-129
+templates/hammer/1/template.json
+  h_b64ebe5d3c7815 1-198
+templates/haruhi-raise/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/hug-leg/1/template.json
+  h_b64ebe5d3c7815 1-182
+templates/hug/1/template.json
+  h_b64ebe5d3c7815 1-342
+templates/jiujiu/1/template.json
+  h_b64ebe5d3c7815 1-214
+templates/jump/1/template.json
+  h_b64ebe5d3c7815 1-215
+templates/kick-ball/1/template.json
+  h_b64ebe5d3c7815 1-341
+templates/kiss/1/template.json
+  h_b64ebe5d3c7815 1-414
+templates/knock/1/template.json
+  h_b64ebe5d3c7815 1-214
+templates/konata-watch/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/marriage/1/template.json
+  h_b64ebe5d3c7815 1-112
+templates/paint/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/pass-the-buck/1/template.json
+  h_b64ebe5d3c7815 1-215
+templates/petpet/1/template.json
+  h_b64ebe5d3c7815 1-169
+templates/pound/1/template.json
+  h_b64ebe5d3c7815 1-214
+templates/punch/1/template.json
+  h_b64ebe5d3c7815 1-294
+templates/roll/1/template.json
+  h_b64ebe5d3c7815 1-222
+templates/scratch-head/1/template.json
+  h_b64ebe5d3c7815 1-182
+templates/smash/1/template.json
+  h_b64ebe5d3c7815 1-103
+templates/suck/1/template.json
+  h_b64ebe5d3c7815 1-279
+templates/this-chicken/1/template.json
+  h_b64ebe5d3c7815 1-125
+templates/thump/1/template.json
+  h_b64ebe5d3c7815 1-150
+templates/tightly/1/template.json
+  h_b64ebe5d3c7815 1-407
+templates/twist/1/template.json
+  h_b64ebe5d3c7815 1-171
+templates/why-at-me/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/worship/1/template.json
+  h_b64ebe5d3c7815 1-427
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "503b597026a5fe2ff97bcf977f8c5d51a06c23be",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
