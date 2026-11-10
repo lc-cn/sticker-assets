@@ -1,0 +1,96 @@
+indexes/catalog.json
+  h_b64ebe5d3c7815 1
+schemas/v1/template.schema.json
+  h_b64ebe5d3c7815 321-335
+templates/addiction/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/ascension/1/template.json
+  h_b64ebe5d3c7815 1-92
+templates/back-to-work/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/blood-pressure/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/caused-by-this/1/template.json
+  h_b64ebe5d3c7815 1-103
+templates/china-flag/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/cover-face/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/dinosaur/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/dont-press/1/template.json
+  h_b64ebe5d3c7815 1-92
+templates/emperor-dragon/1/template.json
+  h_b64ebe5d3c7815 1-93
+templates/fanatic/1/template.json
+  h_b64ebe5d3c7815 1-93
+templates/fight-sunuo/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/frieren-take/1/template.json
+  h_b64ebe5d3c7815 1-108
+templates/genshin-start/1/template.json
+  h_b64ebe5d3c7815 1-107
+templates/incivilization/1/template.json
+  h_b64ebe5d3c7815 1-104
+templates/intel-inside/1/template.json
+  h_b64ebe5d3c7815 1-93
+templates/jerry-stare/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/karyl-point/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/keep-your-money/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/lost-dog/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/luotianyi-say/1/template.json
+  h_b64ebe5d3c7815 1-93
+templates/maimai-join/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/meteor/1/template.json
+  h_b64ebe5d3c7815 1-92
+templates/murmur/1/template.json
+  h_b64ebe5d3c7815 1-92
+templates/my-opinion/1/template.json
+  h_b64ebe5d3c7815 1-93
+templates/nekoha-holdsign/1/template.json
+  h_b64ebe5d3c7815 1-94
+templates/no-response/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/not-call-me/1/template.json
+  h_b64ebe5d3c7815 1-92
+templates/overtime/1/template.json
+  h_b64ebe5d3c7815 1-87
+templates/painter/1/template.json
+  h_b64ebe5d3c7815 1-85
+templates/panda-dragon/1/template.json
+  h_b64ebe5d3c7815 1-110
+templates/pinch/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/play-game/1/template.json
+  h_b64ebe5d3c7815 1-107
+templates/police/1/template.json
+  h_b64ebe5d3c7815 1-105
+templates/potato/1/template.json
+  h_b64ebe5d3c7815 1-86
+templates/sit-still/1/template.json
+  h_b64ebe5d3c7815 1-107
+templates/throw/1/template.json
+  h_b64ebe5d3c7815 1-88
+templates/top-notch/1/template.json
+  h_b64ebe5d3c7815 1-92
+templates/what-he-wants/1/template.json
+  h_b64ebe5d3c7815 1-107
+templates/wujing/1/template.json
+  h_b64ebe5d3c7815 1-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "5a77cf996a07d5de7ee422419a20fd6b84551060",
+  "prompts": {},
+  "humans": {
+    "h_b64ebe5d3c7815": {
+      "author": "Class Liu <chunlang.liu@rdc-west.com>"
+    }
+  }
+}
